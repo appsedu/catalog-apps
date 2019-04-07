@@ -3,3 +3,7 @@
 ## Português
 
 - goldendict-extras-pt
+
+## Química
+
+- chemsketch-acd-wine
