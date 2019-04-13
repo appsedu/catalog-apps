@@ -1,5 +1,7 @@
 # Catálogo de Apps Educativos
 
+> Melhor visualizado em: [https://appsedu.github.io/catalog-apps/](https://appsedu.github.io/catalog-apps/)
+
 ## Português / Inglês / Espanhol
 
 - goldendict-extras-pt [[Baixar .deb]](https://drive.google.com/open?id=1N8ktxI-fDYLJ8y5amEIvOqcM99Vdhd3T)
