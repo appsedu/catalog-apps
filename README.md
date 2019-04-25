@@ -4,7 +4,7 @@
 
 ## Português / Inglês / Espanhol
 
-- goldendict-extras-pt [[Baixar .deb]](https://drive.google.com/open?id=1XXuW2BKNhLcXOOry7sJzK-VpU_CSvmzT)
+- goldendict-extras-pt [[Baixar .deb]](https://drive.google.com/open?id=1wyCW5MgzvmJSwQ7q12idzJ61-Gqx9i3Z)
 
 ## Matemática
 
