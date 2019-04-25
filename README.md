@@ -14,7 +14,7 @@
 ## Física
 
 - physion-wine [[Baixar .deb]](https://drive.google.com/open?id=1ad0wXbzRBUmgcrx2NXxoRVCYNhXy2Ae5)
-- gresistor [[via APT]](appstream://gresistor.desktop)
+- gresistor-extras-pt [[Baixar .deb]](https://github.com/appsedu/gresistor-extras-pt/releases/download/0.1/gresistor-extras-pt_0.1_all.deb)
 - optgeo-i18n [[Baixar .deb]](https://drive.google.com/open?id=1nOh_3nkHdQli0TuyQ7AO9vBJJgvahXqQ)
 - step [[via APT]](appstream://org.kde.step.desktop)
 
@@ -49,7 +49,7 @@
 
 ## Eletrônica
 
-- gresistor [[via APT]](appstream://gresistor.desktop)
+- gresistor-extras-pt [[Baixar .deb]](https://github.com/appsedu/gresistor-extras-pt/releases/download/0.1/gresistor-extras-pt_0.1_all.deb)
 - logisim [[via APT]](appstream://logisim.desktop)
 - SimulIDE
 - Arduino
