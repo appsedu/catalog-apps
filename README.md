@@ -33,25 +33,12 @@
 - marble-qt [[via APT]](appstream://org.kde.marble-qt)
 - marble-maps [[via APT]](appstream://org.kde.marble.maps)
 
-## Informática
-
-- klavaro [[via APT]](appstream://klavaro.desktop)
-- scratch [[via APT]](appstream://scratch.desktop)
-- codeblocks [[via APT]](appstream://codeblocks.desktop)
-- sublime-text [[via PPA]](https://www.sublimetext.com/docs/3/linux_repositories.html#apt)
-- xampp-7.3.3 [[Executable]](https://www.apachefriends.org/xampp-files/7.3.3/xampp-linux-x64-7.3.3-1-installer.run)
-- eclipse [[via tarball]](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2019-03/R/eclipse-inst-linux64.tar.gz&mirror_id=1278)
-- astah-community [[Baixar .Deb]](https://)
-- astah-community-fixed-bionic [[Baixar .Deb]](http://)
-- mysql-workbench [[via APT]](appstream://mysql-workbench.desktop)
-- umbrello [[via APT]](appstream://org.kde.umbrello.desktop)
-- blender [[via APT]](appstream://blender.desktop)
-
 ## Eletrônica
 
 - gresistor-extras-pt [[Baixar .deb]](https://github.com/appsedu/gresistor-extras-pt/releases/download/0.1/gresistor-extras-pt_0.1_all.deb)
 - logisim [[via APT]](appstream://logisim.desktop)
-- SimulIDE
+- simulide-bionic [[Baixar .deb]](https://github.com/appsedu/simulide-bionic/releases/download/0.3.10/simulide-bionic_0.3.10_all.deb)
+- circuit-simulator-bionic [[Baixar .deb]](https://github.com/appsedu/circuit-simulator-bionic/releases/download/2.7.0/circuit-simulator-bionic_2.7.0_all.deb)
 - Arduino
 
 ## Astronomia
@@ -64,6 +51,20 @@
 - SweetHome3D
 - nanoCAD
 - SolidEdge 2D
+
+## Informática
+
+- klavaro [[via APT]](appstream://klavaro.desktop)
+- scratch [[via APT]](appstream://scratch.desktop)
+- codeblocks [[via APT]](appstream://codeblocks.desktop)
+- sublime-text [[via PPA]](https://www.sublimetext.com/docs/3/linux_repositories.html#apt)
+- xampp-7.3.3 [[Baixar binário]](https://www.apachefriends.org/xampp-files/7.3.3/xampp-linux-x64-7.3.3-1-installer.run)
+- eclipse [[via Tarball]](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2019-03/R/eclipse-inst-linux64.tar.gz&mirror_id=1278)
+- astah-community [[Baixar .Deb]](https://)
+- astah-community-fixed-bionic [[Baixar .Deb]](http://)
+- mysql-workbench [[via APT]](appstream://mysql-workbench.desktop)
+- umbrello [[via APT]](appstream://org.kde.umbrello.desktop)
+- blender [[via APT]](appstream://blender.desktop)
 
 ## Ferramentas
 
