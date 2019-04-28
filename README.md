@@ -17,6 +17,7 @@
 - gresistor-extras-pt [[Baixar .deb]](https://github.com/appsedu/gresistor-extras-pt/releases/download/0.1/gresistor-extras-pt_0.1_all.deb)
 - optgeo-i18n [[Baixar .deb]](https://drive.google.com/open?id=1nOh_3nkHdQli0TuyQ7AO9vBJJgvahXqQ)
 - step [[via APT]](appstream://org.kde.step.desktop)
+- circuit-simulator-bionic [[Baixar .deb]](https://github.com/appsedu/circuit-simulator-bionic/releases/download/2.7.0/circuit-simulator-bionic_2.7.0_all.deb)
 
 ## Química
 
@@ -39,7 +40,7 @@
 - logisim [[via APT]](appstream://logisim.desktop)
 - simulide-bionic [[Baixar .deb]](https://github.com/appsedu/simulide-bionic/releases/download/0.3.10/simulide-bionic_0.3.10_all.deb)
 - circuit-simulator-bionic [[Baixar .deb]](https://github.com/appsedu/circuit-simulator-bionic/releases/download/2.7.0/circuit-simulator-bionic_2.7.0_all.deb)
-- Arduino
+- arduino-bionic [[Baixar .deb]](https://github.com/appsedu/arduino-bionic/releases/download/1.8.9/arduino-bionic_1.8.9_amd64.deb)
 
 ## Astronomia
 
