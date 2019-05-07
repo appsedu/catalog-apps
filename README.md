@@ -36,6 +36,10 @@
 - marble-maps [[via APT]](appstream://org.kde.marble.maps)
 - kgeography [[via APT]](appstream://org.kde.kgeography)
 
+## Biologia
+
+- zygoto-body [[Acessar Webapp]](https://www.zygotebody.com/)
+
 ## Eletrônica
 
 - gresistor-extras-pt [[Baixar .deb]](https://github.com/appsedu/gresistor-extras-pt/releases/download/0.1/gresistor-extras-pt_0.1_all.deb)
@@ -79,4 +83,4 @@
 
 ## Ferramentas
 
-- appsedu-menus [[Baixar .deb]](https://drive.google.com/open?id=1o7lHjKn2oa4qmEMobmMIk6tjJ4Zrq2bO)
+- appsedu-menus [[Baixar .deb]](https://drive.google.com/uc?authuser=0&id=1ImsHkxKMHLR-9MEQ2aUAJh4H9aUHb3-m&export=download)
