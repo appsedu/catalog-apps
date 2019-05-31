@@ -20,6 +20,7 @@
 - optgeo-i18n [[Baixar .deb]](https://drive.google.com/open?id=1nOh_3nkHdQli0TuyQ7AO9vBJJgvahXqQ)
 - step [[via APT]](appstream://org.kde.step.desktop)
 - circuit-simulator-bionic [[Baixar .deb]](https://github.com/appsedu/circuit-simulator-bionic/releases/download/2.7.0/circuit-simulator-bionic_2.7.0_all.deb)
+- schwarzschild-black-hole [[Acessar Webapp]](http://spiro.fisica.unipd.it/~antonell/schwarzschild/live/)
 
 ## Química
 
