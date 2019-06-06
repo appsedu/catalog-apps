@@ -53,7 +53,7 @@
 ## Astronomia
 
 - stellarium [[via APT]](appstream://org.stellarium.Stellarium)
-- celestia [[Baixar binário]](https://celestia.space/files/celestia/1.5.1/celestia-1.5.1.x86.package)
+- celestia-bionic [[Baixar .deb]](https://github.com/appsedu/celestia-bionic)
 - kstars [[via APT]](appstream://org.kde.kstars.desktop)
 - kstars-data-extra-tycho2 [`apt install kstars-data-extra-tycho2`]
 
