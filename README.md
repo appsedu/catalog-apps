@@ -30,6 +30,7 @@
 - gcu-bin [[via APT]](appstream://gchem3d-0.14.desktop)
 - gelemental [[via APT]](appstream://gelemental.desktop)
 - elements [[Baixar .deb]](https://github.com/FlorianFe/Elements/releases/download/v1.1.6/Elements.deb)
+- irydium-chemistry-lab-bionic [[Baixar .deb]](https://drive.google.com/open?id=1eCZvCs_j_DpyYMUbPtecPvo9RfUNJ23F)
 
 ## Geografia
 
