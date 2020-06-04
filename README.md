@@ -73,6 +73,8 @@
 - klavaro [[via APT]](appstream://klavaro.desktop)
 - ktouch [[via APT]](appstream://org.kde.ktouch)
 - scratch [[via APT]](appstream://scratch.desktop)
+- Kturtle
+- 
 - codeblocks [[via APT]](appstream://codeblocks.desktop)
 - sublime-text [[via PPA]](https://www.sublimetext.com/docs/3/linux_repositories.html#apt)
 - xampp-7.3.3 [[Baixar binário]](https://www.apachefriends.org/xampp-files/7.3.3/xampp-linux-x64-7.3.3-1-installer.run)
@@ -83,6 +85,18 @@
 - umbrello [[via APT]](appstream://org.kde.umbrello.desktop)
 - staruml [[Baixar binário]](http://staruml.io/download/releases/StarUML-3.1.0-x86_64.AppImage)
 - blender [[via APT]](appstream://blender.desktop)
+
+## Robôtica / Mecatrônica
+
+- webots
+- gazebo
+- CoppeliaSim Edu
+- hopsan
+
+## Infantil
+
+- gcompris
+- sugarizer
 
 ## Ferramentas
 
