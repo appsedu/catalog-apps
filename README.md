@@ -5,12 +5,22 @@
 ## Português / Inglês / Espanhol
 
 - goldendict-extras-pt [[Baixar .deb]](https://drive.google.com/open?id=1wyCW5MgzvmJSwQ7q12idzJ61-Gqx9i3Z)
+- kwordquiz
+- parley
+- artikulate
+- kiten
 
 ## Matemática
 
 - geogebra-classic [[Baixar .deb]](http://www.geogebra.org/download/deb.php?arch=amd64&ver=6)
 - wxmaxima [[via APT]](appstream://wxMaxima.desktop)
 - kbruch [[via APT]](appstream://org.kde.kbruch.desktop)
+- jfractionlab
+- graphmonkey
+- cantor
+- kalgebra
+- kig
+- kmplot
 
 ## Física
 
@@ -21,6 +31,8 @@
 - step [[via APT]](appstream://org.kde.step.desktop)
 - circuit-simulator-bionic [[Baixar .deb]](https://github.com/appsedu/circuit-simulator-bionic/releases/download/2.7.0/circuit-simulator-bionic_2.7.0_all.deb)
 - schwarzschild-black-hole [[Acessar Webapp]](http://spiro.fisica.unipd.it/~antonell/schwarzschild/live/)
+- oregano
+- lightspeed
 
 ## Química
 
@@ -31,6 +43,12 @@
 - gelemental [[via APT]](appstream://gelemental.desktop)
 - elements [[Baixar .deb]](https://github.com/FlorianFe/Elements/releases/download/v1.1.6/Elements.deb)
 - irydium-chemistry-lab-bionic [[Baixar .deb]](https://drive.google.com/open?id=1eCZvCs_j_DpyYMUbPtecPvo9RfUNJ23F)
+- gperiodic
+- Chemtool
+- EasyChem
+- GDIS Molecule Modeller
+- Kalzium
+- PyMOL Molecular Graphics System
 
 ## Geografia
 
@@ -57,6 +75,9 @@
 - celestia-bionic [[Baixar .deb]](https://github.com/appsedu/celestia-bionic)
 - kstars [[via APT]](appstream://org.kde.kstars.desktop)
 - kstars-data-extra-tycho2 [`apt install kstars-data-extra-tycho2`]
+- gpredict
+- openuniverse
+- planets
 
 ## Desenho Técnico
 
@@ -82,8 +103,8 @@
 - astah-community-fixed-bionic [[Baixar .Deb]]()
 - mysql-workbench [[via APT]](appstream://mysql-workbench.desktop)
 - umbrello [[via APT]](appstream://org.kde.umbrello.desktop)
+- dia
 - staruml [[Baixar binário]](http://staruml.io/download/releases/StarUML-3.1.0-x86_64.AppImage)
-- blender [[via APT]](appstream://blender.desktop)
 
 ## Robôtica / Mecatrônica
 
@@ -92,10 +113,33 @@
 - CoppeliaSim Edu
 - hopsan
 
+## Desenho, Modelagem e Arte
+
+- blender [[via APT]](appstream://blender.desktop)
+- pencil2d
+
+# Economia
+
+- planner
+
 ## Infantil
 
 - gcompris
 - sugarizer
+- kanagram
+- khangman
+- klettres
+- blinken
+
+## Educação Musical
+
+- GNU Denemo
+- GNU Solfege
+- Hydrogen
+- Minuet
+- MuseScore
+- Nted
+- TuxGuitar
 
 ## Ferramentas
 
