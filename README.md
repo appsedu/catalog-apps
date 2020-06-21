@@ -53,7 +53,7 @@
 
 ## Geografia
 
-- google-earth-pro-stable [[Baixar .deb]](http://dl.google.com/dl/earth/client/current/google-earth-pro-stable_current_amd64.deb)
+- google-earth-pro-stable [[Official Site]](#)
 - marble-qt [[via APT]](appstream://org.kde.marble-qt)
 - marble-maps [[via APT]](appstream://org.kde.marble.maps)
 - kgeography [[via APT]](appstream://org.kde.kgeography)
@@ -72,12 +72,13 @@
 
 ## Astronomia
 
-- celestia [[Official page]](https://celestia.space)
-- kstars [[via APT]](appstream://org.kde.kstars.desktop) | kstars-data-extra-tycho2
-- stellarium [[via APT]](appstream://org.stellarium.Stellarium)
-- gpredict [[via APT]](#)
-- openuniverse [[via APT]](#)
-- planets [[via APT]](#)
+- celestia
+- google-earth-pro-stable
+- gpredict
+- kstars | kstars-data-extra-tycho2
+- openuniverse
+- planets
+- stellarium
 
 ## Desenho Técnico
 
