@@ -5,6 +5,7 @@
 ## Português / Inglês / Outras línguas
 
 - goldendict-extras-pt [[Baixar .deb]](https://drive.google.com/open?id=1wyCW5MgzvmJSwQ7q12idzJ61-Gqx9i3Z)
+- anki
 - kwordquiz
 - parley
 - artikulate
@@ -140,6 +141,10 @@
 - MuseScore
 - Nted
 - TuxGuitar
+
+## Multidisciplinar
+
+- anki
 
 ## Ferramentas
 
