@@ -2,7 +2,7 @@
 
 > Melhor visualizado em: [https://appsedu.github.io/catalog-apps/](https://appsedu.github.io/catalog-apps/)
 
-## Português / Inglês / Espanhol
+## Português / Inglês / Outras línguas
 
 - goldendict-extras-pt [[Baixar .deb]](https://drive.google.com/open?id=1wyCW5MgzvmJSwQ7q12idzJ61-Gqx9i3Z)
 - kwordquiz
