@@ -75,9 +75,9 @@
 - celestia [[Official page]](https://celestia.space)
 - kstars [[via APT]](appstream://org.kde.kstars.desktop) | kstars-data-extra-tycho2
 - stellarium [[via APT]](appstream://org.stellarium.Stellarium)
-- gpredict [[via APT]]
-- openuniverse [[via APT]]
-- planets [[via APT]]
+- gpredict [[via APT]](#)
+- openuniverse [[via APT]](#)
+- planets [[via APT]](#)
 
 ## Desenho Técnico
 
