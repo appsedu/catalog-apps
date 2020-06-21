@@ -72,13 +72,12 @@
 
 ## Astronomia
 
+- celestia [[Official page]](https://celestia.space)
+- kstars [[via APT]](appstream://org.kde.kstars.desktop) | kstars-data-extra-tycho2
 - stellarium [[via APT]](appstream://org.stellarium.Stellarium)
-- celestia-bionic [[Baixar .deb]](https://github.com/appsedu/celestia-bionic)
-- kstars [[via APT]](appstream://org.kde.kstars.desktop)
-- kstars-data-extra-tycho2 [`apt install kstars-data-extra-tycho2`]
-- gpredict
-- openuniverse
-- planets
+- gpredict [[via APT]]
+- openuniverse [[via APT]]
+- planets [[via APT]]
 
 ## Desenho Técnico
 
