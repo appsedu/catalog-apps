@@ -2,150 +2,157 @@
 
 > Melhor visualizado em: [https://appsedu.github.io/catalog-apps/](https://appsedu.github.io/catalog-apps/)
 
-## Português / Inglês / Outras línguas
+## Astronomia
 
-- goldendict-extras-pt [[Baixar .deb]](https://drive.google.com/open?id=1wyCW5MgzvmJSwQ7q12idzJ61-Gqx9i3Z)
-- anki
-- kwordquiz
-- parley
-- artikulate
-- kiten
-
-## Matemática
-
-- geogebra-classic [[Baixar .deb]](http://www.geogebra.org/download/deb.php?arch=amd64&ver=6)
-- wxmaxima [[via APT]](appstream://wxMaxima.desktop)
-- kbruch [[via APT]](appstream://org.kde.kbruch.desktop)
-- jfractionlab
-- graphmonkey
-- cantor
-- kalgebra
-- kig
-- kmplot
-
-## Física
-
-- algodoo-wine [[Baixar .deb]](https://drive.google.com/open?id=1_7_UqwYbQie1ctafCJomHG6hwleI1IAu)
-- physion-wine [[Baixar .deb]](https://drive.google.com/open?id=1ad0wXbzRBUmgcrx2NXxoRVCYNhXy2Ae5)
-- gresistor-extras-pt [[Baixar .deb]](https://github.com/appsedu/gresistor-extras-pt/releases/download/0.1/gresistor-extras-pt_0.1_all.deb)
-- optgeo-i18n [[Baixar .deb]](https://drive.google.com/open?id=1nOh_3nkHdQli0TuyQ7AO9vBJJgvahXqQ)
-- step [[via APT]](appstream://org.kde.step.desktop)
-- circuit-simulator-bionic [[Baixar .deb]](https://github.com/appsedu/circuit-simulator-bionic/releases/download/2.7.0/circuit-simulator-bionic_2.7.0_all.deb)
-- schwarzschild-black-hole [[Acessar Webapp]](http://spiro.fisica.unipd.it/~antonell/schwarzschild/live/)
-- oregano
-- lightspeed
-
-## Química
-
-- chemsketch-acd-wine [[Baixar .deb]](https://drive.google.com/open?id=1HUFAEHGG1vegDeKfsZrI9GEZhViRRK7C)
-- avogadro [[via APT]](appstream://avogadro.desktop)
-- gchempaint [[via APT]](appstream://gchempaint-0.14.desktop)
-- gcu-bin [[via APT]](appstream://gchem3d-0.14.desktop)
-- gelemental [[via APT]](appstream://gelemental.desktop)
-- elements [[Baixar .deb]](https://github.com/FlorianFe/Elements/releases/download/v1.1.6/Elements.deb)
-- irydium-chemistry-lab-bionic [[Baixar .deb]](https://drive.google.com/open?id=1eCZvCs_j_DpyYMUbPtecPvo9RfUNJ23F)
-- gperiodic
-- Chemtool
-- EasyChem
-- GDIS Molecule Modeller
-- Kalzium
-- PyMOL Molecular Graphics System
-
-## Geografia
-
-- google-earth-pro-stable [[Official Site]](#)
-- marble-qt [[via APT]](appstream://org.kde.marble-qt)
-- marble-maps [[via APT]](appstream://org.kde.marble.maps)
-- kgeography [[via APT]](appstream://org.kde.kgeography)
+- [**celestia**](https://celestia.space)
+- [**google-earth-pro-stable**](https://www.google.com.br/earth/download/gep/agree.html)
+- [**kstars**](https://edu.kde.org/kstars/) | kstars-data-extra-tycho2
+- [**openuniverse**](http://openuniverse.sourceforge.net/)
+- [**planets**](https://packages.ubuntu.com/focal/planets)
+- [**stellarium**](https://stellarium.org/pt/)
+- [gpredict](http://gpredict.oz9aec.net)
 
 ## Biologia
 
-- zygoto-body [[Acessar Webapp]](https://www.zygotebody.com/)
-
-## Eletrônica
-
-- gresistor-extras-pt [[Baixar .deb]](https://github.com/appsedu/gresistor-extras-pt/releases/download/0.1/gresistor-extras-pt_0.1_all.deb)
-- logisim [[via APT]](appstream://logisim.desktop)
-- simulide-bionic [[Baixar .deb]](https://github.com/appsedu/simulide-bionic/releases/download/0.3.10/simulide-bionic_0.3.10_all.deb)
-- circuit-simulator-bionic [[Baixar .deb]](https://github.com/appsedu/circuit-simulator-bionic/releases/download/2.7.0/circuit-simulator-bionic_2.7.0_all.deb)
-- arduino-bionic [[Baixar .deb]](https://github.com/appsedu/arduino-bionic/releases/download/1.8.9/arduino-bionic_1.8.9_amd64.deb)
-
-## Astronomia
-
-- celestia
-- google-earth-pro-stable
-- gpredict
-- kstars | kstars-data-extra-tycho2
-- openuniverse
-- planets
-- stellarium
+- [**3d-microscope-lab**](https://courses.ecampus.oregonstate.edu/oer/microscope)
+- [**aprendendo-anatomia**](http://anatomylearning.com/webgl2020/browser.php)
+- [**virtual-lab-microscope**](http://virtual.itg.uiuc.edu/)
+- [**zygoto-body**](https://www.zygotebody.com)
 
 ## Desenho Técnico
 
-- librecad [[via PPA]](https://launchpad.net/~librecad-dev/+archive/ubuntu/librecad-daily?field.series_filter=bionic)
-- freecad-daily [[via PPA]](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-daily?field.series_filter=bionic)
-- qcad [[Baixar binário]](https://www.qcad.org/archives/qcad/qcad-3.22.0-trial-linux-x86_64.run)
-- sweethome3d [[via APT]](appstream://sweethome3d.desktop)
-- odafileconverter [[Baixar .deb]](https://download.opendesign.com/guestfiles/ODAFileConverter/ODAFileConverter_QT5_lnxX64_4.7dll.deb)
-- gcad3d [[Baixar .deb]](http://www.gcad3d.org/download/gCAD3D-2.40-bin-amd64.deb)
-- solvespace [[via APT]](appstream://solvespace.desktop)
+- [**freecad**](https://www.freecadweb.org/downloads.php)
+- [**librecad**](https://librecad.org)
+- [**solvespace**](http://solvespace.com)
+- [**sweethome3d**](http://www.sweethome3d.com/pt)
+- [**tinkercad**](https://www.tinkercad.com/dashboard)
+- [gcad3d](http://www.gcad3d.org)
+- [_odafileconverter_](https://www.opendesign.com/guestfiles/oda_file_converter)
+- [_qcad_](https://www.qcad.org/en/)
+- [_brlcad_](https://brlcad.org)
+
+## Eletricidade
+
+- [**arduino-ide**](https://www.arduino.cc)
+- [**circuit-simulator**](https://github.com/appsedu/circuit-simulator) | [circuitmod](https://sourceforge.net/projects/circuitmod/) | [circuitjs](http://www.falstad.com/circuit/circuitjs.html)
+- [**digital**](https://github.com/hneemann/Digital)
+- [**logisim-evolution**](https://github.com/reds-heig/logisim-evolution)
+- [**simulide**](https://www.simulide.com/p/home.html)
+- [**tinkercad**](https://www.tinkercad.com/dashboard)
+- [**gresistor-extras-pt**](https://winunix.github.io/debian/)
+- [logisim](http://www.cburch.com/logisim/)
+- [oregano](https://github.com/drahnr/oregano)
+
+## Física Geral
+
+- [**algodoo-wine**](http://www.algodoo.com)
+- [**optgeo-i18n**](http://jeanmarie.biansan.free.fr/optgeo.html)
+- [**physion-wine**](https://github.com/appsedu/physion-wine)
+- [**schwarzschild-black-hole**](http://spiro.fisica.unipd.it/~antonell/schwarzschild/live/)
+- [**step**](https://kde.org/applications/en/education/org.kde.step)
+- [lightspeed](http://lightspeed.sourceforge.net)
+
+## Geografia
+
+- [**google-earth-pro-stable**](https://www.google.com.br/earth/download/gep/agree.html)
+- [**google-maps**](https://www.google.com.br/maps/)
+- [**kgeography**](https://edu.kde.org/kgeography/)
+- [**marble-qt**](https://marble.kde.org) | marble-maps
 
 ## Informática
 
-- klavaro [[via APT]](appstream://klavaro.desktop)
-- ktouch [[via APT]](appstream://org.kde.ktouch)
-- scratch [[via APT]](appstream://scratch.desktop)
-- Kturtle
-- codeblocks [[via APT]](appstream://codeblocks.desktop)
-- sublime-text [[via PPA]](https://www.sublimetext.com/docs/3/linux_repositories.html#apt)
-- xampp-7.3.3 [[Baixar binário]](https://www.apachefriends.org/xampp-files/7.3.3/xampp-linux-x64-7.3.3-1-installer.run)
-- eclipse [[via Tarball]](https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2019-03/R/eclipse-inst-linux64.tar.gz&mirror_id=1278)
-- astah-community [[Baixar .Deb]](https://drive.google.com/open?id=14m9hsh8J-imRLsmYI_ehI7f4VZlfHvVs)
-- astah-community-fixed-bionic [[Baixar .Deb]]()
-- mysql-workbench [[via APT]](appstream://mysql-workbench.desktop)
-- umbrello [[via APT]](appstream://org.kde.umbrello.desktop)
-- dia
-- staruml [[Baixar binário]](http://staruml.io/download/releases/StarUML-3.1.0-x86_64.AppImage)
+- [**digital**](https://github.com/hneemann/Digital)
+- [**ktouch**](https://kde.org/applications/en/education/org.kde.ktouch)
+- [**klavaro**](https://klavaro.sourceforge.io/pt/index.html)
+- [**logisim-evolution**](https://github.com/reds-heig/logisim-evolution)
+- [**scratch**](https://packages.ubuntu.com/focal/scratch)
+- [kturtle](https://kde.org/applications/en/education/org.kde.kturtle)
+- [logisim](http://www.cburch.com/logisim/)
 
-## Robôtica / Mecatrônica
+## Português, Inglês e Outras Línguas
 
-- webots
-- gazebo
-- CoppeliaSim Edu
-- hopsan
+- [**anki**](https://apps.ankiweb.net)
+- [**gconjugue**](https://github.com/jalvesaq/gconjugue)
+- [**goldendict-extras-pt**](https://github.com/appsedu/goldendict-extras-pt)
+- [**parley**](https://kde.org/applications/en/education/org.kde.parley)
+- [kwordquiz](https://edu.kde.org/kwordquiz/)
 
-## Desenho, Modelagem e Arte
+## Matemática
 
-- blender [[via APT]](appstream://blender.desktop)
-- pencil2d
-
-# Economia
-
-- planner
-
-## Infantil
-
-- gcompris
-- sugarizer
-- kanagram
-- khangman
-- klettres
-- blinken
-
-## Educação Musical
-
-- GNU Denemo
-- GNU Solfege
-- Hydrogen
-- Minuet
-- MuseScore
-- Nted
-- TuxGuitar
+- [**geogebra-classic**](https://www.geogebra.org)
+- [**gnumeric**](http://www.gnumeric.org/)
+- [**jfractionlab**](http://jfractionlab.sourceforge.net/)
+- [**kalgebra**](https://edu.kde.org/kalgebra/)
+- [**kbruch**](https://kde.org/applications/en/education/org.kde.kbruch)
+- [**libreoffice-math**](https://packages.ubuntu.com/focal/libreoffice-math)
+- [**wxmaxima**](https://wxmaxima-developers.github.io/wxmaxima/)
+- [graphmonkey](http://graphmonkey.sourceforge.net/)
+- [qalculate-gtk](https://qalculate.github.io/)
+- [kig](https://edu.kde.org/kig/)
+- [kmplot](https://edu.kde.org/kmplot/)
 
 ## Multidisciplinar
 
-- anki
+- [**anki**](https://apps.ankiweb.net)
+- [**parley**](https://kde.org/applications/en/education/org.kde.parley)
+- [kwordquiz](https://edu.kde.org/kwordquiz/)
+
+## Química
+
+- [**chemsketch-acd-wine**](https://www.acdlabs.com/resources/freeware/chemsketch/) | acd-3d-viewer
+- [**avogadro**](https://www.openchemistry.org/projects/avogadro2/)
+- [**gcu-bin**](http://gchemutils.nongnu.org/) | gchem3d | gchemcalc | gchemtable | gspectrum
+- [**gchempaint**](http://gchemutils.nongnu.org/gchempaint.html)
+- [**irydium-chemistry-lab**](http://chemcollective.org/vlab_download)
+- [**gelemental**](https://github.com/ginggs/gelemental)
+- [**kalzium**](https://kde.org/applications/en/education/org.kde.kalzium)
+- [gperiodic](http://gperiodic.seul.org/)
+- [chemtool](http://ruby.chemie.uni-freiburg.de/~martin/chemtool/)
+- [easychem](http://easychem.sourceforge.net/)
+- [gdis](http://gdis.seul.org/)
+- [_elements_](https://github.com/FlorianFe/Elements)
+- [_pymol_](https://github.com/schrodinger/pymol-open-source)
+
+## Desenvolvimento
+
+- [**code**](https://code.visualstudio.com/)
+- [**codeblocks**](http://www.codeblocks.org/)
+- [**xampp**](https://www.apachefriends.org/pt_br/index.html)
+- [astah-community-7](https://winunix.github.io/debian/)
+- [brmodelo](http://www.sis4.com/brModelo/)
+- [mysql-workbench-community](https://dev.mysql.com/downloads/workbench/)
+- [umbrello](https://umbrello.kde.org/)
+- [_sublime-text_](https://www.sublimetext.com/docs/3/linux_repositories.html)
+- [_qt-creator_](https://www.qt.io/download-qt-installer)
+- [_eclipse_](https://snapcraft.io/eclipse)
+- [_window-builder-for-eclipse_](https://www.eclipse.org/windowbuilder/)
+- [_modelio_](https://www.modelio.org/)
+- [_staruml_](http://staruml.io/)
+
+## Mecatrônica, Automação e Robôtica
+
+- [**arduino-ide**](https://www.arduino.cc)
+- [coppelia-sim-edu](https://www.coppeliarobotics.com)
+- [hopsan](https://github.com/Hopsan/hopsan)
+- [_webots_](https://cyberbotics.com/)
+- [_gazebo_](http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install)
+
+## Desenho, Modelagem e Arte
+
+- [blender](https://www.blender.org)
+- [pencil2d](https://www.pencil2d.org)
+
+## Infantil
+
+- [gcompris](https://gcompris.net)
+- [sugarizer](https://sugarizer.org)
+- [khangman](https://edu.kde.org/khangman/)
+- [klettres](https://edu.kde.org/klettres/)
+- [tuxpaint](http://www.tuxpaint.org)
+- [tuxmath](https://packages.ubuntu.com/focal/tuxmath)
 
 ## Ferramentas
 
-- appsedu-menus [[Baixar .deb]](https://drive.google.com/uc?authuser=0&id=1ImsHkxKMHLR-9MEQ2aUAJh4H9aUHb3-m&export=download)
+- [appsedu](#)
+- [appsedu-menus](#)
+- [flashplayer-sa-projector](#)
