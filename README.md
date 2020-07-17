@@ -162,29 +162,38 @@
 <table>
     <thread>
         <tr>
-            <th colspan="2">CoppeliaSim Edu</th>
+            <th colspan="2" class="appName">My App</th>
         </tr>
     </thread>
     <tbody>
         <tr>
             <td align="right"><i>Official page</i></td>
-            <td lign="left">https://www.coppeliarobotics.com</td>
+            <td lign="left" class="pageUrl">https://www.example.com</td>
         </tr>
         <tr>
             <td align="right"><i>How to install</i></td>
             <td align="left">
-                <code>sudo apt install code</code>
+                <code class="installCode">sudo apt install code</code>
             </td>
         </tr>
         <tr>
             <td align="right"><i>Screenshot</i></td>
             <td align="left">
-                <img width="320px" src="https://github.com/ailtonbsj/flashplayer-sa-projector/raw/master/screenshot.png?raw=true">
+                <img width="320px" class="imgUrl" src="">
             </td>
         </tr>
     </tbody>
 </table>
 
 <script>
-  alert("Hello");
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        var apps = JSON.parse(this.responseText);
+        document.getElementByClass('appName').innerHTML = apps[0].appName;
+    }
+};
+
+xhttp.open("POST", "apps.json", true);
+xhttp.send();
 </script>
