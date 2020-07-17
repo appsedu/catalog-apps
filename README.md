@@ -186,10 +186,12 @@
 </table>
 
 <script>
+var apps;
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-        var apps = JSON.parse(this.responseText);
+        apps = JSON.parse(this.responseText);
+        console.log(apps);
         document.getElementById('modelBox').getElementsByClassName('appName')[0].innerHTML = apps[0].appName;
         document.getElementById('modelBox').getElementsByClassName('pageUrl')[0].innerHTML = apps[0].pageUrl;
         document.getElementById('modelBox').getElementsByClassName('imgUrl')[0].setAttribute('src', apps[0].imgUrl);
