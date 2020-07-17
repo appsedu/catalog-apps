@@ -191,9 +191,11 @@ xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var apps = JSON.parse(this.responseText);
         document.getElementByClass('appName').innerHTML = apps[0].appName;
+        document.getElementByClass('pageUrl').innerHTML = apps[0].pageUrl;
+        document.getElementByClass('imgUrl').innerHTML = apps[0].imgUrl;
     }
 };
 
-xhttp.open("POST", "apps.json", true);
+xhttp.open("GET", "apps.json", true);
 xhttp.send();
 </script>
