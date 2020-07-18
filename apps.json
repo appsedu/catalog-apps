@@ -159,5 +159,16 @@
     ],
     "img" : "https://screenshots.debian.net/screenshots/000/001/808/large.png",
     "categories" : ["Desenho Técnico"]
+  },
+  {
+    "app" : "BRL-CAD *",
+    "text" : "Aplicação CAD CSG",
+    "page" : "https://brlcad.org",
+    "install" : [
+      "# Faça o download do .deb no site",
+      "sudo apt install ./brlcad_7.30.8-0_amd64.deb"
+    ],
+    "img" : "https://brlcad.org/gallery/_data/i/galleries/screenshots/MGED-me.jpg",
+    "categories" : ["Desenho Técnico"]
   }
 ]

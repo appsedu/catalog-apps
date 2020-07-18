@@ -2,11 +2,6 @@
 
 > Melhor visualizado em: [https://appsedu.github.io/catalog-apps/](https://appsedu.github.io/catalog-apps/)
 
-## Desenho Técnico
-
-- [_qcad_](https://www.qcad.org/en/)
-- [_brlcad_](https://brlcad.org)
-
 ## Eletricidade
 
 - [**arduino-ide**](https://www.arduino.cc)
