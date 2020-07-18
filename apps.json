@@ -49,11 +49,19 @@
     "categories" : ["Astronomia"]
   },
   {
-    "app" : "Gpredict*",
+    "app" : "Gpredict *",
     "text" : "Programa de rastreamento de satélite",
     "page" : "http://gpredict.oz9aec.net",
     "install" : "sudo apt install gpredict",
     "img" : "https://screenshots.debian.net/screenshots/000/014/978/large.png",
     "categories" : ["Astronomia"]
+  },
+  {
+    "app" : "3D Microscope Lab",
+    "text" : "Aprenda a operar um microscópio composto",
+    "page" : "https://courses.ecampus.oregonstate.edu/oer/microscope",
+    "install" : "# Aplicativo online",
+    "img" : "screenshots/3d-microscope-lab.jpg",
+    "categories" : ["Biologia"]
   }
 ]

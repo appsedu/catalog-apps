@@ -4,7 +4,6 @@
 
 ## Biologia
 
-- [**3d-microscope-lab**](https://courses.ecampus.oregonstate.edu/oer/microscope)
 - [**aprendendo-anatomia**](http://anatomylearning.com/webgl2020/browser.php)
 - [**virtual-lab-microscope**](http://virtual.itg.uiuc.edu/)
 - [**zygoto-body**](https://www.zygotebody.com)
