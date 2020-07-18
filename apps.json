@@ -170,5 +170,80 @@
     ],
     "img" : "https://brlcad.org/gallery/_data/i/galleries/screenshots/MGED-me.jpg",
     "categories" : ["Desenho Técnico"]
+  },
+  {
+    "app" : "Arduino IDE",
+    "text" : "IDE e bibliotecas embutidas para placa de desenvolvimento AVR",
+    "page" : "https://www.arduino.cc",
+    "install" : "sudo apt install arduino-ide",
+    "img" : "https://screenshots.debian.net/screenshots/000/010/456/large.png",
+    "categories" : ["Eletricidade", "Mecatrônica"]
+  },
+  {
+    "app" : "Circuit Simulator",
+    "text" : "Simulador de Circuitos Eletrônicos",
+    "page" : "http://www.falstad.com/circuit/circuitjs.html",
+    "install" : [
+      "sudo apt install circuit-simulator",
+      "# Também disponível online"
+    ],
+    "img" : "screenshots/circuitmod.png",
+    "categories" : ["Eletricidade"]
+  },
+  {
+    "app" : "Digital Simulator",
+    "text" : "Simulador de circuitos de lógica digital",
+    "page" : "https://github.com/hneemann/Digital",
+    "install" : "sudo apt install digital-simulator",
+    "img" : "https://raw.githubusercontent.com/hneemann/Digital/master/distribution/screenshot2.png",
+    "categories" : ["Eletricidade", "Informática"]
+  },
+  {
+    "app" : "Logisim Evolution",
+    "text" : "Simulador de projetos de circuitos digitais",
+    "page" : "https://github.com/reds-heig/logisim-evolution",
+    "install" : "sudo apt install logisim-evolution",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/271/large.png",
+    "categories" : ["Eletricidade", "Informática"]
+  },
+  {
+    "app" : "SimulIDE",
+    "text" : "Simulador de eletrônica, PIC e AVR em tempo real",
+    "page" : "https://www.simulide.com/p/home.html",
+    "install" : "sudo apt install simulide",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/272/large.png",
+    "categories" : ["Eletricidade"]
+  },
+  {
+    "app" : "",
+    "text" : "",
+    "page" : "",
+    "install" : "sudo apt install ",
+    "img" : "",
+    "categories" : ["Eletricidade"]
+  },
+  {
+    "app" : "",
+    "text" : "",
+    "page" : "",
+    "install" : "sudo apt install ",
+    "img" : "",
+    "categories" : ["Eletricidade"]
+  },
+  {
+    "app" : "",
+    "text" : "",
+    "page" : "",
+    "install" : "sudo apt install ",
+    "img" : "",
+    "categories" : ["Eletricidade"]
+  },
+  {
+    "app" : "",
+    "text" : "",
+    "page" : "",
+    "install" : "sudo apt install ",
+    "img" : "",
+    "categories" : ["Eletricidade"]
   }
 ]

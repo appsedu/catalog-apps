@@ -4,11 +4,6 @@
 
 ## Eletricidade
 
-- [**arduino-ide**](https://www.arduino.cc)
-- [**circuit-simulator**](https://github.com/appsedu/circuit-simulator) | [circuitmod](https://sourceforge.net/projects/circuitmod/) | [circuitjs](http://www.falstad.com/circuit/circuitjs.html)
-- [**digital**](https://github.com/hneemann/Digital)
-- [**logisim-evolution**](https://github.com/reds-heig/logisim-evolution)
-- [**simulide**](https://www.simulide.com/p/home.html)
 - [**gresistor-extras-pt**](https://winunix.github.io/debian/)
 - [logisim](http://www.cburch.com/logisim/)
 - [oregano](https://github.com/drahnr/oregano)
