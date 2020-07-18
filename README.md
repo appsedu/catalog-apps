@@ -187,14 +187,15 @@ xhttp.onreadystatechange = function() {
             item.getElementsByClassName('imgUrlLink')[0].setAttribute('href', apps[i].img);
             item.getElementsByClassName('categoryName')[0].innerHTML = apps[i].categories.join(', ');
 
+            var installCode = item.getElementsByClassName('installCode')[0];
             var codigo = apps[i].install;
+
             if (Array.isArray(codigo)) {
                 for(i in codigo) {
-                    item.getElementsByClassName('installCode')[0]
-                                            .appendChild(`<code>${codigo[i]}</code>`);
+                    installCode.append(`<code>${codigo[i]}</code>`);
                 }
             } else
-                item.getElementsByClassName('installCode')[0].innerHTML = `<code>${codigo}</code>`;
+                installCode.innerHTML = `<code>${codigo}</code>`;
 
             document.getElementById('list-of-apps').appendChild(item);
         }
