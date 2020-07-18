@@ -159,6 +159,8 @@
 
 # Tests
 
+<div id="list-of-apps"></div>
+
 <table id="modelBox" style="display: none;">
     <thread>
         <tr>
@@ -198,13 +200,14 @@ xhttp.onreadystatechange = function() {
         apps = JSON.parse(this.responseText);
         for (i in apps) {
             var item = document.getElementById('modelBox').cloneNode(true);
+            item.style.display = 'block';
             item.getElementsByClassName('appName')[0].innerHTML = apps[i].app;
             item.getElementsByClassName('pageUrl')[0].innerHTML = apps[i].page;
             item.getElementsByClassName('installCode')[0].innerHTML = apps[i].install;
             item.getElementsByClassName('imgUrl')[0].setAttribute('src', apps[i].img);
             item.getElementsByClassName('categoryName')[0].innerHTML = apps[i].categories.join(', ');
         }
-        document.body.appendChild(item);
+        document.getElementById('list-of-apps').appendChild(item);
     }
 };
 
