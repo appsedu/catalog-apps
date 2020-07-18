@@ -4,9 +4,6 @@
 
 ## Astronomia
 
-- [**celestia**](https://celestia.space)
-- [**google-earth-pro-stable**](https://www.google.com.br/earth/download/gep/agree.html)
-- [**kstars**](https://edu.kde.org/kstars/) | kstars-data-extra-tycho2
 - [**openuniverse**](http://openuniverse.sourceforge.net/)
 - [**planets**](https://packages.ubuntu.com/focal/planets)
 - [**stellarium**](https://stellarium.org/pt/)
@@ -169,8 +166,12 @@
     </thread>
     <tbody>
         <tr>
+            <td align="right"><i>Descrição</i></td>
+            <td lign="left" class="descriptionText"></td>
+        </tr>
+        <tr>
             <td align="right"><i>Página Oficial</i></td>
-            <td lign="left" class="pageUrl">https://www.example.com</td>
+            <td lign="left"><a href="#" class="pageUrl"></a></td>
         </tr>
         <tr>
             <td align="right"><i>Como instalar</i></td>
@@ -202,7 +203,9 @@ xhttp.onreadystatechange = function() {
             var item = document.getElementById('modelBox').cloneNode(true);
             item.style.display = 'block';
             item.getElementsByClassName('appName')[0].innerHTML = apps[i].app;
+            item.getElementsByClassName('descriptionText')[0].innerHTML = apps[i].text;
             item.getElementsByClassName('pageUrl')[0].innerHTML = apps[i].page;
+            item.getElementsByClassName('pageUrl')[0].setAttribute('href', apps[i].page) = apps[i].page;
             item.getElementsByClassName('installCode')[0].innerHTML = apps[i].install;
             item.getElementsByClassName('imgUrl')[0].setAttribute('src', apps[i].img);
             item.getElementsByClassName('categoryName')[0].innerHTML = apps[i].categories.join(', ');

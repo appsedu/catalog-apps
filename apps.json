@@ -2,6 +2,7 @@
   
   {
   "app" : "Celestia",
+  "text" : "Simulador espacial 3D em tempo real",
   "page" : "https://celestia.space",
   "install" : "sudo apt install celestia",
   "img" : "https://screenshots.debian.net/screenshots/000/000/518/large.png",
@@ -9,9 +10,18 @@
   },
   {
     "app" : "Google Earth Pro",
+    "text" : "Explore, pesquise e descubra o planeta",
     "page" : "https://www.google.com.br/intl/pt-BR_ALL/earth/versions/",
     "install" : "sudo apt install google-earth-pro-stable",
     "img" : "https://screenshots.debian.net/screenshots/000/015/073/large.png",
     "categories" : ["Astronomia", "Geografia"]
+  },
+  {
+    "app" : "KStars",
+    "text" : "Planetário e planejador de observações",
+    "page" : "https://edu.kde.org/kstars/",
+    "install" : "sudo apt install kstars kstars-data-extra-tycho2",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/268/large.png",
+    "categories" : ["Astronomia"]
   }
 ]
