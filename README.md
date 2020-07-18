@@ -4,8 +4,6 @@
 
 ## Desenho Técnico
 
-- [gcad3d](http://www.gcad3d.org)
-- [_odafileconverter_](https://www.opendesign.com/guestfiles/oda_file_converter)
 - [_qcad_](https://www.qcad.org/en/)
 - [_brlcad_](https://brlcad.org)
 

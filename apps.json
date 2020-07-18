@@ -127,5 +127,21 @@
     "install" : "# Aplicativo online",
     "img" : "screenshots/tinkercad.png",
     "categories" : ["Desenho Técnico", "Eletricidade"]
+  },
+  {
+    "app" : "gCAD3D *",
+    "text" : "Aplicação 3D CAD-CAM",
+    "page" : "http://www.gcad3d.org",
+    "install" : "sudo apt install gcad3d",
+    "img" : "http://www.gcad3d.org/gCAD3D_Renault1.jpg",
+    "categories" : ["Desenho Técnico"]
+  },
+  {
+    "app" : "ODA File Converter *",
+    "text" : "Converta entre diferentes versões de .dwg e .dxf",
+    "page" : "https://www.opendesign.com/guestfiles/oda_file_converter",
+    "install" : "# Instale o Qt Creator 5.14.1 ou superior<br># Faça o download do .deb no site<br>sudo apt install ./ODAFileConverter_QT5_lnxX64_7.2dll.deb",
+    "img" : "https://www.allanbrito.com/wp-content/uploads/2018/12/ODA_File_Converter.jpg",
+    "categories" : ["Desenho Técnico"]
   }
 ]
