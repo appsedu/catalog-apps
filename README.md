@@ -159,7 +159,7 @@
 
 # Tests
 
-<table id="modelBox">
+<table id="modelBox" style="display: block;">
     <thread>
         <tr>
             <th colspan="2" class="appName">My App</th>
@@ -182,6 +182,12 @@
                 <img width="320px" class="imgUrl" src="">
             </td>
         </tr>
+        <tr>
+            <td align="right"><i>Category</i></td>
+            <td align="left">
+                <code class="categoryName">General</code>
+            </td>
+        </tr>
     </tbody>
 </table>
 
@@ -196,6 +202,7 @@ xhttp.onreadystatechange = function() {
         document.getElementById('modelBox').getElementsByClassName('pageUrl')[0].innerHTML = apps[0].page;
         document.getElementById('modelBox').getElementsByClassName('installCode')[0].innerHTML = apps[0].install;
         document.getElementById('modelBox').getElementsByClassName('imgUrl')[0].setAttribute('src', apps[0].img);
+        document.getElementById('modelBox').getElementsByClassName('categoryName')[0].innerHTML = apps[0].categories.join(', ');
     }
 };
 
