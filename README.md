@@ -206,8 +206,8 @@ xhttp.onreadystatechange = function() {
             item.getElementsByClassName('installCode')[0].innerHTML = apps[i].install;
             item.getElementsByClassName('imgUrl')[0].setAttribute('src', apps[i].img);
             item.getElementsByClassName('categoryName')[0].innerHTML = apps[i].categories.join(', ');
+            document.getElementById('list-of-apps').appendChild(item);
         }
-        document.getElementById('list-of-apps').appendChild(item);
     }
 };
 
