@@ -4,8 +4,6 @@
 
 ## Desenho Técnico
 
-- [**sweethome3d**](http://www.sweethome3d.com/pt)
-- [**tinkercad**](https://www.tinkercad.com/dashboard)
 - [gcad3d](http://www.gcad3d.org)
 - [_odafileconverter_](https://www.opendesign.com/guestfiles/oda_file_converter)
 - [_qcad_](https://www.qcad.org/en/)
@@ -18,7 +16,6 @@
 - [**digital**](https://github.com/hneemann/Digital)
 - [**logisim-evolution**](https://github.com/reds-heig/logisim-evolution)
 - [**simulide**](https://www.simulide.com/p/home.html)
-- [**tinkercad**](https://www.tinkercad.com/dashboard)
 - [**gresistor-extras-pt**](https://winunix.github.io/debian/)
 - [logisim](http://www.cburch.com/logisim/)
 - [oregano](https://github.com/drahnr/oregano)

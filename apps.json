@@ -111,5 +111,21 @@
     "install" : "sudo apt install solvespace",
     "img" : "https://screenshots.debian.net/screenshots/000/019/269/large.png",
     "categories" : ["Desenho Técnico"]
+  },
+  {
+    "app" : "Sweet Home 3D",
+    "text" : "Design de interiores em 2D com visualização em 3D",
+    "page" : "http://www.sweethome3d.com",
+    "install" : "sudo apt install sweethome3d sweethome3d-furniture-nonfree",
+    "img" : "https://screenshots.debian.net/screenshots/000/011/067/large.png",
+    "categories" : ["Desenho Técnico"]
+  },
+  {
+    "app" : "Tinkercad",
+    "text" : "Projetos 3D, componentes eletrônicos e codificação",
+    "page" : "https://www.tinkercad.com/dashboard",
+    "install" : "# Aplicativo online",
+    "img" : "screenshots/tinkercad.png",
+    "categories" : ["Desenho Técnico", "Eletricidade"]
   }
 ]
