@@ -1,10 +1,18 @@
 [
+  
   {
-  "app" : "CoppeliaSim Edu",
-  "page" : "https://www.coppeliarobotics.com",
-  "install" : "sudo apt install code",
+  "app" : "Celestia",
+  "page" : "https://www.celestia.vom",
+  "install" : "sudo apt install celestia",
   "img" : "https://github.com/ailtonbsj/flashplayer-sa-projector/raw/master/screenshot.png?raw=true",
-  "categories" : ["Mecatrônica", "Matemática"]
+  "categories" : ["Astronomia", "Matemática"]
+  },
+  {
+  "app" : "Simuide",
+  "page" : "https://www.sim.com",
+  "install" : "sudo apt install simul",
+  "img" : "https://github.com/ailtonbsj/flashplayer-sa-projector/raw/master/screenshot.png?raw=true",
+  "categories" : ["Eletricidade", "Matemática"]
   },
   {
   "app" : "CoppeliaSim Edu",
