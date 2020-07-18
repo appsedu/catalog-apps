@@ -2,23 +2,16 @@
   
   {
   "app" : "Celestia",
-  "page" : "https://www.celestia.vom",
+  "page" : "https://celestia.space",
   "install" : "sudo apt install celestia",
-  "img" : "https://github.com/ailtonbsj/flashplayer-sa-projector/raw/master/screenshot.png?raw=true",
-  "categories" : ["Astronomia", "Matemática"]
+  "img" : "https://screenshots.debian.net/screenshots/000/000/518/large.png",
+  "categories" : ["Astronomia"]
   },
   {
-  "app" : "Simuide",
-  "page" : "https://www.sim.com",
-  "install" : "sudo apt install simul",
-  "img" : "https://github.com/ailtonbsj/flashplayer-sa-projector/raw/master/screenshot.png?raw=true",
-  "categories" : ["Eletricidade", "Matemática"]
-  },
-  {
-  "app" : "CoppeliaSim Edu",
-  "page" : "https://www.coppeliarobotics.com",
-  "install" : "sudo apt install code",
-  "img" : "https://github.com/ailtonbsj/flashplayer-sa-projector/raw/master/screenshot.png?raw=true",
-  "categories" : ["Mecatrônica", "Matemática"]
+    "app" : "Google Earth Pro",
+    "page" : "https://www.google.com.br/intl/pt-BR_ALL/earth/versions/",
+    "install" : "sudo apt install google-earth-pro-stable",
+    "img" : "https://screenshots.debian.net/screenshots/000/015/073/large.png",
+    "categories" : ["Astronomia", "Geografia"]
   }
 ]
