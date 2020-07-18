@@ -152,7 +152,11 @@
     "app" : "QCAD *",
     "text" : "Aplicação CAD 2D Open Source",
     "page" : "https://www.qcad.org/en/",
-    "install" : "wget https://www.qcad.org/archives/qcad/qcadcam-3.24.3-trial-linux-x86_64.run",
+    "install" : [
+      "# Faça o download do .run no site",
+      "chmod +x qcad-3.24.3-trial-linux-x86_64.run",
+      "./qcad-3.24.3-trial-linux-x86_64.run"
+    ],
     "img" : "https://screenshots.debian.net/screenshots/000/001/808/large.png",
     "categories" : ["Desenho Técnico"]
   }
