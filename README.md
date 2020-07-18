@@ -2,12 +2,6 @@
 
 > Melhor visualizado em: [https://appsedu.github.io/catalog-apps/](https://appsedu.github.io/catalog-apps/)
 
-## Biologia
-
-- [**aprendendo-anatomia**](http://anatomylearning.com/webgl2020/browser.php)
-- [**virtual-lab-microscope**](http://virtual.itg.uiuc.edu/)
-- [**zygoto-body**](https://www.zygotebody.com)
-
 ## Desenho Técnico
 
 - [**freecad**](https://www.freecadweb.org/downloads.php)

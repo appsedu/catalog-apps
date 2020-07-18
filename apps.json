@@ -63,5 +63,29 @@
     "install" : "# Aplicativo online",
     "img" : "screenshots/3d-microscope-lab.jpg",
     "categories" : ["Biologia"]
+  },
+  {
+    "app" : "Anatomy Learning",
+    "text" : "Aprendendo anatomia humana com modelos 3D",
+    "page" : "http://anatomylearning.com/webgl2020/browser.php",
+    "install" : "# Aplicativo online",
+    "img" : "screenshots/anatomy-learning.jpg",
+    "categories" : ["Biologia"]
+  },
+  {
+    "app" : "Virtual Lab Microscope",
+    "text" : "Microscópio virtual da NASA",
+    "page" : "http://virtual.itg.uiuc.edu",
+    "install" : "sudo apt install virtual-lab-microscope",
+    "img" : "screenshots/virtual-lab-microscope.jpg",
+    "categories" : ["Biologia"]
+  },
+  {
+    "app" : "Zygoto Body",
+    "text" : "Visualizador em 3D do corpo humano",
+    "page" : "https://www.zygotebody.com",
+    "install" : "# Aplicativo online",
+    "img" : "screenshots/zygote-body.jpg",
+    "categories" : ["Biologia"]
   }
 ]
