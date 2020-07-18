@@ -159,7 +159,7 @@
 
 # Tests
 
-<table id="modelBox" style="display: block;">
+<table id="modelBox" style="display: none;">
     <thread>
         <tr>
             <th colspan="2" class="appName">My App</th>
@@ -167,11 +167,11 @@
     </thread>
     <tbody>
         <tr>
-            <td align="right"><i>Official page</i></td>
+            <td align="right"><i>Página Oficial</i></td>
             <td lign="left" class="pageUrl">https://www.example.com</td>
         </tr>
         <tr>
-            <td align="right"><i>How to install</i></td>
+            <td align="right"><i>Como instalar</i></td>
             <td align="left">
                 <code class="installCode">sudo apt install code</code>
             </td>
@@ -183,9 +183,8 @@
             </td>
         </tr>
         <tr>
-            <td align="right"><i>Category</i></td>
-            <td align="left">
-                <code class="categoryName">General</code>
+            <td align="right"><i>Categoria</i></td>
+            <td align="left" class="categoryName">
             </td>
         </tr>
     </tbody>
@@ -197,12 +196,15 @@ var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         apps = JSON.parse(this.responseText);
-        console.log(apps);
-        document.getElementById('modelBox').getElementsByClassName('appName')[0].innerHTML = apps[0].app;
-        document.getElementById('modelBox').getElementsByClassName('pageUrl')[0].innerHTML = apps[0].page;
-        document.getElementById('modelBox').getElementsByClassName('installCode')[0].innerHTML = apps[0].install;
-        document.getElementById('modelBox').getElementsByClassName('imgUrl')[0].setAttribute('src', apps[0].img);
-        document.getElementById('modelBox').getElementsByClassName('categoryName')[0].innerHTML = apps[0].categories.join(', ');
+        for (i in apps) {
+            var item = document.getElementById('modelBox').cloneNode(true);
+            item.getElementsByClassName('appName')[0].innerHTML = apps[i].app;
+            item.getElementsByClassName('pageUrl')[0].innerHTML = apps[i].page;
+            item.getElementsByClassName('installCode')[0].innerHTML = apps[i].install;
+            item.getElementsByClassName('imgUrl')[0].setAttribute('src', apps[i].img);
+            item.getElementsByClassName('categoryName')[0].innerHTML = apps[i].categories.join(', ');
+        }
+        document.body.appendChild(item);
     }
 };
 
