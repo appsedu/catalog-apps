@@ -140,8 +140,20 @@
     "app" : "ODA File Converter *",
     "text" : "Converta entre diferentes versões de .dwg e .dxf",
     "page" : "https://www.opendesign.com/guestfiles/oda_file_converter",
-    "install" : "# Instale o Qt Creator 5.14.1 ou superior</code><br><code># Faça o download do .deb no site</code><br><code>sudo apt install ./ODAFileConverter_QT5_lnxX64_7.2dll.deb",
+    "install" : [
+      "# Instale o Qt Creator 5.14.1 ou superior",
+      "# Faça o download do .deb no site",
+      "sudo apt install ./ODAFileConverter_QT5_lnxX64_7.2dll.deb"
+    ],
     "img" : "https://www.allanbrito.com/wp-content/uploads/2018/12/ODA_File_Converter.jpg",
+    "categories" : ["Desenho Técnico"]
+  },
+  {
+    "app" : "QCAD *",
+    "text" : "Aplicação CAD 2D Open Source",
+    "page" : "https://www.qcad.org/en/",
+    "install" : "wget https://www.qcad.org/archives/qcad/qcadcam-3.24.3-trial-linux-x86_64.run",
+    "img" : "https://screenshots.debian.net/screenshots/000/001/808/large.png",
     "categories" : ["Desenho Técnico"]
   }
 ]
