@@ -192,9 +192,10 @@ xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         apps = JSON.parse(this.responseText);
         console.log(apps);
-        document.getElementById('modelBox').getElementsByClassName('appName')[0].innerHTML = apps[0].appName;
-        document.getElementById('modelBox').getElementsByClassName('pageUrl')[0].innerHTML = apps[0].pageUrl;
-        document.getElementById('modelBox').getElementsByClassName('imgUrl')[0].setAttribute('src', apps[0].imgUrl);
+        document.getElementById('modelBox').getElementsByClassName('appName')[0].innerHTML = apps[0].app;
+        document.getElementById('modelBox').getElementsByClassName('pageUrl')[0].innerHTML = apps[0].page;
+        document.getElementById('modelBox').getElementsByClassName('installCode')[0].innerHTML = apps[0].install;
+        document.getElementById('modelBox').getElementsByClassName('imgUrl')[0].setAttribute('src', apps[0].img);
     }
 };
 
