@@ -249,5 +249,49 @@
     ],
     "img" : "screenshots/algodoo-wine.png",
     "categories" : ["Física Geral"]
+  },
+  {
+    "app" : "Optgeo",
+    "text" : "Ferramenta interativa para estudar e simular montagens ópticas",
+    "page" : "http://jeanmarie.biansan.free.fr/optgeo.html",
+    "install" : "sudo apt install optgeo-i18n",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/275/large.png",
+    "categories" : ["Física Geral"]
+  },
+  {
+    "app" : "Physion (Wine)",
+    "text" : "Simulador de física interativa",
+    "page" : "https://github.com/appsedu/physion-wine",
+    "install" : [
+      "sudo apt install --install-recommends wine64",
+      "wine start hostname",
+      "sudo apt install physion-wine"
+    ],
+    "img" : "screenshots/physion-wine.png",
+    "categories" : ["Física Geral"]
+  },
+  {
+    "app" : "Schwarzschild Black Hole",
+    "text" : "Simulação de um buraco negro",
+    "page" : "http://spiro.fisica.unipd.it/~antonell/schwarzschild/live/",
+    "install" : "# Aplicativo online",
+    "img" : "screenshots/schwarzschild-black-hole.png",
+    "categories" : ["Física Geral"]
+  },
+  {
+    "app" : "Step",
+    "text" : "Simulador de física interativa do KDE",
+    "page" : "https://kde.org/applications/en/education/org.kde.step",
+    "install" : "sudo apt install step",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/276/large.png",
+    "categories" : ["Física Geral"]
+  },
+  {
+    "app" : "Light Speed *",
+    "text" : "Ilustra os efeitos da relatividade especial nos objetos",
+    "page" : "http://lightspeed.sourceforge.net",
+    "install" : "sudo apt install lightspeed",
+    "img" : "https://screenshots.debian.net/screenshots/000/005/378/large.png",
+    "categories" : ["Física Geral"]
   }
 ]

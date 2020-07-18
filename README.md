@@ -2,15 +2,6 @@
 
 > Melhor visualizado em: [https://appsedu.github.io/catalog-apps/](https://appsedu.github.io/catalog-apps/)
 
-
-## Física Geral
-
-- [**optgeo-i18n**](http://jeanmarie.biansan.free.fr/optgeo.html)
-- [**physion-wine**](https://github.com/appsedu/physion-wine)
-- [**schwarzschild-black-hole**](http://spiro.fisica.unipd.it/~antonell/schwarzschild/live/)
-- [**step**](https://kde.org/applications/en/education/org.kde.step)
-- [lightspeed](http://lightspeed.sourceforge.net)
-
 ## Geografia
 
 - [**google-earth-pro-stable**](https://www.google.com.br/earth/download/gep/agree.html)
@@ -116,7 +107,7 @@
 - [appsedu-menus](#)
 - [flashplayer-sa-projector](#)
 
-# Tests
+# Catálogo de Apps Educativos
 
 <div id="list-of-apps"></div>
 
