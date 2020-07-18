@@ -2,15 +2,9 @@
 
 > Melhor visualizado em: [https://appsedu.github.io/catalog-apps/](https://appsedu.github.io/catalog-apps/)
 
-## Eletricidade
-
-- [**gresistor-extras-pt**](https://winunix.github.io/debian/)
-- [logisim](http://www.cburch.com/logisim/)
-- [oregano](https://github.com/drahnr/oregano)
 
 ## Física Geral
 
-- [**algodoo-wine**](http://www.algodoo.com)
 - [**optgeo-i18n**](http://jeanmarie.biansan.free.fr/optgeo.html)
 - [**physion-wine**](https://github.com/appsedu/physion-wine)
 - [**schwarzschild-black-hole**](http://spiro.fisica.unipd.it/~antonell/schwarzschild/live/)

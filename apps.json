@@ -215,35 +215,39 @@
     "categories" : ["Eletricidade"]
   },
   {
-    "app" : "",
-    "text" : "",
-    "page" : "",
-    "install" : "sudo apt install ",
-    "img" : "",
+    "app" : "gResistor",
+    "text" : "Calculadora de código de cores de resistores",
+    "page" : "https://sourceforge.net/projects/gresistor/",
+    "install" : "sudo apt install gresistor-extras-pt",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/274/large.png",
     "categories" : ["Eletricidade"]
   },
   {
-    "app" : "",
-    "text" : "",
-    "page" : "",
-    "install" : "sudo apt install ",
-    "img" : "",
+    "app" : "Logisim *",
+    "text" : "Ferramenta para projetar e simular circuitos lógicos",
+    "page" : "http://www.cburch.com/logisim/",
+    "install" : "sudo apt install logisim",
+    "img" : "https://screenshots.debian.net/screenshots/000/008/902/large.png",
+    "categories" : ["Eletricidade", "Informática"]
+  },
+  {
+    "app" : "Oregano *",
+    "text" : "Ferramenta de esquemas de circuitos eletrônicos",
+    "page" : "https://github.com/drahnr/oregano",
+    "install" : "sudo apt install oregano",
+    "img" : "https://screenshots.debian.net/screenshots/000/000/577/large.png",
     "categories" : ["Eletricidade"]
   },
   {
-    "app" : "",
-    "text" : "",
-    "page" : "",
-    "install" : "sudo apt install ",
-    "img" : "",
-    "categories" : ["Eletricidade"]
-  },
-  {
-    "app" : "",
-    "text" : "",
-    "page" : "",
-    "install" : "sudo apt install ",
-    "img" : "",
-    "categories" : ["Eletricidade"]
+    "app" : "Algodoo (Wine)",
+    "text" : "Simulador de Física em geral",
+    "page" : "http://www.algodoo.com",
+    "install" : [
+      "sudo apt install --install-recommends wine64",
+      "wine start hostname",
+      "sudo apt install algodoo-wine"
+    ],
+    "img" : "screenshots/algodoo-wine.png",
+    "categories" : ["Física Geral"]
   }
 ]
