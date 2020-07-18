@@ -1,6 +1,16 @@
-[{
+[
+  {
   "app" : "CoppeliaSim Edu",
   "page" : "https://www.coppeliarobotics.com",
   "install" : "sudo apt install code",
-  "img" : "https://github.com/ailtonbsj/flashplayer-sa-projector/raw/master/screenshot.png?raw=true"
-}]
+  "img" : "https://github.com/ailtonbsj/flashplayer-sa-projector/raw/master/screenshot.png?raw=true",
+  "categories" : ["Mecatrônica", "Matemática"]
+  },
+  {
+  "app" : "CoppeliaSim Edu",
+  "page" : "https://www.coppeliarobotics.com",
+  "install" : "sudo apt install code",
+  "img" : "https://github.com/ailtonbsj/flashplayer-sa-projector/raw/master/screenshot.png?raw=true",
+  "categories" : ["Mecatrônica", "Matemática"]
+  }
+]
