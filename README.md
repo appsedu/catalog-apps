@@ -2,13 +2,6 @@
 
 > Melhor visualizado em: [https://appsedu.github.io/catalog-apps/](https://appsedu.github.io/catalog-apps/)
 
-## Astronomia
-
-- [**openuniverse**](http://openuniverse.sourceforge.net/)
-- [**planets**](https://packages.ubuntu.com/focal/planets)
-- [**stellarium**](https://stellarium.org/pt/)
-- [gpredict](http://gpredict.oz9aec.net)
-
 ## Biologia
 
 - [**3d-microscope-lab**](https://courses.ecampus.oregonstate.edu/oer/microscope)

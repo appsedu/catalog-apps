@@ -23,5 +23,37 @@
     "install" : "sudo apt install kstars kstars-data-extra-tycho2",
     "img" : "https://screenshots.debian.net/screenshots/000/019/268/large.png",
     "categories" : ["Astronomia"]
+  },
+  {
+    "app" : "OpenUniverse",
+    "text" : "Simulador do universo em 3D",
+    "page" : "http://openuniverse.sourceforge.net",
+    "install" : "sudo apt install openuniverse",
+    "img" : "https://screenshots.debian.net/screenshots/000/006/911/large.png",
+    "categories" : ["Astronomia"]
+  },
+  {
+    "app" : "Planets",
+    "text" : "Simulador de gravitação de corpos planetários",
+    "page" : "https://packages.ubuntu.com/focal/planets",
+    "install" : "sudo apt install planets",
+    "img" : "https://screenshots.debian.net/screenshots/000/005/380/large.png",
+    "categories" : ["Astronomia", "Física Geral"]
+  },
+  {
+    "app" : "Stellarium",
+    "text" : "Gerador de céu fotorrealístico em tempo real",
+    "page" : "https://stellarium.org",
+    "install" : "sudo apt install stellarium",
+    "img" : "https://screenshots.debian.net/screenshots/000/002/087/large.png",
+    "categories" : ["Astronomia"]
+  },
+  {
+    "app" : "Gpredict*",
+    "text" : "Programa de rastreamento de satélite",
+    "page" : "http://gpredict.oz9aec.net",
+    "install" : "sudo apt install gpredict",
+    "img" : "https://screenshots.debian.net/screenshots/000/014/978/large.png",
+    "categories" : ["Astronomia"]
   }
 ]
