@@ -140,7 +140,7 @@
     "app" : "ODA File Converter *",
     "text" : "Converta entre diferentes versões de .dwg e .dxf",
     "page" : "https://www.opendesign.com/guestfiles/oda_file_converter",
-    "install" : "# Instale o Qt Creator 5.14.1 ou superior<br># Faça o download do .deb no site<br>sudo apt install ./ODAFileConverter_QT5_lnxX64_7.2dll.deb",
+    "install" : "# Instale o Qt Creator 5.14.1 ou superior</code><br><code># Faça o download do .deb no site</code><br><code>sudo apt install ./ODAFileConverter_QT5_lnxX64_7.2dll.deb",
     "img" : "https://www.allanbrito.com/wp-content/uploads/2018/12/ODA_File_Converter.jpg",
     "categories" : ["Desenho Técnico"]
   }
