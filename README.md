@@ -189,14 +189,15 @@ xhttp.onreadystatechange = function() {
 
             var installCode = item.getElementsByClassName('installCode')[0];
             var codigo = apps[i].install;
+            var inner = "";
 
             if (Array.isArray(codigo)) {
-                for(i in codigo) {
-                    installCode.append(`<code>${codigo[i]}</code>`);
-                }
+                for(j in codigo)
+                    inner += `<code>${codigo[j]}</code>`;
             } else
-                installCode.innerHTML = `<code>${codigo}</code>`;
-
+                inner = `<code>${codigo}</code>`;
+            
+            installCode.innerHTML = inner;
             document.getElementById('list-of-apps').appendChild(item);
         }
     }
