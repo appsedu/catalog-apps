@@ -193,7 +193,7 @@ xhttp.onreadystatechange = function() {
 
             if (Array.isArray(codigo)) {
                 for(j in codigo)
-                    inner += `<code>${codigo[j]}</code>`;
+                    inner += `<code>${codigo[j]}</code><br>`;
             } else
                 inner = `<code>${codigo}</code>`;
             
