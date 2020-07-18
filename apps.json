@@ -87,5 +87,29 @@
     "install" : "# Aplicativo online",
     "img" : "screenshots/zygote-body.jpg",
     "categories" : ["Biologia"]
+  },
+  {
+    "app" : "FreeCAD",
+    "text" : "CAx RAD de código aberto baseado no OpenCasCade",
+    "page" : "https://www.freecadweb.org/downloads.php",
+    "install" : "sudo apt install freecad",
+    "img" : "https://screenshots.debian.net/screenshots/000/009/892/large.png",
+    "categories" : ["Desenho Técnico"]
+  },
+  {
+    "app" : "LibreCAD",
+    "text" : "Desenho assistido por computador em 2D",
+    "page" : "https://librecad.org",
+    "install" : "sudo apt install librecad",
+    "img" : "https://screenshots.debian.net/screenshots/000/009/539/large.png",
+    "categories" : ["Desenho Técnico"]
+  },
+  {
+    "app" : "SolveSpace",
+    "text" : "Software paramétrico CAD 2D/3D",
+    "page" : "http://solvespace.com",
+    "install" : "sudo apt install solvespace",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/269/large.png",
+    "categories" : ["Desenho Técnico"]
   }
 ]

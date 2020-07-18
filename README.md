@@ -4,9 +4,6 @@
 
 ## Desenho Técnico
 
-- [**freecad**](https://www.freecadweb.org/downloads.php)
-- [**librecad**](https://librecad.org)
-- [**solvespace**](http://solvespace.com)
 - [**sweethome3d**](http://www.sweethome3d.com/pt)
 - [**tinkercad**](https://www.tinkercad.com/dashboard)
 - [gcad3d](http://www.gcad3d.org)
@@ -168,7 +165,7 @@
         <tr>
             <td align="right"><i>Screenshot</i></td>
             <td align="left">
-                <img width="320px" class="imgUrl" src="">
+                <a href="#" class="imgUrlLink" target="blank"><img width="320px" class="imgUrl" src=""></a>
             </td>
         </tr>
         <tr>
@@ -194,6 +191,7 @@ xhttp.onreadystatechange = function() {
             item.getElementsByClassName('pageUrl')[0].setAttribute('href', apps[i].page);
             item.getElementsByClassName('installCode')[0].innerHTML = apps[i].install;
             item.getElementsByClassName('imgUrl')[0].setAttribute('src', apps[i].img);
+            item.getElementsByClassName('imgUrlLink')[0].setAttribute('href', apps[i].img);
             item.getElementsByClassName('categoryName')[0].innerHTML = apps[i].categories.join(', ');
             document.getElementById('list-of-apps').appendChild(item);
         }
