@@ -389,5 +389,93 @@
     "install" : "sudo apt install kwordquiz",
     "img" : "https://screenshots.debian.net/screenshots/000/004/934/large.png",
     "categories" : ["Línguas", "Multidisciplinar"]
+  },
+  {
+    "app" : "Geogebra",
+    "text" : "Aplicação interativa de conceitos matemáticos",
+    "page" : "https://www.geogebra.org",
+    "install" : "sudo apt install geogebra-classic",
+    "img" : "https://screenshots.debian.net/screenshots/000/007/399/large.png",
+    "categories" : ["Matemática"]
+  },
+  {
+    "app" : "Gnumeric",
+    "text" : "Aplicação de planilha eletrônica",
+    "page" : "http://www.gnumeric.org",
+    "install" : "sudo apt install gnumeric gnumeric-plugins-extra",
+    "img" : "https://screenshots.debian.net/screenshots/000/017/737/large.png",
+    "categories" : ["Matemática"]
+  },
+  {
+    "app" : "JFractionLab",
+    "text" : "Programa educativo para praticar frações",
+    "page" : "http://jfractionlab.sourceforge.net",
+    "install" : "sudo apt install jfractionlab",
+    "img" : "https://screenshots.debian.net/screenshots/000/007/327/large.png",
+    "categories" : ["Matemática"]
+  },
+  {
+    "app" : "KAlgebra",
+    "text" : "Calculadora gráfica algébrica",
+    "page" : "https://edu.kde.org/kalgebra/",
+    "install" : "sudo apt install kalgebra",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/280/large.png",
+    "categories" : ["Matemática"]
+  },
+  {
+    "app" : "KBruch",
+    "text" : "Auxiliador no estudo de frações do KDE",
+    "page" : "https://kde.org/applications/en/education/org.kde.kbruch",
+    "install" : "sudo apt install kbruch",
+    "img" : "https://screenshots.debian.net/screenshots/000/002/190/large.png",
+    "categories" : ["Matemática"]
+  },
+  {
+    "app" : "LibreOffice Math",
+    "text" : "Editor de equações do LibreOffice",
+    "page" : "https://libreoffice.org",
+    "install" : "sudo apt install libreoffice-math",
+    "img" : "https://screenshots.debian.net/screenshots/000/015/964/large.png",
+    "categories" : ["Matemática"]
+  },
+  {
+    "app" : "wxMaxima",
+    "text" : "Sistema de algebra computacional Maxima",
+    "page" : "https://wxmaxima-developers.github.io/wxmaxima/",
+    "install" : "sudo apt install wxmaxima",
+    "img" : "https://screenshots.debian.net/screenshots/000/002/043/large.png",
+    "categories" : ["Matemática"]
+  },
+  {
+    "app" : "GraphMonkey",
+    "text" : "Uma calculadora de gráficos baseada em GTK",
+    "page" : "http://graphmonkey.sourceforge.net",
+    "install" : "sudo apt install graphmonkey",
+    "img" : "https://screenshots.debian.net/screenshots/000/010/977/large.png",
+    "categories" : ["Matemática"]
+  },
+  {
+    "app" : "",
+    "text" : "",
+    "page" : "",
+    "install" : "sudo apt install ",
+    "img" : "",
+    "categories" : ["Matemática"]
+  },
+  {
+    "app" : "",
+    "text" : "",
+    "page" : "",
+    "install" : "sudo apt install ",
+    "img" : "",
+    "categories" : ["Matemática"]
+  },
+  {
+    "app" : "",
+    "text" : "",
+    "page" : "",
+    "install" : "sudo apt install ",
+    "img" : "",
+    "categories" : ["Matemática"]
   }
 ]

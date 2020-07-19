@@ -4,14 +4,6 @@
 
 ## Matemática
 
-- [**geogebra-classic**](https://www.geogebra.org)
-- [**gnumeric**](http://www.gnumeric.org/)
-- [**jfractionlab**](http://jfractionlab.sourceforge.net/)
-- [**kalgebra**](https://edu.kde.org/kalgebra/)
-- [**kbruch**](https://kde.org/applications/en/education/org.kde.kbruch)
-- [**libreoffice-math**](https://packages.ubuntu.com/focal/libreoffice-math)
-- [**wxmaxima**](https://wxmaxima-developers.github.io/wxmaxima/)
-- [graphmonkey](http://graphmonkey.sourceforge.net/)
 - [qalculate-gtk](https://qalculate.github.io/)
 - [kig](https://edu.kde.org/kig/)
 - [kmplot](https://edu.kde.org/kmplot/)
