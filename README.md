@@ -2,24 +2,6 @@
 
 > Melhor visualizado em: [https://appsedu.github.io/catalog-apps/](https://appsedu.github.io/catalog-apps/)
 
-## Informática
-
-- [**digital**](https://github.com/hneemann/Digital)
-- [**ktouch**](https://kde.org/applications/en/education/org.kde.ktouch)
-- [**klavaro**](https://klavaro.sourceforge.io/pt/index.html)
-- [**logisim-evolution**](https://github.com/reds-heig/logisim-evolution)
-- [**scratch**](https://packages.ubuntu.com/focal/scratch)
-- [kturtle](https://kde.org/applications/en/education/org.kde.kturtle)
-- [logisim](http://www.cburch.com/logisim/)
-
-## Português, Inglês e Outras Línguas
-
-- [**anki**](https://apps.ankiweb.net)
-- [**gconjugue**](https://github.com/jalvesaq/gconjugue)
-- [**goldendict-extras-pt**](https://github.com/appsedu/goldendict-extras-pt)
-- [**parley**](https://kde.org/applications/en/education/org.kde.parley)
-- [kwordquiz](https://edu.kde.org/kwordquiz/)
-
 ## Matemática
 
 - [**geogebra-classic**](https://www.geogebra.org)
@@ -33,12 +15,6 @@
 - [qalculate-gtk](https://qalculate.github.io/)
 - [kig](https://edu.kde.org/kig/)
 - [kmplot](https://edu.kde.org/kmplot/)
-
-## Multidisciplinar
-
-- [**anki**](https://apps.ankiweb.net)
-- [**parley**](https://kde.org/applications/en/education/org.kde.parley)
-- [kwordquiz](https://edu.kde.org/kwordquiz/)
 
 ## Química
 

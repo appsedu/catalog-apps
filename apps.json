@@ -317,5 +317,77 @@
     "install" : "sudo apt install marble-qt marble-maps",
     "img" : "https://screenshots.debian.net/screenshots/000/009/267/large.png",
     "categories" : ["Geografia"]
+  },
+  {
+    "app" : "KTouch",
+    "text" : "Tutorial de digitação do KDE",
+    "page" : "https://kde.org/applications/en/education/org.kde.ktouch",
+    "install" : "sudo apt install ktouch",
+    "img" : "https://screenshots.debian.net/screenshots/000/013/201/large.png",
+    "categories" : ["Informática"]
+  },
+  {
+    "app" : "Klavaro",
+    "text" : "Tutorial de digitação flexível",
+    "page" : "https://klavaro.sourceforge.io/pt/index.html",
+    "install" : "sudo apt install klavaro",
+    "img" : "https://screenshots.debian.net/screenshots/000/001/431/large.png",
+    "categories" : ["Informática"]
+  },
+  {
+    "app" : "Scratch",
+    "text" : "Ambiente de programação fácil para maiores de 8 anos",
+    "page" : "https://packages.ubuntu.com/focal/scratch",
+    "install" : "sudo apt install scratch",
+    "img" : "https://screenshots.debian.net/screenshots/000/011/349/large.png",
+    "categories" : ["Informática", "Infantil"]
+  },
+  {
+    "app" : "KTurtle *",
+    "text" : "Ambiente educativo de programação",
+    "page" : "https://kde.org/applications/en/education/org.kde.kturtle",
+    "install" : "sudo apt install kturtle",
+    "img" : "https://screenshots.debian.net/screenshots/000/002/194/large.png",
+    "categories" : ["Informática"]
+  },
+  {
+    "app" : "Anki",
+    "text" : "Aprendizado com cartões de memória",
+    "page" : "https://apps.ankiweb.net",
+    "install" : "sudo apt install anki",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/277/large.png",
+    "categories" : ["Línguas", "Multidisciplinar"]
+  },
+  {
+    "app" : "GConjugue",
+    "text" : "Conjugador de verbos em português brasil",
+    "page" : "https://github.com/jalvesaq/gconjugue",
+    "install" : "sudo apt install gconjugue",
+    "img" : "https://screenshots.debian.net/screenshots/000/005/856/large.png",
+    "categories" : ["Línguas", "Português"]
+  },
+  {
+    "app" : "GoldenDict",
+    "text" : "Dicionário rico em funcionalidades",
+    "page" : "http://goldendict.org",
+    "install" : "sudo apt install goldendict-extras-pt",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/278/large.png",
+    "categories" : ["Línguas"]
+  },
+  {
+    "app" : "Parley",
+    "text" : "Treinador de vocabulário",
+    "page" : "https://kde.org/applications/en/education/org.kde.parley",
+    "install" : "sudo apt install parley",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/279/large.png",
+    "categories" : ["Línguas", "Multidisciplinar"]
+  },
+  {
+    "app" : "KWordQuiz *",
+    "text" : "Aplicativo de aprendizado por cartões",
+    "page" : "https://edu.kde.org/kwordquiz/",
+    "install" : "sudo apt install kwordquiz",
+    "img" : "https://screenshots.debian.net/screenshots/000/004/934/large.png",
+    "categories" : ["Línguas", "Multidisciplinar"]
   }
 ]
