@@ -477,5 +477,116 @@
     "install" : "sudo apt install kmplot",
     "img" : "https://screenshots.debian.net/screenshots/000/007/695/large.png",
     "categories" : ["Matemática"]
+  },
+  {
+    "app" : "ACD/ChemSketch Freeware (Wine)",
+    "text" : "Desenho e modelagem de moléculas",
+    "page" : "https://www.acdlabs.com/resources/freeware/chemsketch/",
+    "install" : [
+      "sudo apt install --install-recommends wine64",
+      "wine start hostname",
+      "sudo apt install chemsketch-acd-wine"
+    ],
+    "img" : "screenshots/chemsketch-acd-wine.png",
+    "categories" : ["Química"]
+  },
+  {
+    "app" : "Avogadro",
+    "text" : "Sistema de modelagem e gráficos moleculares",
+    "page" : "https://www.openchemistry.org/projects/avogadro2/",
+    "install" : "sudo apt install avogadro",
+    "img" : "https://screenshots.debian.net/screenshots/000/001/732/large.png",
+    "categories" : ["Química"]
+  },
+  {
+    "app" : "GChem3D, GChemCalc, GChemTable e GSpectrum",
+    "text" : "Visualizador molecular e spectral, calculadora e tabela periódica",
+    "page" : "http://gchemutils.nongnu.org",
+    "install" : "sudo apt install gcu-bin",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/282/large.png",
+    "categories" : ["Química"]
+  },
+  {
+    "app" : "GChemPaint",
+    "text" : "Editor de estruturas químicas 2D",
+    "page" : "http://gchemutils.nongnu.org/gchempaint.html",
+    "install" : "sudo apt install gchempaint",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/283/large.png",
+    "categories" : ["Química"]
+  },
+  {
+    "app" : "Irydium Chemistry Lab",
+    "text" : "Laboratório Virtual de Química",
+    "page" : "http://chemcollective.org/vlab_download",
+    "install" : "sudo apt install irydium-chemistry-lab",
+    "img" : "screenshots/irydium-chemistry-lab.png",
+    "categories" : ["Química"]
+  },
+  {
+    "app" : "gElemental",
+    "text" : "Tabela Periódica Virtual",
+    "page" : "https://github.com/ginggs/gelemental",
+    "install" : "sudo apt install gelemental",
+    "img" : "https://screenshots.debian.net/screenshots/000/016/660/large.png",
+    "categories" : ["Química"]
+  },
+  {
+    "app" : "Kalzium",
+    "text" : "Tabela Periódica e ferramentas do KDE",
+    "page" : "https://kde.org/applications/en/education/org.kde.kalzium",
+    "install" : "sudo apt install kalzium",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/284/large.png",
+    "categories" : ["Química"]
+  },
+  {
+    "app" : "GPeriodic *",
+    "text" : "Aplicação de tabela periódica",
+    "page" : "http://gperiodic.seul.org",
+    "install" : "sudo apt install gperiodic",
+    "img" : "https://screenshots.debian.net/screenshots/000/001/421/large.png",
+    "categories" : ["Química"]
+  },
+  {
+    "app" : "Chemtool *",
+    "text" : "Programa para desenho de estruturas químicas",
+    "page" : "http://ruby.chemie.uni-freiburg.de/~martin/chemtool/",
+    "install" : "sudo apt install chemtool",
+    "img" : "https://screenshots.debian.net/screenshots/000/006/149/large.png",
+    "categories" : ["Química"]
+  },
+  {
+    "app" : "EasyChem *",
+    "text" : "Desenhe moléculas de alta qualidade e fórmulas químicas 2D",
+    "page" : "http://easychem.sourceforge.net",
+    "install" : "sudo apt install easychem",
+    "img" : "https://screenshots.debian.net/screenshots/000/006/352/large.png",
+    "categories" : ["Química"]
+  },
+  {
+    "app" : "GDIS Molecule Modeller *",
+    "text" : "Mostrador de moléculas e modelos de cristal",
+    "page" : "http://gdis.seul.org",
+    "install" : "sudo apt install gdis",
+    "img" : "https://screenshots.debian.net/screenshots/000/007/393/large.png",
+    "categories" : ["Química"]
+  },
+  {
+    "app" : "Elements *",
+    "text" : "Tabela Periódica usando Electron",
+    "page" : "https://github.com/FlorianFe/Elements",
+    "install" : [
+      "# Faça o download do .deb no site",
+      "sudo apt install ./Elements.deb"
+    ],
+    "img" : "https://camo.githubusercontent.com/e89df636722ccaa80d843b7f1b90414989c566e4/68747470733a2f2f666c6f7269616e66652e6769746875622e696f2f73637265656e73686f74732f656c656d656e74732f73637265656e73686f742d332e706e67",
+    "categories" : ["Química"]
+  },
+  {
+    "app" : "CoppeliaSim EDU",
+    "text" : "Ambiente de simulação de robótica",
+    "page" : "https://www.coppeliarobotics.com",
+    "install" : "sudo apt install coppelia-sim-edu",
+    "img" : "screenshots/coppelia-sim-edu.png",
+    "categories" : ["Mecatrônica"]
   }
 ]

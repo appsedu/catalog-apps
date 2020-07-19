@@ -2,41 +2,8 @@
 
 > Melhor visualizado em: [https://appsedu.github.io/catalog-apps/](https://appsedu.github.io/catalog-apps/)
 
-## Química
-
-- [**chemsketch-acd-wine**](https://www.acdlabs.com/resources/freeware/chemsketch/) | acd-3d-viewer
-- [**avogadro**](https://www.openchemistry.org/projects/avogadro2/)
-- [**gcu-bin**](http://gchemutils.nongnu.org/) | gchem3d | gchemcalc | gchemtable | gspectrum
-- [**gchempaint**](http://gchemutils.nongnu.org/gchempaint.html)
-- [**irydium-chemistry-lab**](http://chemcollective.org/vlab_download)
-- [**gelemental**](https://github.com/ginggs/gelemental)
-- [**kalzium**](https://kde.org/applications/en/education/org.kde.kalzium)
-- [gperiodic](http://gperiodic.seul.org/)
-- [chemtool](http://ruby.chemie.uni-freiburg.de/~martin/chemtool/)
-- [easychem](http://easychem.sourceforge.net/)
-- [gdis](http://gdis.seul.org/)
-- [_elements_](https://github.com/FlorianFe/Elements)
-- [_pymol_](https://github.com/schrodinger/pymol-open-source)
-
-## Desenvolvimento
-
-- [**code**](https://code.visualstudio.com/)
-- [**codeblocks**](http://www.codeblocks.org/)
-- [**xampp**](https://www.apachefriends.org/pt_br/index.html)
-- [astah-community-7](https://winunix.github.io/debian/)
-- [brmodelo](http://www.sis4.com/brModelo/)
-- [mysql-workbench-community](https://dev.mysql.com/downloads/workbench/)
-- [umbrello](https://umbrello.kde.org/)
-- [_sublime-text_](https://www.sublimetext.com/docs/3/linux_repositories.html)
-- [_qt-creator_](https://www.qt.io/download-qt-installer)
-- [_eclipse_](https://snapcraft.io/eclipse)
-- [_window-builder-for-eclipse_](https://www.eclipse.org/windowbuilder/)
-- [_modelio_](https://www.modelio.org/)
-- [_staruml_](http://staruml.io/)
-
 ## Mecatrônica, Automação e Robôtica
 
-- [**arduino-ide**](https://www.arduino.cc)
 - [coppelia-sim-edu](https://www.coppeliarobotics.com)
 - [hopsan](https://github.com/Hopsan/hopsan)
 - [_webots_](https://cyberbotics.com/)
@@ -61,6 +28,22 @@
 - [appsedu](#)
 - [appsedu-menus](#)
 - [flashplayer-sa-projector](#)
+
+## Desenvolvimento
+
+- [**code**](https://code.visualstudio.com/)
+- [**codeblocks**](http://www.codeblocks.org/)
+- [**xampp**](https://www.apachefriends.org/pt_br/index.html)
+- [astah-community-7](https://winunix.github.io/debian/)
+- [brmodelo](http://www.sis4.com/brModelo/)
+- [mysql-workbench-community](https://dev.mysql.com/downloads/workbench/)
+- [umbrello](https://umbrello.kde.org/)
+- [_sublime-text_](https://www.sublimetext.com/docs/3/linux_repositories.html)
+- [_qt-creator_](https://www.qt.io/download-qt-installer)
+- [_eclipse_](https://snapcraft.io/eclipse)
+- [_window-builder-for-eclipse_](https://www.eclipse.org/windowbuilder/)
+- [_modelio_](https://www.modelio.org/)
+- [_staruml_](http://staruml.io/)
 
 # Catálogo de Apps Educativos
 
