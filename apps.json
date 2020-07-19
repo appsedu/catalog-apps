@@ -447,7 +447,7 @@
     "categories" : ["Matemática"]
   },
   {
-    "app" : "GraphMonkey",
+    "app" : "GraphMonkey *",
     "text" : "Uma calculadora de gráficos baseada em GTK",
     "page" : "http://graphmonkey.sourceforge.net",
     "install" : "sudo apt install graphmonkey",
@@ -455,27 +455,27 @@
     "categories" : ["Matemática"]
   },
   {
-    "app" : "",
-    "text" : "",
-    "page" : "",
-    "install" : "sudo apt install ",
-    "img" : "",
+    "app" : "Qalculate! *",
+    "text" : "Calculadora de mesa fácil de usar e poderosa",
+    "page" : "https://qalculate.github.io",
+    "install" : "sudo apt install qalculate-gtk",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/281/large.png",
     "categories" : ["Matemática"]
   },
   {
-    "app" : "",
-    "text" : "",
-    "page" : "",
-    "install" : "sudo apt install ",
-    "img" : "",
+    "app" : "Kig *",
+    "text" : "Ferramenta de geometria interativa",
+    "page" : "https://edu.kde.org/kig/",
+    "install" : "sudo apt install kig",
+    "img" : "https://screenshots.debian.net/screenshots/000/001/679/large.png",
     "categories" : ["Matemática"]
   },
   {
-    "app" : "",
-    "text" : "",
-    "page" : "",
-    "install" : "sudo apt install ",
-    "img" : "",
+    "app" : "KmPlot *",
+    "text" : "Plotadora de funções matemáticas do KDE",
+    "page" : "https://edu.kde.org/kmplot/",
+    "install" : "sudo apt install kmplot",
+    "img" : "https://screenshots.debian.net/screenshots/000/007/695/large.png",
     "categories" : ["Matemática"]
   }
 ]

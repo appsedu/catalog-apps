@@ -2,12 +2,6 @@
 
 > Melhor visualizado em: [https://appsedu.github.io/catalog-apps/](https://appsedu.github.io/catalog-apps/)
 
-## Matemática
-
-- [qalculate-gtk](https://qalculate.github.io/)
-- [kig](https://edu.kde.org/kig/)
-- [kmplot](https://edu.kde.org/kmplot/)
-
 ## Química
 
 - [**chemsketch-acd-wine**](https://www.acdlabs.com/resources/freeware/chemsketch/) | acd-3d-viewer
