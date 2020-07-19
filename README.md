@@ -2,13 +2,6 @@
 
 > Melhor visualizado em: [https://appsedu.github.io/catalog-apps/](https://appsedu.github.io/catalog-apps/)
 
-## Geografia
-
-- [**google-earth-pro-stable**](https://www.google.com.br/earth/download/gep/agree.html)
-- [**google-maps**](https://www.google.com.br/maps/)
-- [**kgeography**](https://edu.kde.org/kgeography/)
-- [**marble-qt**](https://marble.kde.org) | marble-maps
-
 ## Informática
 
 - [**digital**](https://github.com/hneemann/Digital)

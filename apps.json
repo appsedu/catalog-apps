@@ -293,5 +293,29 @@
     "install" : "sudo apt install lightspeed",
     "img" : "https://screenshots.debian.net/screenshots/000/005/378/large.png",
     "categories" : ["Física Geral"]
+  },
+  {
+    "app" : "Google Maps",
+    "text" : "Visualização de mapas e imagens de satélite da Terra",
+    "page" : "https://www.google.com.br/maps/",
+    "install" : "# Aplicativo online",
+    "img" : "screenshots/google-maps.png",
+    "categories" : ["Geografia"]
+  },
+  {
+    "app" : "KGeography",
+    "text" : "Auxiliar de aprendizado de geografia do KDE",
+    "page" : "https://edu.kde.org/kgeography/",
+    "install" : "sudo apt install kgeography",
+    "img" : "https://screenshots.debian.net/screenshots/000/002/066/large.png",
+    "categories" : ["Geografia"]
+  },
+  {
+    "app" : "Marble",
+    "text" : "Globo virtual e atlas do mundo",
+    "page" : "https://marble.kde.org",
+    "install" : "sudo apt install marble-qt marble-maps",
+    "img" : "https://screenshots.debian.net/screenshots/000/009/267/large.png",
+    "categories" : ["Geografia"]
   }
 ]
