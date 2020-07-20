@@ -588,5 +588,37 @@
     "install" : "sudo apt install coppelia-sim-edu",
     "img" : "screenshots/coppelia-sim-edu.png",
     "categories" : ["Mecatrônica"]
+  },
+  {
+    "app" : "Hopsan *",
+    "text" : "Simulador de sistemas pneumáticos, hidráulicos e mecatrônicos",
+    "page" : "https://github.com/Hopsan/hopsan",
+    "install" : "sudo apt install hopsan",
+    "img" : "screenshots/hopsan.png",
+    "categories" : ["Mecatrônica"]
+  },
+  {
+    "app" : "Webots *",
+    "text" : "Simulador de robôs em 3D",
+    "page" : "https://cyberbotics.com",
+    "install" : [
+      "# Faça o download do .deb no site",
+      "sudo apt install ./webots_2020a-rev1_amd64.deb"
+    ],
+    "img" : "screenshots/webots.png",
+    "categories" : ["Mecatrônica"]
+  },
+  {
+    "app" : "Gazebo *",
+    "text" : "Ambiente simulador de Robótica",
+    "page" : "http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install",
+    "install" : [
+      "echo 'deb http://packages.osrfoundation.org/gazebo/ubuntu-stable focal main'| sudo tee /etc/apt/sources.list.d/gazebo-stable.list",
+      "wget https://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -",
+      "sudo apt update",
+      "sudo apt install gazebo11"
+    ],
+    "img" : "https://screenshots.debian.net/screenshots/000/019/286/large.png",
+    "categories" : ["Mecatrônica"]
   }
 ]

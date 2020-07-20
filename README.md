@@ -2,12 +2,6 @@
 
 > Melhor visualizado em: [https://appsedu.github.io/catalog-apps/](https://appsedu.github.io/catalog-apps/)
 
-## Mecatrônica, Automação e Robôtica
-
-- [coppelia-sim-edu](https://www.coppeliarobotics.com)
-- [hopsan](https://github.com/Hopsan/hopsan)
-- [_webots_](https://cyberbotics.com/)
-- [_gazebo_](http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install)
 
 ## Desenho, Modelagem e Arte
 
