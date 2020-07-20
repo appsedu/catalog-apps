@@ -2,27 +2,6 @@
 
 > Melhor visualizado em: [https://appsedu.github.io/catalog-apps/](https://appsedu.github.io/catalog-apps/)
 
-
-## Desenho, Modelagem e Arte
-
-- [blender](https://www.blender.org)
-- [pencil2d](https://www.pencil2d.org)
-
-## Infantil
-
-- [gcompris](https://gcompris.net)
-- [sugarizer](https://sugarizer.org)
-- [khangman](https://edu.kde.org/khangman/)
-- [klettres](https://edu.kde.org/klettres/)
-- [tuxpaint](http://www.tuxpaint.org)
-- [tuxmath](https://packages.ubuntu.com/focal/tuxmath)
-
-## Ferramentas
-
-- [appsedu](#)
-- [appsedu-menus](#)
-- [flashplayer-sa-projector](#)
-
 ## Desenvolvimento
 
 - [**code**](https://code.visualstudio.com/)

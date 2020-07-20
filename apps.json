@@ -620,5 +620,75 @@
     ],
     "img" : "https://screenshots.debian.net/screenshots/000/019/286/large.png",
     "categories" : ["Mecatrônica"]
+  },
+  {
+    "app" : "GCompris",
+    "text" : "Suíte educacional para crianças de 2 a 10 anos",
+    "page" : "https://gcompris.net",
+    "install" : "sudo apt install gcompris",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/287/large.png",
+    "categories" : ["Infantil"]
+  },
+  {
+    "app" : "Sugarizer",
+    "text" : "Pacote de atividades pedagógicas para crianças",
+    "page" : "https://sugarizer.org",
+    "install" : [
+      "# Faça o download do .deb no site",
+      "sudo apt install ./Sugarizer_1.3.0_amd64.deb"
+    ],
+    "img" : "screenshots/sugarizer.png",
+    "categories" : ["Infantil"]
+  },
+  {
+    "app" : "KHangMan",
+    "text" : "Jogo da forca para crianças de 6 anos acima",
+    "page" : "https://edu.kde.org/khangman/",
+    "install" : "sudo apt install khangman",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/288/large.png",
+    "categories" : ["Infantil"]
+  },
+  {
+    "app" : "KLettres",
+    "text" : "Aprenda a pronunciar o alfabeto e sílabas",
+    "page" : "https://edu.kde.org/klettres/",
+    "install" : "sudo apt install klettres",
+    "img" : "https://screenshots.debian.net/screenshots/000/007/694/large.png",
+    "categories" : ["Infantil"]
+  },
+  {
+    "app" : "Tux Paint",
+    "text" : "Ferramenta de desenho para crianças",
+    "page" : "http://www.tuxpaint.org",
+    "install" : "sudo apt install tuxpaint",
+    "img" : "https://screenshots.debian.net/screenshots/000/000/555/large.png",
+    "categories" : ["Infantil"]
+  },
+  {
+    "app" : "Tux Math",
+    "text" : "Jogo de matemática com Tux para crianças",
+    "page" : "https://packages.ubuntu.com/focal/tuxmath",
+    "install" : "sudo apt install tuxmath",
+    "img" : "https://screenshots.debian.net/screenshots/000/015/163/large.png",
+    "categories" : ["Infantil"]
+  },
+  {
+    "app" : "Flash Player Projetor",
+    "text" : "Reprodutor de arquivos .swf, animações e aplicações em Flash",
+    "page" : "https://www.adobe.com/support/flashplayer/debug_downloads.html",
+    "install" : "sudo apt install flashplayer-sa-projector",
+    "img" : "https://raw.githubusercontent.com/ailtonbsj/flashplayer-sa-projector/master/screenshot.png",
+    "categories" : ["Ferramentas"]
+  },
+  {
+    "app" : "Menu educativo AppsEdu",
+    "text" : "Submenus para aplicativos educationais",
+    "page" : "https://ailtonbsj.github.io/educational-apps-divided-by-discipline",
+    "install" : [
+      "# Primeiro instale os apps educacionais que você deseja",
+      "sudo apt install --no-install-recommends appsedu-menus"
+    ],
+    "img" : "https://ailtonbsj.github.io/assets/appsedu/02.jpg",
+    "categories" : ["Ferramentas"]
   }
 ]
