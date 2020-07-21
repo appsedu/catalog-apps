@@ -239,6 +239,14 @@
     "categories" : ["Eletricidade"]
   },
   {
+    "app" : "QElectroTech",
+    "text" : "Editor de esquemas elétricos, hidráulicos e pneumáticos",
+    "page" : "https://qelectrotech.org",
+    "install" : "sudo apt install qelectrotech",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/290/large.png",
+    "categories" : ["Eletricidade", "Mecatrônica"]
+  },
+  {
     "app" : "Algodoo (Wine)",
     "text" : "Simulador de Física em geral",
     "page" : "http://www.algodoo.com",
@@ -311,6 +319,22 @@
     "categories" : ["Geografia"]
   },
   {
+    "app" : "0 A.D.",
+    "text" : "Jogo de estratégia de civilizações antigas",
+    "page" : "https://play0ad.com",
+    "install" : "sudo apt install 0ad",
+    "img" : "https://screenshots.debian.net/screenshots/000/010/427/large.png",
+    "categories" : ["História"]
+  },
+  {
+    "app" : "GeaCron",
+    "text" : "Atlas Histórico Mundial Interativo",
+    "page" : "http://geacron.com/home-pt/?lang=pt-pt",
+    "install" : "# Aplicativo online",
+    "img" : "screenshots/geacron.png",
+    "categories" : ["História"]
+  },
+  {
     "app" : "Marble",
     "text" : "Globo virtual e atlas do mundo",
     "page" : "https://marble.kde.org",
@@ -333,6 +357,20 @@
     "install" : "sudo apt install klavaro",
     "img" : "https://screenshots.debian.net/screenshots/000/001/431/large.png",
     "categories" : ["Informática"]
+  },
+  {
+    "app" : "Packet Tracer",
+    "text" : "Simulador de equipamentos e redes de computadores",
+    "page" : "https://www.netacad.com",
+    "install" : [
+        "# Faça login no site netacad.com da Cisco",
+        "# Vá no menu 'Recursos > Baixar o Packet Tracer'",
+        "# Faça o download do .deb no site",
+        "sudo apt install ./PacketTracer_*.deb",
+        "# Requer fazer login para usar o programa"
+    ],
+    "img" : "screenshots/packet-tracer.png",
+    "categories" : ["Informatica"]
   },
   {
     "app" : "Scratch",
@@ -389,6 +427,14 @@
     "install" : "sudo apt install kwordquiz",
     "img" : "https://screenshots.debian.net/screenshots/000/004/934/large.png",
     "categories" : ["Línguas", "Multidisciplinar"]
+  },
+  {
+    "app" : "CaRMetal",
+    "text" : "Software de geometria dinâmica",
+    "page" : "https://packages.ubuntu.com/focal/carmetal",
+    "install" : "sudo apt install carmetal",
+    "img" : "https://screenshots.debian.net/screenshots/000/019/291/large.png",
+    "categories" : ["Matemática"]
   },
   {
     "app" : "Geogebra",
@@ -477,6 +523,66 @@
     "install" : "sudo apt install kmplot",
     "img" : "https://screenshots.debian.net/screenshots/000/007/695/large.png",
     "categories" : ["Matemática"]
+  },
+  {
+    "app" : "CoppeliaSim EDU",
+    "text" : "Ambiente de simulação de robótica",
+    "page" : "https://www.coppeliarobotics.com",
+    "install" : "sudo apt install coppelia-sim-edu",
+    "img" : "screenshots/coppelia-sim-edu.png",
+    "categories" : ["Mecatrônica"]
+  },
+  {
+    "app" : "Hopsan",
+    "text" : "Simulador de sistemas pneumáticos, hidráulicos e mecatrônicos",
+    "page" : "https://github.com/Hopsan/hopsan",
+    "install" : "sudo apt install hopsan",
+    "img" : "screenshots/hopsan.png",
+    "categories" : ["Mecatrônica"]
+  },
+  {
+    "app" : "Webots",
+    "text" : "Simulador de robôs em 3D",
+    "page" : "https://cyberbotics.com",
+    "install" : [
+      "# Faça o download do .deb no site",
+      "sudo apt install ./webots_2020a-rev1_amd64.deb"
+    ],
+    "img" : "screenshots/webots.png",
+    "categories" : ["Mecatrônica"]
+  },
+  {
+    "app" : "Gazebo",
+    "text" : "Ambiente simulador de Robótica",
+    "page" : "http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install",
+    "install" : [
+      "echo 'deb http://packages.osrfoundation.org/gazebo/ubuntu-stable focal main'| sudo tee /etc/apt/sources.list.d/gazebo-stable.list",
+      "wget https://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -",
+      "sudo apt update",
+      "sudo apt install gazebo11"
+    ],
+    "img" : "https://screenshots.debian.net/screenshots/000/019/286/large.png",
+    "categories" : ["Mecatrônica"]
+  },
+  {
+    "app" : "PhET Simulações",
+    "text" : "Simulações Interativas para Ciência e Matemática",
+    "page" : "https://phet.colorado.edu/pt_BR/simulations/browse",
+    "install" : [
+      "sudo apt install firefox",
+      "sudo apt install flashplugin-installer",
+      "sudo apt install openjdk-8-jre",
+      "# Acesse a pagina oficial pelo Firefox",
+      "# Para simulações em Flash você precisa clicar em 'Permitir'",
+      "# Para simulações em Java você precisa baixar o .jar",
+      "# Abra o terminal na pasta do arquivo .jar e execute:",
+      "java -jar arquivo-baixado.jar",
+      "# Outra forma: Clique no arquivo com botão direito e vá em 'Propriedades'",
+      "# Na aba Permissões selecione a caixa 'Permitir execução' e clique 'Ok'",
+      "Clique no arquivo com botão direito e vá em 'Abrir com > OpenJDK Java 8 Runtime'"
+    ],
+    "img" : "screenshots/phet.png",
+    "categories" : ["Multidisciplinar"]
   },
   {
     "app" : "ACD/ChemSketch Freeware (Wine)",
@@ -574,52 +680,9 @@
     "app" : "Elements",
     "text" : "Tabela Periódica usando Electron",
     "page" : "https://github.com/FlorianFe/Elements",
-    "install" : [
-      "# Faça o download do .deb no site",
-      "sudo apt install ./Elements.deb"
-    ],
+    "install" : "sudo apt install elements",
     "img" : "https://camo.githubusercontent.com/e89df636722ccaa80d843b7f1b90414989c566e4/68747470733a2f2f666c6f7269616e66652e6769746875622e696f2f73637265656e73686f74732f656c656d656e74732f73637265656e73686f742d332e706e67",
     "categories" : ["Química"]
-  },
-  {
-    "app" : "CoppeliaSim EDU",
-    "text" : "Ambiente de simulação de robótica",
-    "page" : "https://www.coppeliarobotics.com",
-    "install" : "sudo apt install coppelia-sim-edu",
-    "img" : "screenshots/coppelia-sim-edu.png",
-    "categories" : ["Mecatrônica"]
-  },
-  {
-    "app" : "Hopsan",
-    "text" : "Simulador de sistemas pneumáticos, hidráulicos e mecatrônicos",
-    "page" : "https://github.com/Hopsan/hopsan",
-    "install" : "sudo apt install hopsan",
-    "img" : "screenshots/hopsan.png",
-    "categories" : ["Mecatrônica"]
-  },
-  {
-    "app" : "Webots",
-    "text" : "Simulador de robôs em 3D",
-    "page" : "https://cyberbotics.com",
-    "install" : [
-      "# Faça o download do .deb no site",
-      "sudo apt install ./webots_2020a-rev1_amd64.deb"
-    ],
-    "img" : "screenshots/webots.png",
-    "categories" : ["Mecatrônica"]
-  },
-  {
-    "app" : "Gazebo",
-    "text" : "Ambiente simulador de Robótica",
-    "page" : "http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install",
-    "install" : [
-      "echo 'deb http://packages.osrfoundation.org/gazebo/ubuntu-stable focal main'| sudo tee /etc/apt/sources.list.d/gazebo-stable.list",
-      "wget https://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -",
-      "sudo apt update",
-      "sudo apt install gazebo11"
-    ],
-    "img" : "https://screenshots.debian.net/screenshots/000/019/286/large.png",
-    "categories" : ["Mecatrônica"]
   },
   {
     "app" : "GCompris",
@@ -654,6 +717,14 @@
     "page" : "https://edu.kde.org/klettres/",
     "install" : "sudo apt install klettres",
     "img" : "https://screenshots.debian.net/screenshots/000/007/694/large.png",
+    "categories" : ["Infantil"]
+  },
+  {
+    "app" : "Luz do Saber Fundamental",
+    "text" : "Atividades de alfabetização e letramento",
+    "page" : "https://luzdosaber.virtual.ufc.br",
+    "install" : "# Aplicativo online",
+    "img" : "screenshots/luz-do-saber-fundamental.png",
     "categories" : ["Infantil"]
   },
   {
