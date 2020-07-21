@@ -2,16 +2,7 @@
 
 > Melhor visualizado em: [https://appsedu.github.io/catalog-apps/](https://appsedu.github.io/catalog-apps/)
 
-## Desenvolvimento
-
-- [_sublime-text_](https://www.sublimetext.com/docs/3/linux_repositories.html)
-- [_qt-creator_](https://www.qt.io/download-qt-installer)
-- [_eclipse_](https://snapcraft.io/eclipse)
-- [_window-builder-for-eclipse_](https://www.eclipse.org/windowbuilder/)
-- [_modelio_](https://www.modelio.org/)
-- [_staruml_](http://staruml.io/)
-
-# Catálogo de Apps Educativos
+> A opção `Como instalar` assume que você esteja utilizando o _WinuniX OS_ ou outra distribuição linux com o [Repositório do WinuniX 20](https://winunix.github.io/debian/) adicionado corretamente.
 
 <div id="list-of-apps"></div>
 

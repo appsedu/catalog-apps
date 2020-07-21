@@ -49,7 +49,7 @@
     "categories" : ["Astronomia"]
   },
   {
-    "app" : "Gpredict *",
+    "app" : "Gpredict",
     "text" : "Programa de rastreamento de satélite",
     "page" : "http://gpredict.oz9aec.net",
     "install" : "sudo apt install gpredict",
@@ -129,7 +129,7 @@
     "categories" : ["Desenho Técnico", "Eletricidade"]
   },
   {
-    "app" : "gCAD3D *",
+    "app" : "gCAD3D",
     "text" : "Aplicação 3D CAD-CAM",
     "page" : "http://www.gcad3d.org",
     "install" : "sudo apt install gcad3d",
@@ -137,7 +137,7 @@
     "categories" : ["Desenho Técnico"]
   },
   {
-    "app" : "ODA File Converter *",
+    "app" : "ODA File Converter",
     "text" : "Converta entre diferentes versões de .dwg e .dxf",
     "page" : "https://www.opendesign.com/guestfiles/oda_file_converter",
     "install" : [
@@ -149,7 +149,7 @@
     "categories" : ["Desenho Técnico"]
   },
   {
-    "app" : "QCAD *",
+    "app" : "QCAD",
     "text" : "Aplicação CAD 2D Open Source",
     "page" : "https://www.qcad.org/en/",
     "install" : [
@@ -161,7 +161,7 @@
     "categories" : ["Desenho Técnico"]
   },
   {
-    "app" : "BRL-CAD *",
+    "app" : "BRL-CAD",
     "text" : "Aplicação CAD CSG",
     "page" : "https://brlcad.org",
     "install" : [
@@ -223,7 +223,7 @@
     "categories" : ["Eletricidade"]
   },
   {
-    "app" : "Logisim *",
+    "app" : "Logisim",
     "text" : "Ferramenta para projetar e simular circuitos lógicos",
     "page" : "http://www.cburch.com/logisim/",
     "install" : "sudo apt install logisim",
@@ -231,7 +231,7 @@
     "categories" : ["Eletricidade", "Informática"]
   },
   {
-    "app" : "Oregano *",
+    "app" : "Oregano",
     "text" : "Ferramenta de esquemas de circuitos eletrônicos",
     "page" : "https://github.com/drahnr/oregano",
     "install" : "sudo apt install oregano",
@@ -287,7 +287,7 @@
     "categories" : ["Física Geral"]
   },
   {
-    "app" : "Light Speed *",
+    "app" : "Light Speed",
     "text" : "Ilustra os efeitos da relatividade especial nos objetos",
     "page" : "http://lightspeed.sourceforge.net",
     "install" : "sudo apt install lightspeed",
@@ -343,7 +343,7 @@
     "categories" : ["Informática", "Infantil"]
   },
   {
-    "app" : "KTurtle *",
+    "app" : "KTurtle",
     "text" : "Ambiente educativo de programação",
     "page" : "https://kde.org/applications/en/education/org.kde.kturtle",
     "install" : "sudo apt install kturtle",
@@ -383,7 +383,7 @@
     "categories" : ["Línguas", "Multidisciplinar"]
   },
   {
-    "app" : "KWordQuiz *",
+    "app" : "KWordQuiz",
     "text" : "Aplicativo de aprendizado por cartões",
     "page" : "https://edu.kde.org/kwordquiz/",
     "install" : "sudo apt install kwordquiz",
@@ -447,7 +447,7 @@
     "categories" : ["Matemática"]
   },
   {
-    "app" : "GraphMonkey *",
+    "app" : "GraphMonkey",
     "text" : "Uma calculadora de gráficos baseada em GTK",
     "page" : "http://graphmonkey.sourceforge.net",
     "install" : "sudo apt install graphmonkey",
@@ -455,7 +455,7 @@
     "categories" : ["Matemática"]
   },
   {
-    "app" : "Qalculate! *",
+    "app" : "Qalculate!",
     "text" : "Calculadora de mesa fácil de usar e poderosa",
     "page" : "https://qalculate.github.io",
     "install" : "sudo apt install qalculate-gtk",
@@ -463,7 +463,7 @@
     "categories" : ["Matemática"]
   },
   {
-    "app" : "Kig *",
+    "app" : "Kig",
     "text" : "Ferramenta de geometria interativa",
     "page" : "https://edu.kde.org/kig/",
     "install" : "sudo apt install kig",
@@ -471,7 +471,7 @@
     "categories" : ["Matemática"]
   },
   {
-    "app" : "KmPlot *",
+    "app" : "KmPlot",
     "text" : "Plotadora de funções matemáticas do KDE",
     "page" : "https://edu.kde.org/kmplot/",
     "install" : "sudo apt install kmplot",
@@ -539,7 +539,7 @@
     "categories" : ["Química"]
   },
   {
-    "app" : "GPeriodic *",
+    "app" : "GPeriodic",
     "text" : "Aplicação de tabela periódica",
     "page" : "http://gperiodic.seul.org",
     "install" : "sudo apt install gperiodic",
@@ -547,7 +547,7 @@
     "categories" : ["Química"]
   },
   {
-    "app" : "Chemtool *",
+    "app" : "Chemtool",
     "text" : "Programa para desenho de estruturas químicas",
     "page" : "http://ruby.chemie.uni-freiburg.de/~martin/chemtool/",
     "install" : "sudo apt install chemtool",
@@ -555,7 +555,7 @@
     "categories" : ["Química"]
   },
   {
-    "app" : "EasyChem *",
+    "app" : "EasyChem",
     "text" : "Desenhe moléculas de alta qualidade e fórmulas químicas 2D",
     "page" : "http://easychem.sourceforge.net",
     "install" : "sudo apt install easychem",
@@ -563,7 +563,7 @@
     "categories" : ["Química"]
   },
   {
-    "app" : "GDIS Molecule Modeller *",
+    "app" : "GDIS Molecule Modeller",
     "text" : "Mostrador de moléculas e modelos de cristal",
     "page" : "http://gdis.seul.org",
     "install" : "sudo apt install gdis",
@@ -571,7 +571,7 @@
     "categories" : ["Química"]
   },
   {
-    "app" : "Elements *",
+    "app" : "Elements",
     "text" : "Tabela Periódica usando Electron",
     "page" : "https://github.com/FlorianFe/Elements",
     "install" : [
@@ -590,7 +590,7 @@
     "categories" : ["Mecatrônica"]
   },
   {
-    "app" : "Hopsan *",
+    "app" : "Hopsan",
     "text" : "Simulador de sistemas pneumáticos, hidráulicos e mecatrônicos",
     "page" : "https://github.com/Hopsan/hopsan",
     "install" : "sudo apt install hopsan",
@@ -598,7 +598,7 @@
     "categories" : ["Mecatrônica"]
   },
   {
-    "app" : "Webots *",
+    "app" : "Webots",
     "text" : "Simulador de robôs em 3D",
     "page" : "https://cyberbotics.com",
     "install" : [
@@ -609,7 +609,7 @@
     "categories" : ["Mecatrônica"]
   },
   {
-    "app" : "Gazebo *",
+    "app" : "Gazebo",
     "text" : "Ambiente simulador de Robótica",
     "page" : "http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install",
     "install" : [
@@ -737,7 +737,7 @@
     "page" : "https://dev.mysql.com/downloads/workbench/",
     "install" : [
       "# Faça o download do .deb no site",
-      "sudo apt install ./mysql-workbench-community_8.0.21-1ubuntu20.04_amd64.deb"
+      "sudo apt install ./mysql-workbench-community*.deb"
     ],
     "img" : "https://screenshots.debian.net/screenshots/000/015/749/large.png",
     "categories" : ["Desenvolvimento"]
@@ -776,26 +776,39 @@
     "categories" : ["Desenvolvimento"]
   },
   {
-    "app" : "",
-    "text" : "",
-    "page" : "",
-    "install" : "sudo apt install ",
-    "img" : "",
+    "app" : "Modelio",
+    "text" : "Ambiente de modelagem UML, BPMN e outros",
+    "page" : "https://www.modelio.org/downloads/download-modelio.html",
+    "install" : [
+      "# Faça o download do instalador para Debian 9/10 no site",
+      "sudo apt install ./modelio-open-source4.0_4.0.1_amd64.deb",
+      "# Edite o arquivo /etc/modelio-open-source4.0/modelio.config",
+      "# Altere as variaveis para SWT_GTK3=1 e SWT_WEBKIT2=1"
+    ],
+    "img" : "screenshots/modelio.png",
     "categories" : ["Desenvolvimento"]
   },
   {
-    "app" : "",
+    "app" : "Qt Creator",
     "text" : "",
-    "page" : "",
-    "install" : "sudo apt install ",
-    "img" : "",
-    "categories" : ["Desenvolvimento"]
-  },
-  {
-    "app" : "",
-    "text" : "",
-    "page" : "",
-    "install" : "sudo apt install ",
+    "page" : "https://www.qt.io/download-qt-installer",
+    "install" : [
+      "# Faça o download do .run no site",
+      "sudo chmod +x qt-unified-linux-x64-3.2.3-online.run",
+      "./qt-unified-linux-x64-3.2.3-online.run",
+      "# Na janela 'Qt Setup' clique em 'Next'",
+      "# Faça login com sua conta Qt ou crie-a e clique em 'Next'",
+      "# Selecione todos os checkbox e clique em 'Next' e 'Next'",
+      "# Selecione 'Disable sending ...' e clique em 'Next'",
+      "# Indique a pasta como '/home/USUARIO/.local/Qt', toque USUARIO pelo seu",
+      "# Clique 'Next' e deixe só a versão 'Qt 5.12.9' selecionada",
+      "# Clique 'Next' e selecione 'I have read and agree...' e clique 'Next'",
+      "# Clique 'Install' e espere os componentes seres baixados",
+      "# Clique 'Next' e depois em 'Finish'",
+      "# Use os comandos abaixo para corrigir a exibição dos icones",
+      "rsync -av ~/.local/share/hicolor/ ~/.local/share/icons/hicolor/",
+      "ln -s ~/.local/Qt/QtIcon.png ~/.local/share/icons/hicolor/256x256/apps/"
+    ],
     "img" : "",
     "categories" : ["Desenvolvimento"]
   }
