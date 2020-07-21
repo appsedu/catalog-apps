@@ -790,7 +790,7 @@
   },
   {
     "app" : "Qt Creator",
-    "text" : "",
+    "text" : "Programe em C/C++ ou Python usando framework Qt",
     "page" : "https://www.qt.io/download-qt-installer",
     "install" : [
       "# Faça o download do .run no site",
@@ -809,7 +809,7 @@
       "rsync -av ~/.local/share/hicolor/ ~/.local/share/icons/hicolor/",
       "ln -s ~/.local/Qt/QtIcon.png ~/.local/share/icons/hicolor/256x256/apps/"
     ],
-    "img" : "",
+    "img" : "https://screenshots.debian.net/screenshots/000/009/133/large.png",
     "categories" : ["Desenvolvimento"]
   }
 ]
