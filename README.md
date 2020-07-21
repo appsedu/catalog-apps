@@ -4,6 +4,8 @@
 
 > A opção `Como instalar` assume que você esteja utilizando o _WinuniX OS_ ou outra distribuição linux com o [Repositório do WinuniX 20](https://winunix.github.io/debian/) adicionado corretamente.
 
+> Encontrou algum erro ou quer indicar um app open-source compatível com Debian / Ubuntu para o catálogo? [Entre em contato conosco pelo Github criando uma issue!](https://github.com/appsedu/catalog-apps/issues)
+
 <div id="list-of-apps"></div>
 
 <table id="modelBox" style="display: none;">
