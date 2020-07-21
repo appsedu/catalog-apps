@@ -77,4 +77,5 @@ xhttp.onreadystatechange = function() {
 
 xhttp.open("GET", "apps.json", true);
 xhttp.send();
+document.querySelector('h1').remove();
 </script>

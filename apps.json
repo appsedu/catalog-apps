@@ -124,7 +124,7 @@
     "app" : "Tinkercad",
     "text" : "Projetos 3D, componentes eletrônicos e codificação",
     "page" : "https://www.tinkercad.com/dashboard",
-    "install" : "# Aplicativo online",
+    "install" : "# Aplicativo online (Requer fazer login)",
     "img" : "screenshots/tinkercad.png",
     "categories" : ["Desenho Técnico", "Eletricidade"]
   },
@@ -154,7 +154,7 @@
     "page" : "https://www.qcad.org/en/",
     "install" : [
       "# Faça o download do .run no site",
-      "chmod +x qcad-3.24.3-trial-linux-x86_64.run",
+      "sudo chmod +x qcad-3.24.3-trial-linux-x86_64.run",
       "./qcad-3.24.3-trial-linux-x86_64.run"
     ],
     "img" : "https://screenshots.debian.net/screenshots/000/001/808/large.png",
