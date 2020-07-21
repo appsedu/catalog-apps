@@ -4,13 +4,6 @@
 
 ## Desenvolvimento
 
-- [**code**](https://code.visualstudio.com/)
-- [**codeblocks**](http://www.codeblocks.org/)
-- [**xampp**](https://www.apachefriends.org/pt_br/index.html)
-- [astah-community-7](https://winunix.github.io/debian/)
-- [brmodelo](http://www.sis4.com/brModelo/)
-- [mysql-workbench-community](https://dev.mysql.com/downloads/workbench/)
-- [umbrello](https://umbrello.kde.org/)
 - [_sublime-text_](https://www.sublimetext.com/docs/3/linux_repositories.html)
 - [_qt-creator_](https://www.qt.io/download-qt-installer)
 - [_eclipse_](https://snapcraft.io/eclipse)

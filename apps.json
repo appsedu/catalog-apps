@@ -690,5 +690,113 @@
     ],
     "img" : "https://ailtonbsj.github.io/assets/appsedu/02.jpg",
     "categories" : ["Ferramentas"]
+  },
+  {
+    "app" : "Visual Studio Code",
+    "text" : "Editor de códigos para desenvolvedores",
+    "page" : "https://code.visualstudio.com",
+    "install" : "sudo apt install code",
+    "img" : "https://code.visualstudio.com/assets/home/home-screenshot-linux.png",
+    "categories" : ["Desenvolvimento"]
+  },
+  {
+    "app" : "Code::Blocks",
+    "text" : "Ambiente de desenvolvimento integrado para C/C++ e outros",
+    "page" : "http://www.codeblocks.org",
+    "install" : "sudo apt install codeblocks",
+    "img" : "https://screenshots.debian.net/screenshots/000/015/292/large.png",
+    "categories" : ["Desenvolvimento"]
+  },
+  {
+    "app" : "XAMPP",
+    "text" : "Ambiente de desenvolvimento PHP com Apache e MariaDB",
+    "page" : "https://www.apachefriends.org/pt_br/index.html",
+    "install" : "sudo apt install xampp",
+    "img" : "screenshots/xampp.png",
+    "categories" : ["Desenvolvimento"]
+  },
+  {
+    "app" : "Astah Community",
+    "text" : "Ferramenta de modelagem UML gratuito",
+    "page" : "https://astah.net/products/astah-community/",
+    "install" : "sudo apt install astah-community",
+    "img" : "screenshots/astah-community.png",
+    "categories" : ["Desenvolvimento"]
+  },
+  {
+    "app" : "brModelo",
+    "text" : "Uma ferramenta para modelagem de banco de dados",
+    "page" : "http://www.sis4.com/brModelo/",
+    "install" : "sudo apt install brmodelo",
+    "img" : "screenshots/brmodelo.png",
+    "categories" : ["Desenvolvimento"]
+  },
+  {
+    "app" : "MySQL Workbench Community",
+    "text" : "Administração e modelagem de banco de dados",
+    "page" : "https://dev.mysql.com/downloads/workbench/",
+    "install" : [
+      "# Faça o download do .deb no site",
+      "sudo apt install ./mysql-workbench-community_8.0.21-1ubuntu20.04_amd64.deb"
+    ],
+    "img" : "https://screenshots.debian.net/screenshots/000/015/749/large.png",
+    "categories" : ["Desenvolvimento"]
+  },
+  {
+    "app" : "Umbrello",
+    "text" : "Ferramenta de modelagem UML do KDE",
+    "page" : "https://umbrello.kde.org",
+    "install" : "sudo apt install umbrello",
+    "img" : "https://screenshots.debian.net/screenshots/000/002/197/large.png",
+    "categories" : ["Desenvolvimento"]
+  },
+  {
+    "app" : "Eclipse IDE",
+    "text" : "Ambiente de desenvolvimento para Java, C/C++ ou PHP",
+    "page" : "https://www.eclipse.org/downloads/packages/",
+    "install" : [
+      "sudo apt install snapd",
+      "sudo snap install eclipse --edge --classic"
+    ],
+    "img" : "https://screenshots.debian.net/screenshots/000/005/924/large.png",
+    "categories" : ["Desenvolvimento"]
+  },
+  {
+    "app" : "WindowBuilder para Eclipse IDE",
+    "text" : "Complemento para criar janelas de forma visual em Java",
+    "page" : "https://www.eclipse.org/windowbuilder/",
+    "install" : [
+      "# Abra o Eclipse, clique no menu 'Help > Install New Software...'",
+      "# Copie a url abaixo e cole no campo 'Work with:' e tecle enter",
+      "https://download.eclipse.org/windowbuilder/latest/",
+      "# Selecione todos os checkbox do WindowBuilder e clique em 'Next >'",
+      "# Clique em 'Next >' e selecione 'I accept the terms...' e clique em 'Finish'"
+    ],
+    "img" : "https://www.eclipse.org/windowbuilder/images/wb_summary_shot.gif",
+    "categories" : ["Desenvolvimento"]
+  },
+  {
+    "app" : "",
+    "text" : "",
+    "page" : "",
+    "install" : "sudo apt install ",
+    "img" : "",
+    "categories" : ["Desenvolvimento"]
+  },
+  {
+    "app" : "",
+    "text" : "",
+    "page" : "",
+    "install" : "sudo apt install ",
+    "img" : "",
+    "categories" : ["Desenvolvimento"]
+  },
+  {
+    "app" : "",
+    "text" : "",
+    "page" : "",
+    "install" : "sudo apt install ",
+    "img" : "",
+    "categories" : ["Desenvolvimento"]
   }
 ]
