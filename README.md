@@ -1,4 +1,4 @@
-# Catálogo de Apps Educativos
+# Catálogo de Apps Educativos para Linux
 
 > Melhor visualizado em: [https://appsedu.github.io/catalog-apps/](https://appsedu.github.io/catalog-apps/)
 
@@ -42,6 +42,8 @@
     </tbody>
 </table>
 
+<h4>Total que apps catalogados: <span id="numCatalog"></span></h4>
+
 <script>
 var apps;
 var xhttp = new XMLHttpRequest();
@@ -72,6 +74,7 @@ xhttp.onreadystatechange = function() {
             installCode.innerHTML = inner;
             document.getElementById('list-of-apps').appendChild(item);
         }
+        document.getElementById('numCatalog').innerHTML = apps.length;
     }
 };
 
