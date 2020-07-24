@@ -267,6 +267,14 @@
     "categories" : ["Física Geral"]
   },
   {
+    "app" : "OpticalRayTracer",
+    "text" : "Simulador de lentes e espelhos virtuais",
+    "page" : "https://arachnoid.com/OpticalRayTracer/",
+    "install" : "sudo apt install opticalraytracer",
+    "img" : "http://screenshots.debian.net/screenshots/000/012/589/large.png",
+    "categories" : ["Física Geral"]
+  },
+  {
     "app" : "Physion (Wine)",
     "text" : "Simulador de física interativa",
     "page" : "https://github.com/appsedu/physion-wine",
@@ -728,11 +736,35 @@
     "categories" : ["Infantil"]
   },
   {
+    "app" : "Minetest",
+    "text" : "Caixa de areia de blocos em mundo infinito multijogador",
+    "page" : "https://www.minetest.net",
+    "install" : "sudo apt install minetest minetest-mod-basic-materials",
+    "img" : "http://screenshots.debian.net/screenshots/000/009/080/large.png",
+    "categories" : ["Infantil"]
+  },
+  {
+    "app" : "PySyCache",
+    "text" : "Jogo educativo para ensinar crianças a usar o mouse",
+    "page" : "http://www.pysycache.org",
+    "install" : "sudo apt install pysycache",
+    "img" : "http://screenshots.debian.net/screenshots/000/007/097/large.png",
+    "categories" : ["Infantil"]
+  },
+  {
     "app" : "Tux Paint",
     "text" : "Ferramenta de desenho para crianças",
     "page" : "http://www.tuxpaint.org",
     "install" : "sudo apt install tuxpaint",
     "img" : "https://screenshots.debian.net/screenshots/000/000/555/large.png",
+    "categories" : ["Infantil"]
+  },
+  {
+    "app" : "TuxTyping",
+    "text" : "Tutorial de digitação para crianças",
+    "page" : "https://github.com/tux4kids/",
+    "install" : "sudo apt install tuxtype",
+    "img" : "http://screenshots.debian.net/screenshots/000/002/281/large.png",
     "categories" : ["Infantil"]
   },
   {
