@@ -42,7 +42,7 @@
     </tbody>
 </table>
 
-<h4>Total que apps catalogados: <span id="numCatalog"></span></h4>
+<h3>Total de apps catalogados: <span id="numCatalog"></span></h3>
 
 <script>
 var apps;
