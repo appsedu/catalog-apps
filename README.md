@@ -8,7 +8,9 @@
 
 <div id="list-of-apps"></div>
 
-<table id="modelBox" style="display: none;">
+<div id="modelBox" style="display: none;">
+<a name="" class="appAnchor"></a>
+<table>
     <thread>
         <tr>
             <th colspan="2" class="appName">My App</th>
@@ -41,6 +43,7 @@
         </tr>
     </tbody>
 </table>
+</div>
 
 <h3>Total de apps catalogados: <span id="numCatalog"></span></h3>
 
@@ -60,6 +63,7 @@ xhttp.onreadystatechange = function() {
             item.getElementsByClassName('imgUrl')[0].setAttribute('src', apps[i].img);
             item.getElementsByClassName('imgUrlLink')[0].setAttribute('href', apps[i].img);
             item.getElementsByClassName('categoryName')[0].innerHTML = apps[i].categories.join(', ');
+            item.getElementsByClassName('appAnchor')[0].setAttribute('name', apps[i].app);
 
             var installCode = item.getElementsByClassName('installCode')[0];
             var codigo = apps[i].install;
@@ -75,6 +79,7 @@ xhttp.onreadystatechange = function() {
             document.getElementById('list-of-apps').appendChild(item);
         }
         document.getElementById('numCatalog').innerHTML = apps.length;
+        location.hash = location.hash;
     }
 };
 

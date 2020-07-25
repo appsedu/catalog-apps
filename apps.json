@@ -437,6 +437,18 @@
     "categories" : ["Línguas", "Multidisciplinar"]
   },
   {
+    "app" : "OSD Lyrics",
+    "text" : "Aprenda inglês com letras de músicas",
+    "page" : "https://github.com/tigersoldier/osd-lyrics",
+    "install" : [
+      "sudo apt install audacious",
+      "sudo apt install python3-pycurl",
+      "sudo apt install osdlyrics"
+    ],
+    "img" : "http://screenshots.debian.net/screenshots/000/019/295/large.png",
+    "categories" : ["Línguas"]
+  },
+  {
     "app" : "CaRMetal",
     "text" : "Software de geometria dinâmica",
     "page" : "https://packages.ubuntu.com/focal/carmetal",
