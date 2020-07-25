@@ -807,6 +807,18 @@
     "categories" : ["Ferramentas"]
   },
   {
+    "app" : "WinuniX OS 20.04",
+    "text" : "Uma versão do Lubuntu ideal para PCs antigos",
+    "page" : "https://winunix.github.io",
+    "install" : [
+      "# Baixe na página oficial o arquivo .iso",
+      "# Instale no seu PC, Notebook ou Máquina Virtual",
+      "# Veja videos de como instalar em https://bit.ly/instale20"
+    ],
+    "img" : "https://winunix.github.io/img/banner/home-left-1.png",
+    "categories" : ["Ferramentas"]
+  },
+  {
     "app" : "Visual Studio Code",
     "text" : "Editor de códigos para desenvolvedores",
     "page" : "https://code.visualstudio.com",
