@@ -585,6 +585,20 @@
     "categories" : ["Mecatrônica"]
   },
   {
+    "app" : "CnCSimulator",
+    "text" : "Simulador de máquinas fresadoras e tornos CNC",
+    "page" : "http://cncsimulator.info",
+    "install" : [
+      "# Instale o Wine64 com Mono e Gecko, siga o tutorial:",
+      "# https://bit.ly/wine-full",
+      "# Instale o .NET 3.5 conforme abaixo:",
+      "winetricks dotnet35 --unattended",
+      "sudo apt install free-cnc-simulator-wine"
+    ],
+    "img" : "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/224d752e796ada0a31e098153b287f42/large.png",
+    "categories" : ["Mecatrônica"]
+  },
+  {
     "app" : "PhET Simulações",
     "text" : "Simulações Interativas para Ciência e Matemática",
     "page" : "https://phet.colorado.edu/pt_BR/simulations/browse",
@@ -797,7 +811,7 @@
   },
   {
     "app" : "Menu educativo AppsEdu",
-    "text" : "Submenus para aplicativos educationais",
+    "text" : "Submenus para aplicativos educacionais",
     "page" : "https://ailtonbsj.github.io/educational-apps-divided-by-discipline",
     "install" : [
       "# Primeiro instale os apps educacionais que você deseja",
