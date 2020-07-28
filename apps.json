@@ -327,6 +327,14 @@
     "categories" : ["Geografia"]
   },
   {
+    "app" : "Marble",
+    "text" : "Globo virtual e atlas do mundo",
+    "page" : "https://marble.kde.org",
+    "install" : "sudo apt install marble-qt marble-maps",
+    "img" : "https://screenshots.debian.net/screenshots/000/009/267/large.png",
+    "categories" : ["Geografia"]
+  },
+  {
     "app" : "0 A.D.",
     "text" : "Jogo de estratégia de civilizações antigas",
     "page" : "https://play0ad.com",
@@ -341,14 +349,6 @@
     "install" : "# Aplicativo online",
     "img" : "screenshots/geacron.png",
     "categories" : ["História"]
-  },
-  {
-    "app" : "Marble",
-    "text" : "Globo virtual e atlas do mundo",
-    "page" : "https://marble.kde.org",
-    "install" : "sudo apt install marble-qt marble-maps",
-    "img" : "https://screenshots.debian.net/screenshots/000/009/267/large.png",
-    "categories" : ["Geografia"]
   },
   {
     "app" : "KTouch",
@@ -585,14 +585,14 @@
     "categories" : ["Mecatrônica"]
   },
   {
-    "app" : "CnCSimulator",
+    "app" : "CnCSimulator (Wine)",
     "text" : "Simulador de máquinas fresadoras e tornos CNC",
     "page" : "http://cncsimulator.info",
     "install" : [
       "# Instale o Wine64 com Mono e Gecko, siga o tutorial:",
       "# https://bit.ly/wine-full",
       "# Instale o .NET 3.5 conforme abaixo:",
-      "winetricks dotnet35 --unattended",
+      "winetricks dotnet35 -q",
       "sudo apt install free-cnc-simulator-wine"
     ],
     "img" : "https://d2t1xqejof9utc.cloudfront.net/screenshots/pics/224d752e796ada0a31e098153b287f42/large.png",
