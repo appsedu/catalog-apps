@@ -810,6 +810,17 @@
     "categories" : ["Infantil"]
   },
   {
+    "app" : "Omnitux",
+    "text" : "Atividades educacionais baseado em multimídia para crianças",
+    "page" : "http://omnitux.sourceforge.net/download.en.php",
+    "install" : [
+        "# Faça o download do .deb no site",
+        "sudo apt install ./omnitux_1.2.1_all.deb"
+    ],
+    "img" : "screenshots/omnitux.jpg",
+    "categories" : ["Infantil"]
+  },
+  {
     "app" : "Flash Player Projetor",
     "text" : "Reprodutor de arquivos .swf, animações e aplicações em Flash",
     "page" : "https://www.adobe.com/support/flashplayer/debug_downloads.html",
