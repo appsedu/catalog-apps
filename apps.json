@@ -311,6 +311,14 @@
     "categories" : ["Física Geral"]
   },
   {
+    "app" : "Energy2D",
+    "text" : "Simulações interativas de transferência de calor",
+    "page" : "https://energy.concord.org/energy2d",
+    "install" : "sudo apt install energy2d",
+    "img" : "https://raw.githubusercontent.com/appsedu/energy2d/master/screenshot.png",
+    "categories" : ["Física Geral"]
+  },
+  {
     "app" : "Google Maps",
     "text" : "Visualização de mapas e imagens de satélite da Terra",
     "page" : "https://www.google.com.br/maps/",
