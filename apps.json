@@ -817,7 +817,7 @@
         "# Faça o download do .deb no site",
         "sudo apt install ./omnitux_1.2.1_all.deb"
     ],
-    "img" : "screenshots/omnitux.jpg",
+    "img" : "screenshots/omnitux.png",
     "categories" : ["Infantil"]
   },
   {
