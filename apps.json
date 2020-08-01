@@ -821,6 +821,22 @@
     "categories" : ["Infantil"]
   },
   {
+    "app" : "eduActiv8",
+    "text" : "Atividades educacionais para crianças",
+    "page" : "https://www.eduactiv8.org",
+    "install" : [
+        "# Acesse o site oficial do eduActiv8",
+        "# Clique em 'Download eduActiv8 Linux'",
+        "# Selecione o seu sistema operacional",
+        "# Execute o primeiro comando para inserir o repositório",
+        "# Execute o segundo comando para inserir a chave pública",
+        "sudo apt update",
+        "sudo apt install eduactiv8"
+    ],
+    "img" : "https://www.eduactiv8.org/img/img1.jpg",
+    "categories" : ["Infantil", "Multidisciplinar"]
+  },
+  {
     "app" : "Flash Player Projetor",
     "text" : "Reprodutor de arquivos .swf, animações e aplicações em Flash",
     "page" : "https://www.adobe.com/support/flashplayer/debug_downloads.html",
