@@ -319,6 +319,14 @@
     "categories" : ["Física Geral"]
   },
   {
+    "app" : "OpenMeca",
+    "text" : "Simulador de sistemas mecânicos em 3D",
+    "page" : "https://gitlab.com/damien.andre/openmeca",
+    "install" : "sudo apt install openmeca",
+    "img" : "screenshots/openmeca.png",
+    "categories" : ["Física Geral"]
+  },
+  {
     "app" : "Google Maps",
     "text" : "Visualização de mapas e imagens de satélite da Terra",
     "page" : "https://www.google.com.br/maps/",
