@@ -981,6 +981,22 @@
     "categories" : ["Desenvolvimento"]
   },
   {
+    "app" : "Lazarus IDE",
+    "text" : "Ambiente visual rico de desenvolvimento em ObjectPascal similar ao Delphi",
+    "page" : "https://www.lazarus-ide.org",
+    "install" : [
+        "# Acesse a página oficial e clique em 'Download Now'",
+        "# Baixe os 3 arquivos debs:",
+        "# lazarus-project*.deb, fpc-laz*.deb e fpc-src*.deb",
+        "# Instale os 3 pacotes com os comandos abaixo:",
+        "sudo apt install ./fpc-src*.deb",
+        "sudo apt install ./fpc-laz*.deb",
+        "sudo apt install ./lazarus-project*.deb"
+    ],
+    "img" : "http://screenshots.debian.net/screenshots/000/019/306/large.png",
+    "categories" : ["Desenvolvimento"]
+  },
+  {
     "app" : "Qt Creator",
     "text" : "Programe em C/C++ ou Python usando framework Qt",
     "page" : "https://www.qt.io/download-qt-installer",
