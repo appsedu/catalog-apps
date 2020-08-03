@@ -465,6 +465,14 @@
     "categories" : ["Línguas"]
   },
   {
+    "app" : "Duolingo",
+    "text" : "Plataforma de ensino de idiomas gratuito",
+    "page" : "https://pt.duolingo.com",
+    "install" : "# Aplicativo online",
+    "img" : "screenshots/duolingo.png",
+    "categories" : ["Línguas"]
+  },
+  {
     "app" : "CaRMetal",
     "text" : "Software de geometria dinâmica",
     "page" : "https://packages.ubuntu.com/focal/carmetal",
