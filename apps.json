@@ -89,6 +89,14 @@
     "categories" : ["Biologia"]
   },
   {
+    "app" : "Google Cow",
+    "text" : "Antiga vaquinha em 3D do Google",
+    "page" : "https://code.google.com/archive/p/open-3d-viewer/",
+    "install" : "sudo apt install google-cow",
+    "img" : "https://raw.githubusercontent.com/appsedu/google-cow/master/screenshot.png",
+    "categories" : ["Biologia"]
+  },
+  {
     "app" : "FreeCAD",
     "text" : "CAx RAD de código aberto baseado no OpenCasCade",
     "page" : "https://www.freecadweb.org/downloads.php",
@@ -889,6 +897,17 @@
       "# Veja videos de como instalar em https://bit.ly/instale20"
     ],
     "img" : "https://winunix.github.io/img/banner/home-left-1.png",
+    "categories" : ["Ferramentas"]
+  },
+  {
+    "app" : "Anbox",
+    "text" : "Camada de compatibilidade para executar aplicativos Android",
+    "page" : "https://anbox.io",
+    "install" : [
+      "sudo apt install winunix-anbox-installer",
+      "# Você pode usar os comandos apk2deb e deb-boilerplate para integrar os apps android ao menu iniciar."
+    ],
+    "img" : "http://screenshots.debian.net/screenshots/000/016/239/large.png",
     "categories" : ["Ferramentas"]
   },
   {
