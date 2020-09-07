@@ -905,7 +905,8 @@
     "page" : "https://anbox.io",
     "install" : [
       "sudo apt install winunix-anbox-installer",
-      "# Você pode usar os comandos apk2deb e deb-boilerplate para integrar os apps android ao menu iniciar."
+      "# Você pode usar os comandos apk2deb e ",
+      "# deb-boilerplate para integrar os apps android ao menu iniciar."
     ],
     "img" : "http://screenshots.debian.net/screenshots/000/016/239/large.png",
     "categories" : ["Ferramentas"]
