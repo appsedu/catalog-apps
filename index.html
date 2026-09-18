@@ -114,6 +114,29 @@
     color:var(--text-dim);
   }
 
+  header.top .header-actions{
+    margin-left:auto;
+    flex:0 0 auto;
+  }
+
+  .header-btn{
+    display:inline-flex;
+    align-items:center;
+    background:var(--bg-card);
+    border:1px solid var(--border);
+    color:var(--text-primary);
+    border-radius:var(--radius-sm);
+    padding:9px 14px;
+    font-size:13px;
+    font-weight:500;
+    text-decoration:none;
+  }
+
+  .header-btn:hover{
+    border-color:var(--accent);
+    color:var(--accent);
+  }
+
   .body-row{
     flex:1 1 auto;
     display:grid;
@@ -512,6 +535,9 @@
     <div>
       <h1>Catálogo de Apps Educativos para Linux</h1>
       <p>Aplicativos livres para uso em escolas e laboratórios</p>
+    </div>
+    <div class="header-actions">
+      <a class="header-btn" href="./app1/">Ver app 2</a>
     </div>
   </header>
 
