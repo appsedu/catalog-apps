@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo de Apps Educativos para Linux</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg-page:#0e1116;
+    --bg-panel:#141821;
+    --bg-card:#1a1f28;
+    --bg-terminal:#0a0d12;
+    --border:#272e39;
+    --border-soft:#1d2330;
+    --text-primary:#edeef2;
+    --text-secondary:#98a1b0;
+    --text-dim:#656d7a;
+    --accent:#dcaa50;
+    --accent-dim:#3a3324;
+    --accent-2:#63b6a5;
+    --danger:#c97b72;
+    --radius-sm:4px;
+    --radius-md:10px;
+    --header-h:80px;
+    --serif:"Fraunces", Georgia, serif;
+    --sans:"IBM Plex Sans", system-ui, sans-serif;
+    --mono:"IBM Plex Mono", monospace;
+  }
+
+  *{box-sizing:border-box;}
+
+  html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+    overflow:hidden;
+  }
+
+  body{
+    background:var(--bg-page);
+    color:var(--text-primary);
+    font-family:var(--sans);
+    font-size:15px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *{transition:none !important; animation:none !important;}
+  }
+
+  a{color:var(--accent);}
+
+  button{
+    font-family:inherit;
+    cursor:pointer;
+  }
+
+  :focus-visible{
+    outline:2px solid var(--accent);
+    outline-offset:2px;
+  }
+
+  /* ---------- layout shell ---------- */
+
+  .app-shell{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    overflow:hidden;
+  }
+
+  header.top{
+    height:var(--header-h);
+    flex:0 0 auto;
+    display:flex;
+    align-items:center;
+    gap:16px;
+    padding:0 32px;
+    border-bottom:1px solid var(--border);
+    background:var(--bg-panel);
+  }
+
+  header.top .mark{
+    width:38px;
+    height:38px;
+    border-radius:var(--radius-sm);
+    background:var(--bg-terminal);
+    border:1px solid var(--border);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:var(--mono);
+    color:var(--accent-2);
+    font-weight:600;
+    font-size:16px;
+    flex:0 0 auto;
+  }
+
+  header.top h1{
+    font-family:var(--serif);
+    font-size:22px;
+    font-weight:600;
+    margin:0;
+    letter-spacing:0.1px;
+  }
+
+  header.top p{
+    margin:3px 0 0;
+    font-size:12.5px;
+    color:var(--text-dim);
+  }
+
+  .body-row{
+    flex:1 1 auto;
+    display:grid;
+    grid-template-columns:320px 1fr;
+    grid-template-rows:minmax(0, 1fr);
+    min-height:0;
+  }
+
+  /* ---------- sidebar ---------- */
+
+  aside.sidebar{
+    border-right:1px solid var(--border);
+    background:var(--bg-panel);
+    display:flex;
+    flex-direction:column;
+    min-height:0;
+  }
+
+  .sidebar-controls{
+    padding:20px 18px 16px;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    border-bottom:1px solid var(--border-soft);
+  }
+
+  .field-label{
+    font-size:11.5px;
+    color:var(--text-dim);
+    margin:0 0 6px 2px;
+  }
+
+  input[type="search"], select{
+    width:100%;
+    background:var(--bg-page);
+    border:1px solid var(--border);
+    color:var(--text-primary);
+    border-radius:var(--radius-sm);
+    padding:10px 11px;
+    font-size:13.5px;
+    font-family:inherit;
+  }
+
+  input[type="search"]::placeholder{
+    color:var(--text-dim);
+  }
+
+  input[type="search"]:focus, select:focus{
+    border-color:var(--accent);
+  }
+
+  select{
+    appearance:none;
+    -webkit-appearance:none;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6'><path d='M0 0 L5 6 L10 0 Z' fill='%2398a1b0'/></svg>");
+    background-repeat:no-repeat;
+    background-position:right 12px center;
+    padding-right:30px;
+  }
+
+  .list-header{
+    padding:13px 18px 9px;
+    font-size:11.5px;
+    color:var(--text-dim);
+    display:flex;
+    justify-content:space-between;
+    border-bottom:1px solid var(--border-soft);
+  }
+
+  .app-list{
+    list-style:none;
+    margin:0;
+    padding:6px;
+    overflow-y:auto;
+    flex:1 1 auto;
+  }
+
+  .app-item{
+    display:block;
+    width:100%;
+    text-align:left;
+    background:transparent;
+    border:1px solid transparent;
+    border-left:2px solid transparent;
+    color:var(--text-secondary);
+    padding:10px 13px;
+    border-radius:var(--radius-sm);
+    font-size:13.5px;
+    margin-bottom:1px;
+  }
+
+  .app-item:hover{
+    background:var(--bg-card);
+    color:var(--text-primary);
+  }
+
+  .app-item.active{
+    background:var(--bg-card);
+    border-left-color:var(--accent);
+    color:var(--text-primary);
+    font-weight:500;
+  }
+
+  .app-item .cat{
+    display:block;
+    font-size:11px;
+    color:var(--text-dim);
+    margin-top:3px;
+  }
+
+  .empty-note, .load-note{
+    padding:16px 18px;
+    color:var(--text-dim);
+    font-size:13px;
+  }
+
+  /* ---------- main content ---------- */
+
+  main.content{
+    overflow-y:auto;
+    padding:44px 32px 70px;
+    min-height:0;
+  }
+
+  .welcome, .detail{
+    margin-left:auto;
+    margin-right:auto;
+    animation:rise 0.35s ease;
+  }
+
+  @keyframes rise{
+    from{opacity:0; transform:translateY(6px);}
+    to{opacity:1; transform:translateY(0);}
+  }
+
+  .welcome{
+    max-width:520px;
+    margin-top:60px;
+    text-align:center;
+  }
+
+  .welcome h2{
+    font-family:var(--serif);
+    font-size:26px;
+    font-weight:600;
+    margin:0 0 12px;
+  }
+
+  .welcome p{
+    color:var(--text-secondary);
+    margin:0 0 22px;
+  }
+
+  .welcome .stats{
+    display:flex;
+    justify-content:center;
+    gap:36px;
+    border-top:1px solid var(--border-soft);
+    padding-top:20px;
+  }
+
+  .welcome .stat b{
+    display:block;
+    font-size:24px;
+    font-family:var(--serif);
+    font-weight:600;
+    color:var(--accent);
+  }
+
+  .welcome .stat span{
+    font-size:12px;
+    color:var(--text-dim);
+  }
+
+  .detail{
+    max-width:720px;
+  }
+
+  .detail h2{
+    font-family:var(--serif);
+    font-size:32px;
+    font-weight:600;
+    margin:0 0 10px;
+    letter-spacing:0.1px;
+  }
+
+  .detail .lede{
+    font-size:16px;
+    color:var(--text-secondary);
+    margin:0 0 20px;
+    max-width:60ch;
+  }
+
+  .detail .site-link{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    font-size:13.5px;
+    text-decoration:none;
+    border-bottom:1px solid var(--border);
+    padding-bottom:2px;
+  }
+
+  .detail .site-link:hover{
+    border-bottom-color:var(--accent);
+  }
+
+  .detail .screenshot-wrap{
+    margin:26px 0;
+    border:1px solid var(--border);
+    border-radius:var(--radius-md);
+    overflow:hidden;
+    background:var(--bg-panel);
+    box-shadow:0 18px 40px -24px rgba(0,0,0,0.6);
+  }
+
+  .detail .screenshot-wrap img{
+    display:block;
+    width:100%;
+    height:auto;
+    max-height:400px;
+    object-fit:contain;
+    background:#080b0e;
+  }
+
+  .detail .screenshot-wrap.hidden{
+    display:none;
+  }
+
+  section.block{
+    margin-top:28px;
+  }
+
+  section.block h3{
+    font-size:12px;
+    color:var(--text-dim);
+    margin:0 0 11px;
+    font-weight:500;
+    letter-spacing:0.2px;
+  }
+
+  .terminal{
+    background:var(--bg-terminal);
+    border:1px solid var(--border);
+    border-radius:var(--radius-md);
+    overflow:hidden;
+  }
+
+  .terminal-bar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:9px 13px;
+    border-bottom:1px solid var(--border-soft);
+  }
+
+  .terminal-bar .dots{
+    display:flex;
+    gap:6px;
+  }
+
+  .terminal-bar .dots span{
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background:var(--border);
+  }
+
+  .copy-btn{
+    background:var(--bg-card);
+    border:1px solid var(--border);
+    color:var(--text-secondary);
+    border-radius:var(--radius-sm);
+    padding:5px 11px;
+    font-size:11.5px;
+  }
+
+  .copy-btn:hover{
+    color:var(--text-primary);
+    border-color:var(--accent);
+  }
+
+  .copy-btn.copied{
+    color:var(--bg-page);
+    background:var(--accent);
+    border-color:var(--accent);
+  }
+
+  pre.install-code{
+    margin:0;
+    padding:15px 17px;
+    font-family:var(--mono);
+    font-size:13px;
+    line-height:1.75;
+    overflow-x:auto;
+    white-space:pre;
+  }
+
+  pre.install-code .prompt{
+    color:var(--accent-2);
+  }
+
+  pre.install-code .comment{
+    color:var(--text-dim);
+    font-style:italic;
+  }
+
+  .tags{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+  }
+
+  .tag-btn{
+    background:var(--bg-card);
+    border:1px solid var(--border);
+    color:var(--text-secondary);
+    border-radius:var(--radius-sm);
+    padding:6px 12px;
+    font-size:12.5px;
+  }
+
+  .tag-btn:hover{
+    color:var(--text-primary);
+    border-color:var(--accent);
+  }
+
+  .error-box{
+    max-width:480px;
+    border:1px solid var(--danger);
+    background:var(--bg-card);
+    border-radius:var(--radius-md);
+    padding:18px 20px;
+    margin:60px auto 0;
+  }
+
+  .error-box h3{
+    margin:0 0 6px;
+    font-size:14.5px;
+    color:var(--danger);
+    font-family:var(--serif);
+    font-weight:600;
+  }
+
+  .error-box p{
+    margin:0 0 14px;
+    color:var(--text-secondary);
+    font-size:13.5px;
+  }
+
+  .retry-btn{
+    background:var(--bg-terminal);
+    border:1px solid var(--border);
+    color:var(--text-primary);
+    border-radius:var(--radius-sm);
+    padding:8px 15px;
+    font-size:13px;
+  }
+
+  .retry-btn:hover{
+    border-color:var(--accent);
+  }
+
+  .fallback-note{
+    font-size:12.5px;
+    color:var(--text-dim);
+    border-top:1px solid var(--border-soft);
+    padding-top:14px;
+    margin-top:22px;
+  }
+
+  /* ---------- responsive ---------- */
+
+  @media (max-width:780px){
+    header.top{padding:0 18px;}
+    .body-row{
+      grid-template-columns:1fr;
+      grid-template-rows:auto auto;
+    }
+    aside.sidebar{
+      border-right:none;
+      border-bottom:1px solid var(--border);
+      max-height:46vh;
+    }
+    main.content{padding:30px 20px 56px;}
+    .detail h2{font-size:26px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="app-shell">
+
+  <header class="top">
+    <div class="mark">$_</div>
+    <div>
+      <h1>Catálogo de Apps Educativos para Linux</h1>
+      <p>Aplicativos livres para uso em escolas e laboratórios</p>
+    </div>
+  </header>
+
+  <div class="body-row">
+    <aside class="sidebar">
+      <div class="sidebar-controls">
+        <div>
+          <p class="field-label">Buscar</p>
+          <input type="search" id="search-input" placeholder="Nome ou descrição do app">
+        </div>
+        <div>
+          <p class="field-label">Categoria</p>
+          <select id="category-select">
+            <option value="">Todas as categorias</option>
+          </select>
+        </div>
+      </div>
+      <div class="list-header">
+        <span id="list-count">Carregando…</span>
+      </div>
+      <ul class="app-list" id="app-list"></ul>
+    </aside>
+
+    <main class="content" id="main-content">
+      <div class="welcome">
+        <h2>Carregando catálogo…</h2>
+        <p>Buscando a lista de aplicativos educativos.</p>
+      </div>
+    </main>
+  </div>
+
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  var JSON_URL = "../apps.json";
+  var IMG_BASE = "https://raw.githubusercontent.com/appsedu/catalog-apps/master/";
+  var FETCH_TIMEOUT_MS = 6000;
+
+  var allApps = [];
+  var usingFallback = false;
+  var activeIndex = null;
+  var els = {
+    search: document.getElementById("search-input"),
+    category: document.getElementById("category-select"),
+    list: document.getElementById("app-list"),
+    listCount: document.getElementById("list-count"),
+    main: document.getElementById("main-content")
+  };
+
+  // Cópia local dos dados, usada quando a busca ao vivo no GitHub falha
+  // (sem internet, ambiente restrito, etc.). A página sempre tenta a
+  // versão online primeiro.
+  var FALLBACK_DATA = [{"app":"Celestia","text":"Simulador espacial 3D em tempo real","page":"https://celestia.space","install":"sudo apt install celestia","img":"https://screenshots.debian.net/screenshots/000/000/518/large.png","categories":["Astronomia"]},{"app":"Google Earth Pro","text":"Explore, pesquise e descubra o planeta","page":"https://www.google.com.br/intl/pt-BR_ALL/earth/versions/","install":"sudo apt install google-earth-pro-stable","img":"https://screenshots.debian.net/screenshots/000/015/073/large.png","categories":["Astronomia","Geografia"]},{"app":"KStars","text":"Planetário e planejador de observações","page":"https://edu.kde.org/kstars/","install":"sudo apt install kstars kstars-data-extra-tycho2","img":"https://screenshots.debian.net/screenshots/000/019/268/large.png","categories":["Astronomia"]},{"app":"OpenUniverse","text":"Simulador do universo em 3D","page":"http://openuniverse.sourceforge.net","install":"sudo apt install openuniverse","img":"https://screenshots.debian.net/screenshots/000/006/911/large.png","categories":["Astronomia"]},{"app":"Planets","text":"Simulador de gravitação de corpos planetários","page":"https://packages.ubuntu.com/focal/planets","install":"sudo apt install planets","img":"https://screenshots.debian.net/screenshots/000/005/380/large.png","categories":["Astronomia","Física Geral"]},{"app":"Stellarium","text":"Gerador de céu fotorrealístico em tempo real","page":"https://stellarium.org","install":"sudo apt install stellarium","img":"https://screenshots.debian.net/screenshots/000/002/087/large.png","categories":["Astronomia"]},{"app":"Gpredict","text":"Programa de rastreamento de satélite","page":"http://gpredict.oz9aec.net","install":"sudo apt install gpredict","img":"https://screenshots.debian.net/screenshots/000/014/978/large.png","categories":["Astronomia"]},{"app":"3D Microscope Lab","text":"Aprenda a operar um microscópio composto","page":"https://courses.ecampus.oregonstate.edu/oer/microscope","install":"# Aplicativo online","img":"screenshots/3d-microscope-lab.jpg","categories":["Biologia"]},{"app":"Anatomy Learning","text":"Aprendendo anatomia humana com modelos 3D","page":"http://anatomylearning.com/webgl2020/browser.php","install":"# Aplicativo online","img":"screenshots/anatomy-learning.jpg","categories":["Biologia"]},{"app":"Virtual Lab Microscope","text":"Microscópio virtual da NASA","page":"http://virtual.itg.uiuc.edu","install":"sudo apt install virtual-lab-microscope","img":"screenshots/virtual-lab-microscope.jpg","categories":["Biologia"]},{"app":"Zygoto Body","text":"Visualizador em 3D do corpo humano","page":"https://www.zygotebody.com","install":"# Aplicativo online","img":"screenshots/zygote-body.jpg","categories":["Biologia"]},{"app":"Google Cow","text":"Antiga vaquinha em 3D do Google","page":"https://code.google.com/archive/p/open-3d-viewer/","install":"sudo apt install google-cow","img":"https://raw.githubusercontent.com/appsedu/google-cow/master/screenshot.png","categories":["Biologia"]},{"app":"FreeCAD","text":"CAx RAD de código aberto baseado no OpenCasCade","page":"https://www.freecadweb.org/downloads.php","install":"sudo apt install freecad","img":"https://screenshots.debian.net/screenshots/000/009/892/large.png","categories":["Desenho Técnico"]},{"app":"LibreCAD","text":"Desenho assistido por computador em 2D","page":"https://librecad.org","install":"sudo apt install librecad","img":"https://screenshots.debian.net/screenshots/000/009/539/large.png","categories":["Desenho Técnico"]},{"app":"SolveSpace","text":"Software paramétrico CAD 2D/3D","page":"http://solvespace.com","install":"sudo apt install solvespace","img":"https://screenshots.debian.net/screenshots/000/019/269/large.png","categories":["Desenho Técnico"]},{"app":"Sweet Home 3D","text":"Design de interiores em 2D com visualização em 3D","page":"http://www.sweethome3d.com","install":"sudo apt install sweethome3d sweethome3d-furniture-nonfree","img":"https://screenshots.debian.net/screenshots/000/011/067/large.png","categories":["Desenho Técnico"]},{"app":"Tinkercad","text":"Projetos 3D, componentes eletrônicos e codificação","page":"https://www.tinkercad.com/dashboard","install":"# Aplicativo online (Requer fazer login)","img":"screenshots/tinkercad.png","categories":["Desenho Técnico","Eletricidade"]},{"app":"gCAD3D","text":"Aplicação 3D CAD-CAM","page":"http://www.gcad3d.org","install":"sudo apt install gcad3d","img":"http://www.gcad3d.org/gCAD3D_Renault1.jpg","categories":["Desenho Técnico"]},{"app":"ODA File Converter","text":"Converta entre diferentes versões de .dwg e .dxf","page":"https://www.opendesign.com/guestfiles/oda_file_converter","install":["# Instale o Qt Creator 5.14.1 ou superior","# Faça o download do .deb no site","sudo apt install ./ODAFileConverter_QT5_lnxX64_7.2dll.deb"],"img":"https://www.allanbrito.com/wp-content/uploads/2018/12/ODA_File_Converter.jpg","categories":["Desenho Técnico"]},{"app":"QCAD","text":"Aplicação CAD 2D Open Source","page":"https://www.qcad.org/en/","install":["# Faça o download do .run no site","sudo chmod +x qcad-3.24.3-trial-linux-x86_64.run","./qcad-3.24.3-trial-linux-x86_64.run"],"img":"https://screenshots.debian.net/screenshots/000/001/808/large.png","categories":["Desenho Técnico"]},{"app":"BRL-CAD","text":"Aplicação CAD CSG","page":"https://brlcad.org","install":["# Faça o download do .deb no site","sudo apt install ./brlcad_7.30.8-0_amd64.deb"],"img":"https://brlcad.org/gallery/_data/i/galleries/screenshots/MGED-me.jpg","categories":["Desenho Técnico"]},{"app":"Arduino IDE","text":"IDE e bibliotecas embutidas para placa de desenvolvimento AVR","page":"https://www.arduino.cc","install":"sudo apt install arduino-ide","img":"https://screenshots.debian.net/screenshots/000/010/456/large.png","categories":["Eletricidade","Mecatrônica"]},{"app":"Circuit Simulator","text":"Simulador de Circuitos Eletrônicos","page":"http://www.falstad.com/circuit/circuitjs.html","install":["sudo apt install circuit-simulator","# Também disponível online"],"img":"screenshots/circuitmod.png","categories":["Eletricidade"]},{"app":"Digital Simulator","text":"Simulador de circuitos de lógica digital","page":"https://github.com/hneemann/Digital","install":"sudo apt install digital-simulator","img":"https://raw.githubusercontent.com/hneemann/Digital/master/distribution/screenshot2.png","categories":["Eletricidade","Informática"]},{"app":"Logisim Evolution","text":"Simulador de projetos de circuitos digitais","page":"https://github.com/reds-heig/logisim-evolution","install":"sudo apt install logisim-evolution","img":"https://screenshots.debian.net/screenshots/000/019/271/large.png","categories":["Eletricidade","Informática"]},{"app":"SimulIDE","text":"Simulador de eletrônica, PIC e AVR em tempo real","page":"https://www.simulide.com/p/home.html","install":"sudo apt install simulide","img":"https://screenshots.debian.net/screenshots/000/019/272/large.png","categories":["Eletricidade"]},{"app":"gResistor","text":"Calculadora de código de cores de resistores","page":"https://sourceforge.net/projects/gresistor/","install":"sudo apt install gresistor-extras-pt","img":"https://screenshots.debian.net/screenshots/000/019/274/large.png","categories":["Eletricidade"]},{"app":"Logisim","text":"Ferramenta para projetar e simular circuitos lógicos","page":"http://www.cburch.com/logisim/","install":"sudo apt install logisim","img":"https://screenshots.debian.net/screenshots/000/008/902/large.png","categories":["Eletricidade","Informática"]},{"app":"Oregano","text":"Ferramenta de esquemas de circuitos eletrônicos","page":"https://github.com/drahnr/oregano","install":"sudo apt install oregano","img":"https://screenshots.debian.net/screenshots/000/000/577/large.png","categories":["Eletricidade"]},{"app":"QElectroTech","text":"Editor de esquemas elétricos, hidráulicos e pneumáticos","page":"https://qelectrotech.org","install":"sudo apt install qelectrotech","img":"https://screenshots.debian.net/screenshots/000/019/290/large.png","categories":["Eletricidade","Mecatrônica"]},{"app":"Algodoo (Wine)","text":"Simulador de Física em geral","page":"http://www.algodoo.com","install":["sudo apt install --install-recommends wine64","wine start hostname","sudo apt install algodoo-wine"],"img":"screenshots/algodoo-wine.png","categories":["Física Geral"]},{"app":"Optgeo","text":"Ferramenta interativa para estudar e simular montagens ópticas","page":"http://jeanmarie.biansan.free.fr/optgeo.html","install":"sudo apt install optgeo-i18n","img":"https://screenshots.debian.net/screenshots/000/019/275/large.png","categories":["Física Geral"]},{"app":"OpticalRayTracer","text":"Simulador de lentes e espelhos virtuais","page":"https://arachnoid.com/OpticalRayTracer/","install":"sudo apt install opticalraytracer","img":"http://screenshots.debian.net/screenshots/000/012/589/large.png","categories":["Física Geral"]},{"app":"Physion (Wine)","text":"Simulador de física interativa","page":"https://github.com/appsedu/physion-wine","install":["sudo apt install --install-recommends wine64","wine start hostname","sudo apt install physion-wine"],"img":"screenshots/physion-wine.png","categories":["Física Geral"]},{"app":"Schwarzschild Black Hole","text":"Simulação de um buraco negro","page":"http://spiro.fisica.unipd.it/~antonell/schwarzschild/live/","install":"# Aplicativo online","img":"screenshots/schwarzschild-black-hole.png","categories":["Física Geral"]},{"app":"Step","text":"Simulador de física interativa do KDE","page":"https://kde.org/applications/en/education/org.kde.step","install":"sudo apt install step","img":"https://screenshots.debian.net/screenshots/000/019/276/large.png","categories":["Física Geral"]},{"app":"Light Speed","text":"Ilustra os efeitos da relatividade especial nos objetos","page":"http://lightspeed.sourceforge.net","install":"sudo apt install lightspeed","img":"https://screenshots.debian.net/screenshots/000/005/378/large.png","categories":["Física Geral"]},{"app":"Energy2D","text":"Simulações interativas de transferência de calor","page":"https://energy.concord.org/energy2d","install":"sudo apt install energy2d","img":"https://raw.githubusercontent.com/appsedu/energy2d/master/screenshot.png","categories":["Física Geral"]},{"app":"OpenMeca","text":"Simulador de sistemas mecânicos em 3D","page":"https://gitlab.com/damien.andre/openmeca","install":"sudo apt install openmeca","img":"screenshots/openmeca.png","categories":["Física Geral"]},{"app":"Google Maps","text":"Visualização de mapas e imagens de satélite da Terra","page":"https://www.google.com.br/maps/","install":"# Aplicativo online","img":"screenshots/google-maps.png","categories":["Geografia"]},{"app":"KGeography","text":"Auxiliar de aprendizado de geografia do KDE","page":"https://edu.kde.org/kgeography/","install":"sudo apt install kgeography","img":"https://screenshots.debian.net/screenshots/000/002/066/large.png","categories":["Geografia"]},{"app":"Marble","text":"Globo virtual e atlas do mundo","page":"https://marble.kde.org","install":"sudo apt install marble-qt marble-maps","img":"https://screenshots.debian.net/screenshots/000/009/267/large.png","categories":["Geografia"]},{"app":"0 A.D.","text":"Jogo de estratégia de civilizações antigas","page":"https://play0ad.com","install":"sudo apt install 0ad","img":"https://screenshots.debian.net/screenshots/000/010/427/large.png","categories":["História"]},{"app":"GeaCron","text":"Atlas Histórico Mundial Interativo","page":"http://geacron.com/home-pt/?lang=pt-pt","install":"# Aplicativo online","img":"screenshots/geacron.png","categories":["História"]},{"app":"KTouch","text":"Tutorial de digitação do KDE","page":"https://kde.org/applications/en/education/org.kde.ktouch","install":"sudo apt install ktouch","img":"https://screenshots.debian.net/screenshots/000/013/201/large.png","categories":["Informática"]},{"app":"Klavaro","text":"Tutorial de digitação flexível","page":"https://klavaro.sourceforge.io/pt/index.html","install":"sudo apt install klavaro","img":"https://screenshots.debian.net/screenshots/000/001/431/large.png","categories":["Informática"]},{"app":"Packet Tracer","text":"Simulador de equipamentos e redes de computadores","page":"https://www.netacad.com","install":["# Faça login no site netacad.com da Cisco","# Vá no menu 'Recursos > Baixar o Packet Tracer'","# Faça o download do .deb no site","sudo apt install ./PacketTracer_*.deb","# Requer fazer login para usar o programa"],"img":"screenshots/packet-tracer.png","categories":["Informatica"]},{"app":"Scratch","text":"Ambiente de programação fácil para maiores de 8 anos","page":"https://packages.ubuntu.com/focal/scratch","install":"sudo apt install scratch","img":"https://screenshots.debian.net/screenshots/000/011/349/large.png","categories":["Informática","Infantil"]},{"app":"KTurtle","text":"Ambiente educativo de programação","page":"https://kde.org/applications/en/education/org.kde.kturtle","install":"sudo apt install kturtle","img":"https://screenshots.debian.net/screenshots/000/002/194/large.png","categories":["Informática"]},{"app":"Anki","text":"Aprendizado com cartões de memória","page":"https://apps.ankiweb.net","install":"sudo apt install anki","img":"https://screenshots.debian.net/screenshots/000/019/277/large.png","categories":["Línguas","Multidisciplinar"]},{"app":"GConjugue","text":"Conjugador de verbos em português brasil","page":"https://github.com/jalvesaq/gconjugue","install":"sudo apt install gconjugue","img":"https://screenshots.debian.net/screenshots/000/005/856/large.png","categories":["Línguas","Português"]},{"app":"GoldenDict","text":"Dicionário rico em funcionalidades","page":"http://goldendict.org","install":"sudo apt install goldendict-extras-pt","img":"https://screenshots.debian.net/screenshots/000/019/278/large.png","categories":["Línguas"]},{"app":"Parley","text":"Treinador de vocabulário","page":"https://kde.org/applications/en/education/org.kde.parley","install":"sudo apt install parley","img":"https://screenshots.debian.net/screenshots/000/019/279/large.png","categories":["Línguas","Multidisciplinar"]},{"app":"KWordQuiz","text":"Aplicativo de aprendizado por cartões","page":"https://edu.kde.org/kwordquiz/","install":"sudo apt install kwordquiz","img":"https://screenshots.debian.net/screenshots/000/004/934/large.png","categories":["Línguas","Multidisciplinar"]},{"app":"OSD Lyrics","text":"Aprenda inglês com letras de músicas","page":"https://github.com/tigersoldier/osd-lyrics","install":["sudo apt install audacious","sudo apt install python3-pycurl","sudo apt install osdlyrics"],"img":"http://screenshots.debian.net/screenshots/000/019/295/large.png","categories":["Línguas"]},{"app":"Duolingo","text":"Plataforma de ensino de idiomas gratuito","page":"https://pt.duolingo.com","install":"# Aplicativo online","img":"screenshots/duolingo.png","categories":["Línguas"]},{"app":"CaRMetal","text":"Software de geometria dinâmica","page":"https://packages.ubuntu.com/focal/carmetal","install":"sudo apt install carmetal","img":"https://screenshots.debian.net/screenshots/000/019/291/large.png","categories":["Matemática"]},{"app":"Geogebra","text":"Aplicação interativa de conceitos matemáticos","page":"https://www.geogebra.org","install":"sudo apt install geogebra-classic","img":"https://screenshots.debian.net/screenshots/000/007/399/large.png","categories":["Matemática"]},{"app":"Gnumeric","text":"Aplicação de planilha eletrônica","page":"http://www.gnumeric.org","install":"sudo apt install gnumeric gnumeric-plugins-extra","img":"https://screenshots.debian.net/screenshots/000/017/737/large.png","categories":["Matemática"]},{"app":"JFractionLab","text":"Programa educativo para praticar frações","page":"http://jfractionlab.sourceforge.net","install":"sudo apt install jfractionlab","img":"https://screenshots.debian.net/screenshots/000/007/327/large.png","categories":["Matemática"]},{"app":"KAlgebra","text":"Calculadora gráfica algébrica","page":"https://edu.kde.org/kalgebra/","install":"sudo apt install kalgebra","img":"https://screenshots.debian.net/screenshots/000/019/280/large.png","categories":["Matemática"]},{"app":"KBruch","text":"Auxiliador no estudo de frações do KDE","page":"https://kde.org/applications/en/education/org.kde.kbruch","install":"sudo apt install kbruch","img":"https://screenshots.debian.net/screenshots/000/002/190/large.png","categories":["Matemática"]},{"app":"LibreOffice Math","text":"Editor de equações do LibreOffice","page":"https://libreoffice.org","install":"sudo apt install libreoffice-math","img":"https://screenshots.debian.net/screenshots/000/015/964/large.png","categories":["Matemática"]},{"app":"wxMaxima","text":"Sistema de algebra computacional Maxima","page":"https://wxmaxima-developers.github.io/wxmaxima/","install":"sudo apt install wxmaxima","img":"https://screenshots.debian.net/screenshots/000/002/043/large.png","categories":["Matemática"]},{"app":"GraphMonkey","text":"Uma calculadora de gráficos baseada em GTK","page":"http://graphmonkey.sourceforge.net","install":"sudo apt install graphmonkey","img":"https://screenshots.debian.net/screenshots/000/010/977/large.png","categories":["Matemática"]},{"app":"Qalculate!","text":"Calculadora de mesa fácil de usar e poderosa","page":"https://qalculate.github.io","install":"sudo apt install qalculate-gtk","img":"https://screenshots.debian.net/screenshots/000/019/281/large.png","categories":["Matemática"]},{"app":"Kig","text":"Ferramenta de geometria interativa","page":"https://edu.kde.org/kig/","install":"sudo apt install kig","img":"https://screenshots.debian.net/screenshots/000/001/679/large.png","categories":["Matemática"]},{"app":"KmPlot","text":"Plotadora de funções matemáticas do KDE","page":"https://edu.kde.org/kmplot/","install":"sudo apt install kmplot","img":"https://screenshots.debian.net/screenshots/000/007/695/large.png","categories":["Matemática"]},{"app":"CoppeliaSim EDU","text":"Ambiente de simulação de robótica","page":"https://www.coppeliarobotics.com","install":"sudo apt install coppelia-sim-edu","img":"screenshots/coppelia-sim-edu.png","categories":["Mecatrônica"]},{"app":"Hopsan","text":"Simulador de sistemas pneumáticos, hidráulicos e mecatrônicos","page":"https://github.com/Hopsan/hopsan","install":"sudo apt install hopsan","img":"screenshots/hopsan.png","categories":["Mecatrônica"]},{"app":"Webots","text":"Simulador de robôs em 3D","page":"https://cyberbotics.com","install":["# Faça o download do .deb no site","sudo apt install ./webots_2020a-rev1_amd64.deb"],"img":"screenshots/webots.png","categories":["Mecatrônica"]},{"app":"Gazebo","text":"Ambiente simulador de Robótica","page":"http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install","install":["echo 'deb http://packages.osrfoundation.org/gazebo/ubuntu-stable focal main'| sudo tee /etc/apt/sources.list.d/gazebo-stable.list","wget https://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -","sudo apt update","sudo apt install gazebo11"],"img":"https://screenshots.debian.net/screenshots/000/019/286/large.png","categories":["Mecatrônica"]},{"app":"CnCSimulator (Wine)","text":"Simulador de máquinas fresadoras e tornos CNC","page":"http://cncsimulator.info","install":["# Instale o Wine64 com Mono e Gecko, siga o tutorial:","# https://bit.ly/wine-full","# Instale o .NET 3.5 conforme abaixo:","winetricks dotnet35 -q","sudo apt install free-cnc-simulator-wine"],"img":"screenshots/cnc-simulator.png","categories":["Mecatrônica"]},{"app":"CAMotics","text":"Simulador livre de máquinas CNC","page":"https://camotics.org","install":"sudo apt install camotics","img":"screenshots/camotics.png","categories":["Mecatrônica"]},{"app":"PhET Simulações","text":"Simulações Interativas para Ciência e Matemática","page":"https://phet.colorado.edu/pt_BR/simulations/browse","install":["sudo apt install firefox","sudo apt install flashplugin-installer","sudo apt install openjdk-8-jre","# Acesse a pagina oficial pelo Firefox","# Para simulações em Flash você precisa clicar em 'Permitir'","# Para simulações em Java você precisa baixar o .jar","# Abra o terminal na pasta do arquivo .jar e execute:","java -jar arquivo-baixado.jar","# Outra forma: Clique no arquivo com botão direito e vá em 'Propriedades'","# Na aba Permissões selecione a caixa 'Permitir execução' e clique 'Ok'","Clique no arquivo com botão direito e vá em 'Abrir com > OpenJDK Java 8 Runtime'"],"img":"screenshots/phet.png","categories":["Multidisciplinar"]},{"app":"ACD/ChemSketch Freeware (Wine)","text":"Desenho e modelagem de moléculas","page":"https://www.acdlabs.com/resources/freeware/chemsketch/","install":["sudo apt install --install-recommends wine64","wine start hostname","sudo apt install chemsketch-acd-wine"],"img":"screenshots/chemsketch-acd-wine.png","categories":["Química"]},{"app":"Avogadro","text":"Sistema de modelagem e gráficos moleculares","page":"https://www.openchemistry.org/projects/avogadro2/","install":"sudo apt install avogadro","img":"https://screenshots.debian.net/screenshots/000/001/732/large.png","categories":["Química"]},{"app":"GChem3D, GChemCalc, GChemTable e GSpectrum","text":"Visualizador molecular e spectral, calculadora e tabela periódica","page":"http://gchemutils.nongnu.org","install":"sudo apt install gcu-bin","img":"https://screenshots.debian.net/screenshots/000/019/282/large.png","categories":["Química"]},{"app":"GChemPaint","text":"Editor de estruturas químicas 2D","page":"http://gchemutils.nongnu.org/gchempaint.html","install":"sudo apt install gchempaint","img":"https://screenshots.debian.net/screenshots/000/019/283/large.png","categories":["Química"]},{"app":"Irydium Chemistry Lab","text":"Laboratório Virtual de Química","page":"http://chemcollective.org/vlab_download","install":"sudo apt install irydium-chemistry-lab","img":"screenshots/irydium-chemistry-lab.png","categories":["Química"]},{"app":"gElemental","text":"Tabela Periódica Virtual","page":"https://github.com/ginggs/gelemental","install":"sudo apt install gelemental","img":"https://screenshots.debian.net/screenshots/000/016/660/large.png","categories":["Química"]},{"app":"Kalzium","text":"Tabela Periódica e ferramentas do KDE","page":"https://kde.org/applications/en/education/org.kde.kalzium","install":"sudo apt install kalzium","img":"https://screenshots.debian.net/screenshots/000/019/284/large.png","categories":["Química"]},{"app":"GPeriodic","text":"Aplicação de tabela periódica","page":"http://gperiodic.seul.org","install":"sudo apt install gperiodic","img":"https://screenshots.debian.net/screenshots/000/001/421/large.png","categories":["Química"]},{"app":"Chemtool","text":"Programa para desenho de estruturas químicas","page":"http://ruby.chemie.uni-freiburg.de/~martin/chemtool/","install":"sudo apt install chemtool","img":"https://screenshots.debian.net/screenshots/000/006/149/large.png","categories":["Química"]},{"app":"EasyChem","text":"Desenhe moléculas de alta qualidade e fórmulas químicas 2D","page":"http://easychem.sourceforge.net","install":"sudo apt install easychem","img":"https://screenshots.debian.net/screenshots/000/006/352/large.png","categories":["Química"]},{"app":"GDIS Molecule Modeller","text":"Mostrador de moléculas e modelos de cristal","page":"http://gdis.seul.org","install":"sudo apt install gdis","img":"https://screenshots.debian.net/screenshots/000/007/393/large.png","categories":["Química"]},{"app":"Elements","text":"Tabela Periódica usando Electron","page":"https://github.com/FlorianFe/Elements","install":"sudo apt install elements","img":"https://camo.githubusercontent.com/e89df636722ccaa80d843b7f1b90414989c566e4/68747470733a2f2f666c6f7269616e66652e6769746875622e696f2f73637265656e73686f74732f656c656d656e74732f73637265656e73686f742d332e706e67","categories":["Química"]},{"app":"GCompris","text":"Suíte educacional para crianças de 2 a 10 anos","page":"https://gcompris.net","install":"sudo apt install gcompris","img":"https://screenshots.debian.net/screenshots/000/019/287/large.png","categories":["Infantil"]},{"app":"Sugarizer","text":"Pacote de atividades pedagógicas para crianças","page":"https://sugarizer.org","install":["# Faça o download do .deb no site","sudo apt install ./Sugarizer_1.3.0_amd64.deb"],"img":"screenshots/sugarizer.png","categories":["Infantil"]},{"app":"KHangMan","text":"Jogo da forca para crianças de 6 anos acima","page":"https://edu.kde.org/khangman/","install":"sudo apt install khangman","img":"https://screenshots.debian.net/screenshots/000/019/288/large.png","categories":["Infantil"]},{"app":"KLettres","text":"Aprenda a pronunciar o alfabeto e sílabas","page":"https://edu.kde.org/klettres/","install":"sudo apt install klettres","img":"https://screenshots.debian.net/screenshots/000/007/694/large.png","categories":["Infantil"]},{"app":"Luz do Saber Fundamental","text":"Atividades de alfabetização e letramento","page":"https://luzdosaber.virtual.ufc.br","install":"# Aplicativo online","img":"screenshots/luz-do-saber-fundamental.png","categories":["Infantil"]},{"app":"Minetest","text":"Caixa de areia de blocos em mundo infinito multijogador","page":"https://www.minetest.net","install":"sudo apt install minetest minetest-mod-basic-materials","img":"http://screenshots.debian.net/screenshots/000/009/080/large.png","categories":["Infantil"]},{"app":"PySyCache","text":"Jogo educativo para ensinar crianças a usar o mouse","page":"http://www.pysycache.org","install":"sudo apt install pysycache","img":"http://screenshots.debian.net/screenshots/000/007/097/large.png","categories":["Infantil"]},{"app":"Tux Paint","text":"Ferramenta de desenho para crianças","page":"http://www.tuxpaint.org","install":"sudo apt install tuxpaint","img":"https://screenshots.debian.net/screenshots/000/000/555/large.png","categories":["Infantil"]},{"app":"TuxTyping","text":"Tutorial de digitação para crianças","page":"https://github.com/tux4kids/","install":"sudo apt install tuxtype","img":"http://screenshots.debian.net/screenshots/000/002/281/large.png","categories":["Infantil"]},{"app":"Tux Math","text":"Jogo de matemática com Tux para crianças","page":"https://packages.ubuntu.com/focal/tuxmath","install":"sudo apt install tuxmath","img":"https://screenshots.debian.net/screenshots/000/015/163/large.png","categories":["Infantil"]},{"app":"Omnitux","text":"Atividades educacionais baseado em multimídia para crianças","page":"http://omnitux.sourceforge.net/download.en.php","install":["# Faça o download do .deb no site","sudo apt install ./omnitux_1.2.1_all.deb"],"img":"screenshots/omnitux.png","categories":["Infantil"]},{"app":"eduActiv8","text":"Atividades educacionais para crianças","page":"https://www.eduactiv8.org","install":["# Acesse o site oficial do eduActiv8","# Clique em 'Download eduActiv8 Linux'","# Selecione o seu sistema operacional","# Execute o primeiro comando para inserir o repositório","# Execute o segundo comando para inserir a chave pública","sudo apt update","sudo apt install eduactiv8"],"img":"https://www.eduactiv8.org/img/img1.jpg","categories":["Infantil","Multidisciplinar"]},{"app":"Flash Player Projetor","text":"Reprodutor de arquivos .swf, animações e aplicações em Flash","page":"https://www.adobe.com/support/flashplayer/debug_downloads.html","install":"sudo apt install flashplayer-sa-projector","img":"https://raw.githubusercontent.com/ailtonbsj/flashplayer-sa-projector/master/screenshot.png","categories":["Ferramentas"]},{"app":"Menu educativo AppsEdu","text":"Submenus para aplicativos educacionais","page":"https://ailtonbsj.github.io/educational-apps-divided-by-discipline","install":["# Primeiro instale os apps educacionais que você deseja","sudo apt install --no-install-recommends appsedu-menus"],"img":"https://ailtonbsj.github.io/assets/appsedu/02.jpg","categories":["Ferramentas"]},{"app":"WinuniX OS 20.04","text":"Uma versão do Lubuntu ideal para PCs antigos","page":"https://winunix.github.io","install":["# Baixe na página oficial o arquivo .iso","# Instale no seu PC, Notebook ou Máquina Virtual","# Veja videos de como instalar em https://bit.ly/instale20"],"img":"https://winunix.github.io/img/banner/home-left-1.png","categories":["Ferramentas"]},{"app":"Anbox","text":"Camada de compatibilidade para executar aplicativos Android","page":"https://anbox.io","install":["sudo apt install winunix-anbox-installer","# Você pode usar os comandos apk2deb e ","# deb-boilerplate para integrar os apps android ao menu iniciar."],"img":"http://screenshots.debian.net/screenshots/000/016/239/large.png","categories":["Ferramentas"]},{"app":"Visual Studio Code","text":"Editor de códigos para desenvolvedores","page":"https://code.visualstudio.com","install":"sudo apt install code","img":"https://code.visualstudio.com/assets/home/home-screenshot-linux.png","categories":["Desenvolvimento"]},{"app":"Code::Blocks","text":"Ambiente de desenvolvimento integrado para C/C++ e outros","page":"http://www.codeblocks.org","install":"sudo apt install codeblocks","img":"https://screenshots.debian.net/screenshots/000/015/292/large.png","categories":["Desenvolvimento"]},{"app":"XAMPP","text":"Ambiente de desenvolvimento PHP com Apache e MariaDB","page":"https://www.apachefriends.org/pt_br/index.html","install":"sudo apt install xampp","img":"screenshots/xampp.png","categories":["Desenvolvimento"]},{"app":"Astah Community","text":"Ferramenta de modelagem UML gratuito","page":"https://astah.net/products/astah-community/","install":"sudo apt install astah-community","img":"screenshots/astah-community.png","categories":["Desenvolvimento"]},{"app":"brModelo","text":"Uma ferramenta para modelagem de banco de dados","page":"http://www.sis4.com/brModelo/","install":"sudo apt install brmodelo","img":"screenshots/brmodelo.png","categories":["Desenvolvimento"]},{"app":"MySQL Workbench Community","text":"Administração e modelagem de banco de dados","page":"https://dev.mysql.com/downloads/workbench/","install":["# Faça o download do .deb no site","sudo apt install ./mysql-workbench-community*.deb"],"img":"https://screenshots.debian.net/screenshots/000/015/749/large.png","categories":["Desenvolvimento"]},{"app":"Umbrello","text":"Ferramenta de modelagem UML do KDE","page":"https://umbrello.kde.org","install":"sudo apt install umbrello","img":"https://screenshots.debian.net/screenshots/000/002/197/large.png","categories":["Desenvolvimento"]},{"app":"Eclipse IDE","text":"Ambiente de desenvolvimento para Java, C/C++ ou PHP","page":"https://www.eclipse.org/downloads/packages/","install":["sudo apt install snapd","sudo snap install eclipse --edge --classic"],"img":"https://screenshots.debian.net/screenshots/000/005/924/large.png","categories":["Desenvolvimento"]},{"app":"WindowBuilder para Eclipse IDE","text":"Complemento para criar janelas de forma visual em Java","page":"https://www.eclipse.org/windowbuilder/","install":["# Abra o Eclipse, clique no menu 'Help > Install New Software...'","# Copie a url abaixo e cole no campo 'Work with:' e tecle enter","https://download.eclipse.org/windowbuilder/latest/","# Selecione todos os checkbox do WindowBuilder e clique em 'Next >'","# Clique em 'Next >' e selecione 'I accept the terms...' e clique em 'Finish'"],"img":"https://www.eclipse.org/windowbuilder/images/wb_summary_shot.gif","categories":["Desenvolvimento"]},{"app":"Modelio","text":"Ambiente de modelagem UML, BPMN e outros","page":"https://www.modelio.org/downloads/download-modelio.html","install":["# Faça o download do instalador para Debian 9/10 no site","sudo apt install ./modelio-open-source4.0_4.0.1_amd64.deb","# Edite o arquivo /etc/modelio-open-source4.0/modelio.config","# Altere as variaveis para SWT_GTK3=1 e SWT_WEBKIT2=1"],"img":"screenshots/modelio.png","categories":["Desenvolvimento"]},{"app":"Lazarus IDE","text":"Ambiente visual rico de desenvolvimento em ObjectPascal similar ao Delphi","page":"https://www.lazarus-ide.org","install":["# Acesse a página oficial e clique em 'Download Now'","# Baixe os 3 arquivos debs:","# lazarus-project*.deb, fpc-laz*.deb e fpc-src*.deb","# Instale os 3 pacotes com os comandos abaixo:","sudo apt install ./fpc-src*.deb","sudo apt install ./fpc-laz*.deb","sudo apt install ./lazarus-project*.deb"],"img":"http://screenshots.debian.net/screenshots/000/019/306/large.png","categories":["Desenvolvimento"]},{"app":"Qt Creator","text":"Programe em C/C++ ou Python usando framework Qt","page":"https://www.qt.io/download-qt-installer","install":["# Faça o download do .run no site","sudo chmod +x qt-unified-linux-x64-3.2.3-online.run","./qt-unified-linux-x64-3.2.3-online.run","# Na janela 'Qt Setup' clique em 'Next'","# Faça login com sua conta Qt ou crie-a e clique em 'Next'","# Selecione todos os checkbox e clique em 'Next' e 'Next'","# Selecione 'Disable sending ...' e clique em 'Next'","# Indique a pasta como '/home/USUARIO/.local/Qt', toque USUARIO pelo seu","# Clique 'Next' e deixe só a versão 'Qt 5.12.9' selecionada","# Clique 'Next' e selecione 'I have read and agree...' e clique 'Next'","# Clique 'Install' e espere os componentes seres baixados","# Clique 'Next' e depois em 'Finish'","# Use os comandos abaixo para corrigir a exibição dos icones","rsync -av ~/.local/share/hicolor/ ~/.local/share/icons/hicolor/","ln -s ~/.local/Qt/QtIcon.png ~/.local/share/icons/hicolor/256x256/apps/"],"img":"https://screenshots.debian.net/screenshots/000/009/133/large.png","categories":["Desenvolvimento"]}];
+
+  function resolveImg(src){
+    if(!src) return null;
+    if(/^https?:\/\//i.test(src)) return src;
+    return IMG_BASE + src.replace(/^\/+/, "");
+  }
+
+  function installLines(install){
+    if(Array.isArray(install)) return install;
+    if(typeof install === "string") return [install];
+    return [];
+  }
+
+  function uniqueCategories(apps){
+    var set = {};
+    apps.forEach(function(a){
+      (a.categories || []).forEach(function(c){ set[c] = true; });
+    });
+    return Object.keys(set).sort(function(a,b){ return a.localeCompare(b, "pt-BR"); });
+  }
+
+  function matchesFilters(app, query, category){
+    if(category && (!app.categories || app.categories.indexOf(category) === -1)) return false;
+    if(!query) return true;
+    var haystack = ((app.app || "") + " " + (app.text || "")).toLowerCase();
+    return haystack.indexOf(query) !== -1;
+  }
+
+  function currentFilters(){
+    return {
+      query: els.search.value.trim().toLowerCase(),
+      category: els.category.value
+    };
+  }
+
+  function renderCategoryOptions(){
+    var cats = uniqueCategories(allApps);
+    cats.forEach(function(c){
+      var opt = document.createElement("option");
+      opt.value = c;
+      opt.textContent = c;
+      els.category.appendChild(opt);
+    });
+  }
+
+  function renderList(){
+    var f = currentFilters();
+    var filtered = [];
+    allApps.forEach(function(app, i){
+      if(matchesFilters(app, f.query, f.category)) filtered.push(i);
+    });
+
+    els.list.innerHTML = "";
+
+    if(filtered.length === 0){
+      var empty = document.createElement("li");
+      empty.className = "empty-note";
+      empty.textContent = "Nenhum app encontrado com esses filtros.";
+      els.list.appendChild(empty);
+    } else {
+      filtered.forEach(function(i){
+        var app = allApps[i];
+        var li = document.createElement("li");
+        var btn = document.createElement("button");
+        btn.className = "app-item" + (i === activeIndex ? " active" : "");
+        btn.type = "button";
+
+        var name = document.createElement("span");
+        name.textContent = app.app;
+        btn.appendChild(name);
+
+        if(app.categories && app.categories.length){
+          var cat = document.createElement("span");
+          cat.className = "cat";
+          cat.textContent = app.categories.join(" · ");
+          btn.appendChild(cat);
+        }
+
+        btn.addEventListener("click", function(){ selectApp(i); });
+        li.appendChild(btn);
+        els.list.appendChild(li);
+      });
+    }
+
+    els.listCount.textContent = filtered.length + (filtered.length === 1 ? " app" : " apps") +
+      (allApps.length ? " de " + allApps.length : "");
+
+    return filtered;
+  }
+
+  function buildInstallBlock(app){
+    var lines = installLines(app.install);
+    var rawText = lines.join("\n");
+
+    var wrap = document.createElement("div");
+    wrap.className = "terminal";
+
+    var bar = document.createElement("div");
+    bar.className = "terminal-bar";
+
+    var dots = document.createElement("div");
+    dots.className = "dots";
+    for(var d=0; d<3; d++) dots.appendChild(document.createElement("span"));
+    bar.appendChild(dots);
+
+    var copyBtn = document.createElement("button");
+    copyBtn.className = "copy-btn";
+    copyBtn.type = "button";
+    copyBtn.textContent = "Copiar";
+    copyBtn.addEventListener("click", function(){ copyToClipboard(rawText, copyBtn); });
+    bar.appendChild(copyBtn);
+
+    wrap.appendChild(bar);
+
+    var pre = document.createElement("pre");
+    pre.className = "install-code";
+
+    lines.forEach(function(line, idx){
+      var isComment = line.trim().indexOf("#") === 0;
+      var span = document.createElement("span");
+      if(line.trim() === ""){
+        span.textContent = "";
+      } else if(isComment){
+        span.className = "comment";
+        span.textContent = line;
+      } else {
+        var prompt = document.createElement("span");
+        prompt.className = "prompt";
+        prompt.textContent = "$ ";
+        span.appendChild(prompt);
+        span.appendChild(document.createTextNode(line));
+      }
+      pre.appendChild(span);
+      if(idx < lines.length - 1) pre.appendChild(document.createTextNode("\n"));
+    });
+
+    wrap.appendChild(pre);
+    return wrap;
+  }
+
+  function copyToClipboard(text, btn){
+    function done(ok){
+      btn.textContent = ok ? "Copiado" : "Erro ao copiar";
+      btn.classList.toggle("copied", ok);
+      setTimeout(function(){
+        btn.textContent = "Copiar";
+        btn.classList.remove("copied");
+      }, 1500);
+    }
+
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ done(true); }, function(){ fallbackCopy(); });
+    } else {
+      fallbackCopy();
+    }
+
+    function fallbackCopy(){
+      try{
+        var ta = document.createElement("textarea");
+        ta.value = text;
+        ta.style.position = "fixed";
+        ta.style.opacity = "0";
+        document.body.appendChild(ta);
+        ta.focus();
+        ta.select();
+        var ok = document.execCommand("copy");
+        document.body.removeChild(ta);
+        done(ok);
+      } catch(e){
+        done(false);
+      }
+    }
+  }
+
+  function selectApp(index){
+    activeIndex = index;
+    renderList();
+    var app = allApps[index];
+    if(!app) return;
+
+    var detail = document.createElement("div");
+    detail.className = "detail";
+
+    var h2 = document.createElement("h2");
+    h2.textContent = app.app;
+    detail.appendChild(h2);
+
+    var lede = document.createElement("p");
+    lede.className = "lede";
+    lede.textContent = app.text || "";
+    detail.appendChild(lede);
+
+    if(app.page){
+      var link = document.createElement("a");
+      link.className = "site-link";
+      link.href = app.page;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = "Site oficial · " + app.page.replace(/^https?:\/\//, "");
+      detail.appendChild(link);
+    }
+
+    var imgSrc = resolveImg(app.img);
+    if(imgSrc){
+      var shotWrap = document.createElement("div");
+      shotWrap.className = "screenshot-wrap";
+      var img = document.createElement("img");
+      img.src = imgSrc;
+      img.alt = "Captura de tela de " + app.app;
+      img.loading = "lazy";
+      img.addEventListener("error", function(){ shotWrap.classList.add("hidden"); });
+      shotWrap.appendChild(img);
+      detail.appendChild(shotWrap);
+    }
+
+    var installSection = document.createElement("section");
+    installSection.className = "block";
+    var installH3 = document.createElement("h3");
+    installH3.textContent = "Como instalar";
+    installSection.appendChild(installH3);
+    installSection.appendChild(buildInstallBlock(app));
+    detail.appendChild(installSection);
+
+    if(app.categories && app.categories.length){
+      var catSection = document.createElement("section");
+      catSection.className = "block";
+      var catH3 = document.createElement("h3");
+      catH3.textContent = "Categorias";
+      catSection.appendChild(catH3);
+
+      var tags = document.createElement("div");
+      tags.className = "tags";
+      app.categories.forEach(function(c){
+        var tag = document.createElement("button");
+        tag.className = "tag-btn";
+        tag.type = "button";
+        tag.textContent = c;
+        tag.addEventListener("click", function(){
+          els.category.value = c;
+          renderList();
+        });
+        tags.appendChild(tag);
+      });
+      catSection.appendChild(tags);
+      detail.appendChild(catSection);
+    }
+
+    els.main.innerHTML = "";
+    els.main.appendChild(detail);
+    els.main.scrollTop = 0;
+  }
+
+  function renderWelcome(){
+    var cats = uniqueCategories(allApps);
+    var fallbackNote = usingFallback
+      ? '<p class="fallback-note">Não foi possível buscar a versão mais recente agora — exibindo uma cópia local do catálogo.</p>'
+      : "";
+    els.main.innerHTML =
+      '<div class="welcome">' +
+      "<h2>Nenhum app disponível</h2>" +
+      "<p>Ajuste os filtros ou tente novamente mais tarde.</p>" +
+      '<div class="stats">' +
+      '<div class="stat"><b>' + allApps.length + "</b><span>apps no catálogo</span></div>" +
+      '<div class="stat"><b>' + cats.length + "</b><span>categorias</span></div>" +
+      "</div>" + fallbackNote + "</div>";
+  }
+
+  function renderError(message){
+    els.listCount.textContent = "Erro ao carregar";
+    els.list.innerHTML = "";
+    var main = els.main;
+    main.innerHTML = "";
+    var box = document.createElement("div");
+    box.className = "error-box";
+    var h3 = document.createElement("h3");
+    h3.textContent = "Não foi possível carregar o catálogo";
+    var p = document.createElement("p");
+    p.textContent = message;
+    var retry = document.createElement("button");
+    retry.className = "retry-btn";
+    retry.type = "button";
+    retry.textContent = "Tentar novamente";
+    retry.addEventListener("click", loadCatalog);
+    box.appendChild(h3);
+    box.appendChild(p);
+    box.appendChild(retry);
+    main.appendChild(box);
+  }
+
+  function fetchWithTimeout(url, ms){
+    if(typeof AbortController === "undefined"){
+      return fetch(url);
+    }
+    var controller = new AbortController();
+    var timer = setTimeout(function(){ controller.abort(); }, ms);
+    return fetch(url, { signal: controller.signal }).finally(function(){
+      clearTimeout(timer);
+    });
+  }
+
+  function applyData(data, fromFallback){
+    allApps = Array.isArray(data) ? data.filter(function(a){ return a && a.app; }) : [];
+    allApps.sort(function(a,b){ return a.app.localeCompare(b.app, "pt-BR"); });
+    usingFallback = !!fromFallback;
+    els.category.innerHTML = '<option value="">Todas as categorias</option>';
+    renderCategoryOptions();
+    var filtered = renderList();
+    if(filtered.length){
+      selectApp(filtered[0]);
+    } else {
+      renderWelcome();
+    }
+  }
+
+  function loadCatalog(){
+    els.listCount.textContent = "Carregando…";
+    els.list.innerHTML = "";
+    els.main.innerHTML = '<div class="welcome"><h2>Carregando catálogo…</h2><p>Buscando a lista de aplicativos educativos.</p></div>';
+
+    fetchWithTimeout(JSON_URL, FETCH_TIMEOUT_MS)
+      .then(function(res){
+        if(!res.ok) throw new Error("HTTP " + res.status);
+        return res.json();
+      })
+      .then(function(data){
+        applyData(data, false);
+      })
+      .catch(function(){
+        if(FALLBACK_DATA && FALLBACK_DATA.length){
+          applyData(FALLBACK_DATA, true);
+        } else {
+          renderError("Verifique sua conexão com a internet e tente novamente.");
+        }
+      });
+  }
+
+  els.search.addEventListener("input", function(){
+    var filtered = renderList();
+    if(activeIndex === null || filtered.indexOf(activeIndex) === -1){
+      if(filtered.length) selectApp(filtered[0]); else renderWelcome();
+    }
+  });
+  els.category.addEventListener("change", function(){
+    var filtered = renderList();
+    if(activeIndex === null || filtered.indexOf(activeIndex) === -1){
+      if(filtered.length) selectApp(filtered[0]); else renderWelcome();
+    }
+  });
+
+  loadCatalog();
+})();
+</script>
+
+</body>
+</html>

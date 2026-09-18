@@ -1,648 +1,808 @@
 [
-  
   {
-  "app" : "Celestia",
-  "text" : "Simulador espacial 3D em tempo real",
-  "page" : "https://celestia.space",
-  "install" : "sudo apt install celestia",
-  "img" : "https://screenshots.debian.net/screenshots/000/000/518/large.png",
-  "categories" : ["Astronomia"]
+    "app": "Celestia",
+    "text": "Simulador espacial 3D em tempo real",
+    "page": "https://celestia.space",
+    "install": "sudo apt install celestia",
+    "img": "https://screenshots.debian.net/screenshot/celestia",
+    "categories": [
+      "Astronomia"
+    ]
   },
   {
-    "app" : "Google Earth Pro",
-    "text" : "Explore, pesquise e descubra o planeta",
-    "page" : "https://www.google.com.br/intl/pt-BR_ALL/earth/versions/",
-    "install" : "sudo apt install google-earth-pro-stable",
-    "img" : "https://screenshots.debian.net/screenshots/000/015/073/large.png",
-    "categories" : ["Astronomia", "Geografia"]
+    "app": "Google Earth Pro",
+    "text": "Explore, pesquise e descubra o planeta",
+    "page": "https://www.google.com.br/intl/pt-BR_ALL/earth/versions/",
+    "install": "sudo apt install google-earth-pro-stable",
+    "img": "https://screenshots.debian.net/screenshot/google-earth-pro-stable",
+    "categories": [
+      "Astronomia",
+      "Geografia"
+    ]
   },
   {
-    "app" : "KStars",
-    "text" : "Planetário e planejador de observações",
-    "page" : "https://edu.kde.org/kstars/",
-    "install" : "sudo apt install kstars kstars-data-extra-tycho2",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/268/large.png",
-    "categories" : ["Astronomia"]
+    "app": "KStars",
+    "text": "Planetário e planejador de observações",
+    "page": "https://edu.kde.org/kstars/",
+    "install": "sudo apt install kstars kstars-data-extra-tycho2",
+    "img": "https://screenshots.debian.net/screenshot/kstars",
+    "categories": [
+      "Astronomia"
+    ]
   },
   {
-    "app" : "OpenUniverse",
-    "text" : "Simulador do universo em 3D",
-    "page" : "http://openuniverse.sourceforge.net",
-    "install" : "sudo apt install openuniverse",
-    "img" : "https://screenshots.debian.net/screenshots/000/006/911/large.png",
-    "categories" : ["Astronomia"]
+    "app": "OpenUniverse",
+    "text": "Simulador do universo em 3D",
+    "page": "http://openuniverse.sourceforge.net",
+    "install": "sudo apt install openuniverse",
+    "img": "https://screenshots.debian.net/screenshot/openuniverse",
+    "categories": [
+      "Astronomia"
+    ]
   },
   {
-    "app" : "Planets",
-    "text" : "Simulador de gravitação de corpos planetários",
-    "page" : "https://packages.ubuntu.com/focal/planets",
-    "install" : "sudo apt install planets",
-    "img" : "https://screenshots.debian.net/screenshots/000/005/380/large.png",
-    "categories" : ["Astronomia", "Física Geral"]
+    "app": "Planets",
+    "text": "Simulador de gravitação de corpos planetários",
+    "page": "https://packages.ubuntu.com/focal/planets",
+    "install": "sudo apt install planets",
+    "img": "https://screenshots.debian.net/screenshot/planets",
+    "categories": [
+      "Astronomia",
+      "Física Geral"
+    ]
   },
   {
-    "app" : "Stellarium",
-    "text" : "Gerador de céu fotorrealístico em tempo real",
-    "page" : "https://stellarium.org",
-    "install" : "sudo apt install stellarium",
-    "img" : "https://screenshots.debian.net/screenshots/000/002/087/large.png",
-    "categories" : ["Astronomia"]
+    "app": "Stellarium",
+    "text": "Gerador de céu fotorrealístico em tempo real",
+    "page": "https://stellarium.org",
+    "install": "sudo apt install stellarium",
+    "img": "https://screenshots.debian.net/screenshot/stellarium",
+    "categories": [
+      "Astronomia"
+    ]
   },
   {
-    "app" : "Gpredict",
-    "text" : "Programa de rastreamento de satélite",
-    "page" : "http://gpredict.oz9aec.net",
-    "install" : "sudo apt install gpredict",
-    "img" : "https://screenshots.debian.net/screenshots/000/014/978/large.png",
-    "categories" : ["Astronomia"]
+    "app": "Gpredict",
+    "text": "Programa de rastreamento de satélite",
+    "page": "http://gpredict.oz9aec.net",
+    "install": "sudo apt install gpredict",
+    "img": "https://screenshots.debian.net/screenshot/gpredict",
+    "categories": [
+      "Astronomia"
+    ]
   },
   {
-    "app" : "3D Microscope Lab",
-    "text" : "Aprenda a operar um microscópio composto",
-    "page" : "https://courses.ecampus.oregonstate.edu/oer/microscope",
-    "install" : "# Aplicativo online",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/3d-microscope-lab.jpg",
-    "categories" : ["Biologia"]
+    "app": "3D Microscope Lab",
+    "text": "Aprenda a operar um microscópio composto",
+    "page": "https://courses.ecampus.oregonstate.edu/oer/microscope",
+    "install": "# Aplicativo online",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/3d-microscope-lab.jpg",
+    "categories": [
+      "Biologia"
+    ]
   },
   {
-    "app" : "Anatomy Learning",
-    "text" : "Aprendendo anatomia humana com modelos 3D",
-    "page" : "http://anatomylearning.com/webgl2020/browser.php",
-    "install" : "# Aplicativo online",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/anatomy-learning.jpg",
-    "categories" : ["Biologia"]
+    "app": "Anatomy Learning",
+    "text": "Aprendendo anatomia humana com modelos 3D",
+    "page": "http://anatomylearning.com/webgl2020/browser.php",
+    "install": "# Aplicativo online",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/anatomy-learning.jpg",
+    "categories": [
+      "Biologia"
+    ]
   },
   {
-    "app" : "Virtual Lab Microscope",
-    "text" : "Microscópio virtual da NASA",
-    "page" : "http://virtual.itg.uiuc.edu",
-    "install" : "sudo apt install virtual-lab-microscope",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/virtual-lab-microscope.jpg",
-    "categories" : ["Biologia"]
+    "app": "Virtual Lab Microscope",
+    "text": "Microscópio virtual da NASA",
+    "page": "http://virtual.itg.uiuc.edu",
+    "install": "sudo apt install virtual-lab-microscope",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/virtual-lab-microscope.jpg",
+    "categories": [
+      "Biologia"
+    ]
   },
   {
-    "app" : "Zygoto Body",
-    "text" : "Visualizador em 3D do corpo humano",
-    "page" : "https://www.zygotebody.com",
-    "install" : "# Aplicativo online",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/zygote-body.jpg",
-    "categories" : ["Biologia"]
+    "app": "Zygoto Body",
+    "text": "Visualizador em 3D do corpo humano",
+    "page": "https://www.zygotebody.com",
+    "install": "# Aplicativo online",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/zygote-body.jpg",
+    "categories": [
+      "Biologia"
+    ]
   },
   {
-    "app" : "Google Cow",
-    "text" : "Antiga vaquinha em 3D do Google",
-    "page" : "https://code.google.com/archive/p/open-3d-viewer/",
-    "install" : "sudo apt install google-cow",
-    "img" : "https://raw.githubusercontent.com/appsedu/google-cow/master/screenshot.png",
-    "categories" : ["Biologia"]
+    "app": "Google Cow",
+    "text": "Antiga vaquinha em 3D do Google",
+    "page": "https://code.google.com/archive/p/open-3d-viewer/",
+    "install": "sudo apt install google-cow",
+    "img": "https://raw.githubusercontent.com/appsedu/google-cow/master/screenshot.png",
+    "categories": [
+      "Biologia"
+    ]
   },
   {
-    "app" : "FreeCAD",
-    "text" : "CAx RAD de código aberto baseado no OpenCasCade",
-    "page" : "https://www.freecadweb.org/downloads.php",
-    "install" : "sudo apt install freecad",
-    "img" : "https://screenshots.debian.net/screenshots/000/009/892/large.png",
-    "categories" : ["Desenho Técnico"]
+    "app": "FreeCAD",
+    "text": "CAx RAD de código aberto baseado no OpenCasCade",
+    "page": "https://www.freecadweb.org/downloads.php",
+    "install": "sudo apt install freecad",
+    "img": "https://screenshots.debian.net/screenshot/freecad",
+    "categories": [
+      "Desenho Técnico"
+    ]
   },
   {
-    "app" : "LibreCAD",
-    "text" : "Desenho assistido por computador em 2D",
-    "page" : "https://librecad.org",
-    "install" : "sudo apt install librecad",
-    "img" : "https://screenshots.debian.net/screenshots/000/009/539/large.png",
-    "categories" : ["Desenho Técnico"]
+    "app": "LibreCAD",
+    "text": "Desenho assistido por computador em 2D",
+    "page": "https://librecad.org",
+    "install": "sudo apt install librecad",
+    "img": "https://screenshots.debian.net/screenshot/librecad",
+    "categories": [
+      "Desenho Técnico"
+    ]
   },
   {
-    "app" : "SolveSpace",
-    "text" : "Software paramétrico CAD 2D/3D",
-    "page" : "http://solvespace.com",
-    "install" : "sudo apt install solvespace",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/269/large.png",
-    "categories" : ["Desenho Técnico"]
+    "app": "SolveSpace",
+    "text": "Software paramétrico CAD 2D/3D",
+    "page": "http://solvespace.com",
+    "install": "sudo apt install solvespace",
+    "img": "https://screenshots.debian.net/screenshot/solvespace",
+    "categories": [
+      "Desenho Técnico"
+    ]
   },
   {
-    "app" : "Sweet Home 3D",
-    "text" : "Design de interiores em 2D com visualização em 3D",
-    "page" : "http://www.sweethome3d.com",
-    "install" : "sudo apt install sweethome3d sweethome3d-furniture-nonfree",
-    "img" : "https://screenshots.debian.net/screenshots/000/011/067/large.png",
-    "categories" : ["Desenho Técnico"]
+    "app": "Sweet Home 3D",
+    "text": "Design de interiores em 2D com visualização em 3D",
+    "page": "http://www.sweethome3d.com",
+    "install": "sudo apt install sweethome3d sweethome3d-furniture-nonfree",
+    "img": "https://screenshots.debian.net/screenshot/sweethome3d",
+    "categories": [
+      "Desenho Técnico"
+    ]
   },
   {
-    "app" : "Tinkercad",
-    "text" : "Projetos 3D, componentes eletrônicos e codificação",
-    "page" : "https://www.tinkercad.com/dashboard",
-    "install" : "# Aplicativo online (Requer fazer login)",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/tinkercad.png",
-    "categories" : ["Desenho Técnico", "Eletricidade"]
+    "app": "Tinkercad",
+    "text": "Projetos 3D, componentes eletrônicos e codificação",
+    "page": "https://www.tinkercad.com/dashboard",
+    "install": "# Aplicativo online (Requer fazer login)",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/tinkercad.png",
+    "categories": [
+      "Desenho Técnico",
+      "Eletricidade"
+    ]
   },
   {
-    "app" : "gCAD3D",
-    "text" : "Aplicação 3D CAD-CAM",
-    "page" : "http://www.gcad3d.org",
-    "install" : "sudo apt install gcad3d",
-    "img" : "http://www.gcad3d.org/gCAD3D_Renault1.jpg",
-    "categories" : ["Desenho Técnico"]
+    "app": "gCAD3D",
+    "text": "Aplicação 3D CAD-CAM",
+    "page": "http://www.gcad3d.org",
+    "install": "sudo apt install gcad3d",
+    "img": "https://screenshots.debian.net/screenshot/gcad3d",
+    "categories": [
+      "Desenho Técnico"
+    ]
   },
   {
-    "app" : "ODA File Converter",
-    "text" : "Converta entre diferentes versões de .dwg e .dxf",
-    "page" : "https://www.opendesign.com/guestfiles/oda_file_converter",
-    "install" : [
+    "app": "ODA File Converter",
+    "text": "Converta entre diferentes versões de .dwg e .dxf",
+    "page": "https://www.opendesign.com/guestfiles/oda_file_converter",
+    "install": [
       "# Instale o Qt Creator 5.14.1 ou superior",
       "# Faça o download do .deb no site",
       "sudo apt install ./ODAFileConverter_QT5_lnxX64_7.2dll.deb"
     ],
-    "img" : "https://www.allanbrito.com/wp-content/uploads/2018/12/ODA_File_Converter.jpg",
-    "categories" : ["Desenho Técnico"]
+    "img": "https://www.allanbrito.com/wp-content/uploads/2018/12/ODA_File_Converter.jpg",
+    "categories": [
+      "Desenho Técnico"
+    ]
   },
   {
-    "app" : "QCAD",
-    "text" : "Aplicação CAD 2D Open Source",
-    "page" : "https://www.qcad.org/en/",
-    "install" : [
+    "app": "QCAD",
+    "text": "Aplicação CAD 2D Open Source",
+    "page": "https://www.qcad.org/en/",
+    "install": [
       "# Faça o download do .run no site",
       "sudo chmod +x qcad-3.24.3-trial-linux-x86_64.run",
       "./qcad-3.24.3-trial-linux-x86_64.run"
     ],
-    "img" : "https://screenshots.debian.net/screenshots/000/001/808/large.png",
-    "categories" : ["Desenho Técnico"]
+    "img": "https://upload.wikimedia.org/wikipedia/commons/e/e6/QCAD_Trial2.png",
+    "categories": [
+      "Desenho Técnico"
+    ]
   },
   {
-    "app" : "BRL-CAD",
-    "text" : "Aplicação CAD CSG",
-    "page" : "https://brlcad.org",
-    "install" : [
+    "app": "BRL-CAD",
+    "text": "Aplicação CAD CSG",
+    "page": "https://brlcad.org",
+    "install": [
       "# Faça o download do .deb no site",
       "sudo apt install ./brlcad_7.30.8-0_amd64.deb"
     ],
-    "img" : "https://brlcad.org/gallery/_data/i/galleries/screenshots/MGED-me.jpg",
-    "categories" : ["Desenho Técnico"]
+    "img": "https://upload.wikimedia.org/wikipedia/commons/e/eb/BRL-CAD_screenshot.jpeg",
+    "categories": [
+      "Desenho Técnico"
+    ]
   },
   {
-    "app" : "Arduino IDE",
-    "text" : "IDE e bibliotecas embutidas para placa de desenvolvimento AVR",
-    "page" : "https://www.arduino.cc",
-    "install" : "sudo apt install arduino-ide",
-    "img" : "https://screenshots.debian.net/screenshots/000/010/456/large.png",
-    "categories" : ["Eletricidade", "Mecatrônica"]
+    "app": "Arduino IDE",
+    "text": "IDE e bibliotecas embutidas para placa de desenvolvimento AVR",
+    "page": "https://www.arduino.cc",
+    "install": "sudo apt install arduino-ide",
+    "img": "https://screenshots.debian.net/screenshot/arduino-ide",
+    "categories": [
+      "Eletricidade",
+      "Mecatrônica"
+    ]
   },
   {
-    "app" : "Circuit Simulator",
-    "text" : "Simulador de Circuitos Eletrônicos",
-    "page" : "http://www.falstad.com/circuit/circuitjs.html",
-    "install" : [
+    "app": "Circuit Simulator",
+    "text": "Simulador de Circuitos Eletrônicos",
+    "page": "http://www.falstad.com/circuit/circuitjs.html",
+    "install": [
       "sudo apt install circuit-simulator",
       "# Também disponível online"
     ],
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/circuitmod.png",
-    "categories" : ["Eletricidade"]
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/circuitmod.png",
+    "categories": [
+      "Eletricidade"
+    ]
   },
   {
-    "app" : "Digital Simulator",
-    "text" : "Simulador de circuitos de lógica digital",
-    "page" : "https://github.com/hneemann/Digital",
-    "install" : "sudo apt install digital-simulator",
-    "img" : "https://raw.githubusercontent.com/hneemann/Digital/master/distribution/screenshot2.png",
-    "categories" : ["Eletricidade", "Informática"]
+    "app": "Digital Simulator",
+    "text": "Simulador de circuitos de lógica digital",
+    "page": "https://github.com/hneemann/Digital",
+    "install": "sudo apt install digital-simulator",
+    "img": "https://raw.githubusercontent.com/hneemann/Digital/master/distribution/screenshot2.png",
+    "categories": [
+      "Eletricidade",
+      "Informática"
+    ]
   },
   {
-    "app" : "Logisim Evolution",
-    "text" : "Simulador de projetos de circuitos digitais",
-    "page" : "https://github.com/reds-heig/logisim-evolution",
-    "install" : "sudo apt install logisim-evolution",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/271/large.png",
-    "categories" : ["Eletricidade", "Informática"]
+    "app": "Logisim Evolution",
+    "text": "Simulador de projetos de circuitos digitais",
+    "page": "https://github.com/reds-heig/logisim-evolution",
+    "install": "sudo apt install logisim-evolution",
+    "img": "https://screenshots.debian.net/screenshot/logisim-evolution",
+    "categories": [
+      "Eletricidade",
+      "Informática"
+    ]
   },
   {
-    "app" : "SimulIDE",
-    "text" : "Simulador de eletrônica, PIC e AVR em tempo real",
-    "page" : "https://www.simulide.com/p/home.html",
-    "install" : "sudo apt install simulide",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/272/large.png",
-    "categories" : ["Eletricidade"]
+    "app": "SimulIDE",
+    "text": "Simulador de eletrônica, PIC e AVR em tempo real",
+    "page": "https://www.simulide.com/p/home.html",
+    "install": "sudo apt install simulide",
+    "img": "https://screenshots.debian.net/screenshot/simulide",
+    "categories": [
+      "Eletricidade"
+    ]
   },
   {
-    "app" : "gResistor",
-    "text" : "Calculadora de código de cores de resistores",
-    "page" : "https://sourceforge.net/projects/gresistor/",
-    "install" : "sudo apt install gresistor-extras-pt",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/274/large.png",
-    "categories" : ["Eletricidade"]
+    "app": "gResistor",
+    "text": "Calculadora de código de cores de resistores",
+    "page": "https://sourceforge.net/projects/gresistor/",
+    "install": "sudo apt install gresistor-extras-pt",
+    "img": "https://screenshots.debian.net/screenshot/gresistor-extras-pt",
+    "categories": [
+      "Eletricidade"
+    ]
   },
   {
-    "app" : "Logisim",
-    "text" : "Ferramenta para projetar e simular circuitos lógicos",
-    "page" : "http://www.cburch.com/logisim/",
-    "install" : "sudo apt install logisim",
-    "img" : "https://screenshots.debian.net/screenshots/000/008/902/large.png",
-    "categories" : ["Eletricidade", "Informática"]
+    "app": "Logisim",
+    "text": "Ferramenta para projetar e simular circuitos lógicos",
+    "page": "http://www.cburch.com/logisim/",
+    "install": "sudo apt install logisim",
+    "img": "https://screenshots.debian.net/screenshot/logisim",
+    "categories": [
+      "Eletricidade",
+      "Informática"
+    ]
   },
   {
-    "app" : "Oregano",
-    "text" : "Ferramenta de esquemas de circuitos eletrônicos",
-    "page" : "https://github.com/drahnr/oregano",
-    "install" : "sudo apt install oregano",
-    "img" : "https://screenshots.debian.net/screenshots/000/000/577/large.png",
-    "categories" : ["Eletricidade"]
+    "app": "Oregano",
+    "text": "Ferramenta de esquemas de circuitos eletrônicos",
+    "page": "https://github.com/drahnr/oregano",
+    "install": "sudo apt install oregano",
+    "img": "https://screenshots.debian.net/screenshot/oregano",
+    "categories": [
+      "Eletricidade"
+    ]
   },
   {
-    "app" : "QElectroTech",
-    "text" : "Editor de esquemas elétricos, hidráulicos e pneumáticos",
-    "page" : "https://qelectrotech.org",
-    "install" : "sudo apt install qelectrotech",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/290/large.png",
-    "categories" : ["Eletricidade", "Mecatrônica"]
+    "app": "QElectroTech",
+    "text": "Editor de esquemas elétricos, hidráulicos e pneumáticos",
+    "page": "https://qelectrotech.org",
+    "install": "sudo apt install qelectrotech",
+    "img": "https://screenshots.debian.net/screenshot/qelectrotech",
+    "categories": [
+      "Eletricidade",
+      "Mecatrônica"
+    ]
   },
   {
-    "app" : "Algodoo (Wine)",
-    "text" : "Simulador de Física em geral",
-    "page" : "http://www.algodoo.com",
-    "install" : [
+    "app": "Algodoo (Wine)",
+    "text": "Simulador de Física em geral",
+    "page": "http://www.algodoo.com",
+    "install": [
       "sudo apt install --install-recommends wine64",
       "wine start hostname",
       "sudo apt install algodoo-wine"
     ],
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/algodoo-wine.png",
-    "categories" : ["Física Geral"]
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/algodoo-wine.png",
+    "categories": [
+      "Física Geral"
+    ]
   },
   {
-    "app" : "Optgeo",
-    "text" : "Ferramenta interativa para estudar e simular montagens ópticas",
-    "page" : "http://jeanmarie.biansan.free.fr/optgeo.html",
-    "install" : "sudo apt install optgeo-i18n",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/275/large.png",
-    "categories" : ["Física Geral"]
+    "app": "Optgeo",
+    "text": "Ferramenta interativa para estudar e simular montagens ópticas",
+    "page": "http://jeanmarie.biansan.free.fr/optgeo.html",
+    "install": "sudo apt install optgeo-i18n",
+    "img": "https://screenshots.debian.net/screenshot/optgeo-i18n",
+    "categories": [
+      "Física Geral"
+    ]
   },
   {
-    "app" : "OpticalRayTracer",
-    "text" : "Simulador de lentes e espelhos virtuais",
-    "page" : "https://arachnoid.com/OpticalRayTracer/",
-    "install" : "sudo apt install opticalraytracer",
-    "img" : "http://screenshots.debian.net/screenshots/000/012/589/large.png",
-    "categories" : ["Física Geral"]
+    "app": "OpticalRayTracer",
+    "text": "Simulador de lentes e espelhos virtuais",
+    "page": "https://arachnoid.com/OpticalRayTracer/",
+    "install": "sudo apt install opticalraytracer",
+    "img": "https://screenshots.debian.net/screenshot/opticalraytracer",
+    "categories": [
+      "Física Geral"
+    ]
   },
   {
-    "app" : "Physion (Wine)",
-    "text" : "Simulador de física interativa",
-    "page" : "https://github.com/appsedu/physion-wine",
-    "install" : [
+    "app": "Physion (Wine)",
+    "text": "Simulador de física interativa",
+    "page": "https://github.com/appsedu/physion-wine",
+    "install": [
       "sudo apt install --install-recommends wine64",
       "wine start hostname",
       "sudo apt install physion-wine"
     ],
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/physion-wine.png",
-    "categories" : ["Física Geral"]
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/physion-wine.png",
+    "categories": [
+      "Física Geral"
+    ]
   },
   {
-    "app" : "Schwarzschild Black Hole",
-    "text" : "Simulação de um buraco negro",
-    "page" : "http://spiro.fisica.unipd.it/~antonell/schwarzschild/live/",
-    "install" : "# Aplicativo online",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/schwarzschild-black-hole.png",
-    "categories" : ["Física Geral"]
+    "app": "Schwarzschild Black Hole",
+    "text": "Simulação de um buraco negro",
+    "page": "http://spiro.fisica.unipd.it/~antonell/schwarzschild/live/",
+    "install": "# Aplicativo online",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/schwarzschild-black-hole.png",
+    "categories": [
+      "Física Geral"
+    ]
   },
   {
-    "app" : "Step",
-    "text" : "Simulador de física interativa do KDE",
-    "page" : "https://kde.org/applications/en/education/org.kde.step",
-    "install" : "sudo apt install step",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/276/large.png",
-    "categories" : ["Física Geral"]
+    "app": "Step",
+    "text": "Simulador de física interativa do KDE",
+    "page": "https://kde.org/applications/en/education/org.kde.step",
+    "install": "sudo apt install step",
+    "img": "https://screenshots.debian.net/screenshot/step",
+    "categories": [
+      "Física Geral"
+    ]
   },
   {
-    "app" : "Light Speed",
-    "text" : "Ilustra os efeitos da relatividade especial nos objetos",
-    "page" : "http://lightspeed.sourceforge.net",
-    "install" : "sudo apt install lightspeed",
-    "img" : "https://screenshots.debian.net/screenshots/000/005/378/large.png",
-    "categories" : ["Física Geral"]
+    "app": "Light Speed",
+    "text": "Ilustra os efeitos da relatividade especial nos objetos",
+    "page": "http://lightspeed.sourceforge.net",
+    "install": "sudo apt install lightspeed",
+    "img": "https://screenshots.debian.net/screenshot/lightspeed",
+    "categories": [
+      "Física Geral"
+    ]
   },
   {
-    "app" : "Energy2D",
-    "text" : "Simulações interativas de transferência de calor",
-    "page" : "https://energy.concord.org/energy2d",
-    "install" : "sudo apt install energy2d",
-    "img" : "https://raw.githubusercontent.com/appsedu/energy2d/master/screenshot.png",
-    "categories" : ["Física Geral"]
+    "app": "Energy2D",
+    "text": "Simulações interativas de transferência de calor",
+    "page": "https://energy.concord.org/energy2d",
+    "install": "sudo apt install energy2d",
+    "img": "https://raw.githubusercontent.com/appsedu/energy2d/master/screenshot.png",
+    "categories": [
+      "Física Geral"
+    ]
   },
   {
-    "app" : "OpenMeca",
-    "text" : "Simulador de sistemas mecânicos em 3D",
-    "page" : "https://gitlab.com/damien.andre/openmeca",
-    "install" : "sudo apt install openmeca",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/openmeca.png",
-    "categories" : ["Física Geral"]
+    "app": "OpenMeca",
+    "text": "Simulador de sistemas mecânicos em 3D",
+    "page": "https://gitlab.com/damien.andre/openmeca",
+    "install": "sudo apt install openmeca",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/openmeca.png",
+    "categories": [
+      "Física Geral"
+    ]
   },
   {
-    "app" : "Google Maps",
-    "text" : "Visualização de mapas e imagens de satélite da Terra",
-    "page" : "https://www.google.com.br/maps/",
-    "install" : "# Aplicativo online",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/google-maps.png",
-    "categories" : ["Geografia"]
+    "app": "Google Maps",
+    "text": "Visualização de mapas e imagens de satélite da Terra",
+    "page": "https://www.google.com.br/maps/",
+    "install": "# Aplicativo online",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/google-maps.png",
+    "categories": [
+      "Geografia"
+    ]
   },
   {
-    "app" : "KGeography",
-    "text" : "Auxiliar de aprendizado de geografia do KDE",
-    "page" : "https://edu.kde.org/kgeography/",
-    "install" : "sudo apt install kgeography",
-    "img" : "https://screenshots.debian.net/screenshots/000/002/066/large.png",
-    "categories" : ["Geografia"]
+    "app": "KGeography",
+    "text": "Auxiliar de aprendizado de geografia do KDE",
+    "page": "https://edu.kde.org/kgeography/",
+    "install": "sudo apt install kgeography",
+    "img": "https://screenshots.debian.net/screenshot/kgeography",
+    "categories": [
+      "Geografia"
+    ]
   },
   {
-    "app" : "Marble",
-    "text" : "Globo virtual e atlas do mundo",
-    "page" : "https://marble.kde.org",
-    "install" : "sudo apt install marble-qt marble-maps",
-    "img" : "https://screenshots.debian.net/screenshots/000/009/267/large.png",
-    "categories" : ["Geografia"]
+    "app": "Marble",
+    "text": "Globo virtual e atlas do mundo",
+    "page": "https://marble.kde.org",
+    "install": "sudo apt install marble-qt marble-maps",
+    "img": "https://screenshots.debian.net/screenshot/marble-qt",
+    "categories": [
+      "Geografia"
+    ]
   },
   {
-    "app" : "0 A.D.",
-    "text" : "Jogo de estratégia de civilizações antigas",
-    "page" : "https://play0ad.com",
-    "install" : "sudo apt install 0ad",
-    "img" : "https://screenshots.debian.net/screenshots/000/010/427/large.png",
-    "categories" : ["História"]
+    "app": "0 A.D.",
+    "text": "Jogo de estratégia de civilizações antigas",
+    "page": "https://play0ad.com",
+    "install": "sudo apt install 0ad",
+    "img": "https://screenshots.debian.net/screenshot/0ad",
+    "categories": [
+      "História"
+    ]
   },
   {
-    "app" : "GeaCron",
-    "text" : "Atlas Histórico Mundial Interativo",
-    "page" : "http://geacron.com/home-pt/?lang=pt-pt",
-    "install" : "# Aplicativo online",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/geacron.png",
-    "categories" : ["História"]
+    "app": "GeaCron",
+    "text": "Atlas Histórico Mundial Interativo",
+    "page": "http://geacron.com/home-pt/?lang=pt-pt",
+    "install": "# Aplicativo online",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/geacron.png",
+    "categories": [
+      "História"
+    ]
   },
   {
-    "app" : "KTouch",
-    "text" : "Tutorial de digitação do KDE",
-    "page" : "https://kde.org/applications/en/education/org.kde.ktouch",
-    "install" : "sudo apt install ktouch",
-    "img" : "https://screenshots.debian.net/screenshots/000/013/201/large.png",
-    "categories" : ["Informática"]
+    "app": "KTouch",
+    "text": "Tutorial de digitação do KDE",
+    "page": "https://kde.org/applications/en/education/org.kde.ktouch",
+    "install": "sudo apt install ktouch",
+    "img": "https://screenshots.debian.net/screenshot/ktouch",
+    "categories": [
+      "Informática"
+    ]
   },
   {
-    "app" : "Klavaro",
-    "text" : "Tutorial de digitação flexível",
-    "page" : "https://klavaro.sourceforge.io/pt/index.html",
-    "install" : "sudo apt install klavaro",
-    "img" : "https://screenshots.debian.net/screenshots/000/001/431/large.png",
-    "categories" : ["Informática"]
+    "app": "Klavaro",
+    "text": "Tutorial de digitação flexível",
+    "page": "https://klavaro.sourceforge.io/pt/index.html",
+    "install": "sudo apt install klavaro",
+    "img": "https://screenshots.debian.net/screenshot/klavaro",
+    "categories": [
+      "Informática"
+    ]
   },
   {
-    "app" : "Packet Tracer",
-    "text" : "Simulador de equipamentos e redes de computadores",
-    "page" : "https://www.netacad.com",
-    "install" : [
-        "# Faça login no site netacad.com da Cisco",
-        "# Vá no menu 'Recursos > Baixar o Packet Tracer'",
-        "# Faça o download do .deb no site",
-        "sudo apt install ./PacketTracer_*.deb",
-        "# Requer fazer login para usar o programa"
+    "app": "Packet Tracer",
+    "text": "Simulador de equipamentos e redes de computadores",
+    "page": "https://www.netacad.com",
+    "install": [
+      "# Faça login no site netacad.com da Cisco",
+      "# Vá no menu 'Recursos > Baixar o Packet Tracer'",
+      "# Faça o download do .deb no site",
+      "sudo apt install ./PacketTracer_*.deb",
+      "# Requer fazer login para usar o programa"
     ],
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/packet-tracer.png",
-    "categories" : ["Informatica"]
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/packet-tracer.png",
+    "categories": [
+      "Informática"
+    ]
   },
   {
-    "app" : "Scratch",
-    "text" : "Ambiente de programação fácil para maiores de 8 anos",
-    "page" : "https://packages.ubuntu.com/focal/scratch",
-    "install" : "sudo apt install scratch",
-    "img" : "https://screenshots.debian.net/screenshots/000/011/349/large.png",
-    "categories" : ["Informática", "Infantil"]
+    "app": "Scratch",
+    "text": "Ambiente de programação fácil para maiores de 8 anos",
+    "page": "https://packages.ubuntu.com/focal/scratch",
+    "install": "sudo apt install scratch",
+    "img": "https://screenshots.debian.net/screenshot/scratch",
+    "categories": [
+      "Informática",
+      "Infantil"
+    ]
   },
   {
-    "app" : "KTurtle",
-    "text" : "Ambiente educativo de programação",
-    "page" : "https://kde.org/applications/en/education/org.kde.kturtle",
-    "install" : "sudo apt install kturtle",
-    "img" : "https://screenshots.debian.net/screenshots/000/002/194/large.png",
-    "categories" : ["Informática"]
+    "app": "KTurtle",
+    "text": "Ambiente educativo de programação",
+    "page": "https://kde.org/applications/en/education/org.kde.kturtle",
+    "install": "sudo apt install kturtle",
+    "img": "https://screenshots.debian.net/screenshot/kturtle",
+    "categories": [
+      "Informática"
+    ]
   },
   {
-    "app" : "Anki",
-    "text" : "Aprendizado com cartões de memória",
-    "page" : "https://apps.ankiweb.net",
-    "install" : "sudo apt install anki",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/277/large.png",
-    "categories" : ["Línguas", "Multidisciplinar"]
+    "app": "Anki",
+    "text": "Aprendizado com cartões de memória",
+    "page": "https://apps.ankiweb.net",
+    "install": "sudo apt install anki",
+    "img": "https://screenshots.debian.net/screenshot/anki",
+    "categories": [
+      "Línguas",
+      "Multidisciplinar"
+    ]
   },
   {
-    "app" : "GConjugue",
-    "text" : "Conjugador de verbos em português brasil",
-    "page" : "https://github.com/jalvesaq/gconjugue",
-    "install" : "sudo apt install gconjugue",
-    "img" : "https://screenshots.debian.net/screenshots/000/005/856/large.png",
-    "categories" : ["Línguas", "Português"]
+    "app": "GConjugue",
+    "text": "Conjugador de verbos em português brasil",
+    "page": "https://github.com/jalvesaq/gconjugue",
+    "install": "sudo apt install gconjugue",
+    "img": "https://screenshots.debian.net/screenshot/gconjugue",
+    "categories": [
+      "Línguas",
+      "Português"
+    ]
   },
   {
-    "app" : "GoldenDict",
-    "text" : "Dicionário rico em funcionalidades",
-    "page" : "http://goldendict.org",
-    "install" : "sudo apt install goldendict-extras-pt",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/278/large.png",
-    "categories" : ["Línguas"]
+    "app": "GoldenDict",
+    "text": "Dicionário rico em funcionalidades",
+    "page": "http://goldendict.org",
+    "install": "sudo apt install goldendict-extras-pt",
+    "img": "https://screenshots.debian.net/screenshot/goldendict-extras-pt",
+    "categories": [
+      "Línguas"
+    ]
   },
   {
-    "app" : "Parley",
-    "text" : "Treinador de vocabulário",
-    "page" : "https://kde.org/applications/en/education/org.kde.parley",
-    "install" : "sudo apt install parley",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/279/large.png",
-    "categories" : ["Línguas", "Multidisciplinar"]
+    "app": "Parley",
+    "text": "Treinador de vocabulário",
+    "page": "https://kde.org/applications/en/education/org.kde.parley",
+    "install": "sudo apt install parley",
+    "img": "https://screenshots.debian.net/screenshot/parley",
+    "categories": [
+      "Línguas",
+      "Multidisciplinar"
+    ]
   },
   {
-    "app" : "KWordQuiz",
-    "text" : "Aplicativo de aprendizado por cartões",
-    "page" : "https://edu.kde.org/kwordquiz/",
-    "install" : "sudo apt install kwordquiz",
-    "img" : "https://screenshots.debian.net/screenshots/000/004/934/large.png",
-    "categories" : ["Línguas", "Multidisciplinar"]
+    "app": "KWordQuiz",
+    "text": "Aplicativo de aprendizado por cartões",
+    "page": "https://edu.kde.org/kwordquiz/",
+    "install": "sudo apt install kwordquiz",
+    "img": "https://screenshots.debian.net/screenshot/kwordquiz",
+    "categories": [
+      "Línguas",
+      "Multidisciplinar"
+    ]
   },
   {
-    "app" : "OSD Lyrics",
-    "text" : "Aprenda inglês com letras de músicas",
-    "page" : "https://github.com/tigersoldier/osd-lyrics",
-    "install" : [
+    "app": "OSD Lyrics",
+    "text": "Aprenda inglês com letras de músicas",
+    "page": "https://github.com/tigersoldier/osd-lyrics",
+    "install": [
       "sudo apt install audacious",
       "sudo apt install python3-pycurl",
       "sudo apt install osdlyrics"
     ],
-    "img" : "http://screenshots.debian.net/screenshots/000/019/295/large.png",
-    "categories" : ["Línguas"]
+    "img": "https://screenshots.debian.net/screenshot/audacious",
+    "categories": [
+      "Línguas"
+    ]
   },
   {
-    "app" : "Duolingo",
-    "text" : "Plataforma de ensino de idiomas gratuito",
-    "page" : "https://pt.duolingo.com",
-    "install" : "# Aplicativo online",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/duolingo.png",
-    "categories" : ["Línguas"]
+    "app": "Duolingo",
+    "text": "Plataforma de ensino de idiomas gratuito",
+    "page": "https://pt.duolingo.com",
+    "install": "# Aplicativo online",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/duolingo.png",
+    "categories": [
+      "Línguas"
+    ]
   },
   {
-    "app" : "CaRMetal",
-    "text" : "Software de geometria dinâmica",
-    "page" : "https://packages.ubuntu.com/focal/carmetal",
-    "install" : "sudo apt install carmetal",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/291/large.png",
-    "categories" : ["Matemática"]
+    "app": "CaRMetal",
+    "text": "Software de geometria dinâmica",
+    "page": "https://packages.ubuntu.com/focal/carmetal",
+    "install": "sudo apt install carmetal",
+    "img": "https://screenshots.debian.net/screenshot/carmetal",
+    "categories": [
+      "Matemática"
+    ]
   },
   {
-    "app" : "Geogebra",
-    "text" : "Aplicação interativa de conceitos matemáticos",
-    "page" : "https://www.geogebra.org",
-    "install" : "sudo apt install geogebra-classic",
-    "img" : "https://screenshots.debian.net/screenshots/000/007/399/large.png",
-    "categories" : ["Matemática"]
+    "app": "Geogebra",
+    "text": "Aplicação interativa de conceitos matemáticos",
+    "page": "https://www.geogebra.org",
+    "install": "sudo apt install geogebra-classic",
+    "img": "https://screenshots.debian.net/screenshot/geogebra-classic",
+    "categories": [
+      "Matemática"
+    ]
   },
   {
-    "app" : "Gnumeric",
-    "text" : "Aplicação de planilha eletrônica",
-    "page" : "http://www.gnumeric.org",
-    "install" : "sudo apt install gnumeric gnumeric-plugins-extra",
-    "img" : "https://screenshots.debian.net/screenshots/000/017/737/large.png",
-    "categories" : ["Matemática"]
+    "app": "Gnumeric",
+    "text": "Aplicação de planilha eletrônica",
+    "page": "http://www.gnumeric.org",
+    "install": "sudo apt install gnumeric gnumeric-plugins-extra",
+    "img": "https://screenshots.debian.net/screenshot/gnumeric",
+    "categories": [
+      "Matemática"
+    ]
   },
   {
-    "app" : "JFractionLab",
-    "text" : "Programa educativo para praticar frações",
-    "page" : "http://jfractionlab.sourceforge.net",
-    "install" : "sudo apt install jfractionlab",
-    "img" : "https://screenshots.debian.net/screenshots/000/007/327/large.png",
-    "categories" : ["Matemática"]
+    "app": "JFractionLab",
+    "text": "Programa educativo para praticar frações",
+    "page": "http://jfractionlab.sourceforge.net",
+    "install": "sudo apt install jfractionlab",
+    "img": "https://screenshots.debian.net/screenshot/jfractionlab",
+    "categories": [
+      "Matemática"
+    ]
   },
   {
-    "app" : "KAlgebra",
-    "text" : "Calculadora gráfica algébrica",
-    "page" : "https://edu.kde.org/kalgebra/",
-    "install" : "sudo apt install kalgebra",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/280/large.png",
-    "categories" : ["Matemática"]
+    "app": "KAlgebra",
+    "text": "Calculadora gráfica algébrica",
+    "page": "https://edu.kde.org/kalgebra/",
+    "install": "sudo apt install kalgebra",
+    "img": "https://screenshots.debian.net/screenshot/kalgebra",
+    "categories": [
+      "Matemática"
+    ]
   },
   {
-    "app" : "KBruch",
-    "text" : "Auxiliador no estudo de frações do KDE",
-    "page" : "https://kde.org/applications/en/education/org.kde.kbruch",
-    "install" : "sudo apt install kbruch",
-    "img" : "https://screenshots.debian.net/screenshots/000/002/190/large.png",
-    "categories" : ["Matemática"]
+    "app": "KBruch",
+    "text": "Auxiliador no estudo de frações do KDE",
+    "page": "https://kde.org/applications/en/education/org.kde.kbruch",
+    "install": "sudo apt install kbruch",
+    "img": "https://screenshots.debian.net/screenshot/kbruch",
+    "categories": [
+      "Matemática"
+    ]
   },
   {
-    "app" : "LibreOffice Math",
-    "text" : "Editor de equações do LibreOffice",
-    "page" : "https://libreoffice.org",
-    "install" : "sudo apt install libreoffice-math",
-    "img" : "https://screenshots.debian.net/screenshots/000/015/964/large.png",
-    "categories" : ["Matemática"]
+    "app": "LibreOffice Math",
+    "text": "Editor de equações do LibreOffice",
+    "page": "https://libreoffice.org",
+    "install": "sudo apt install libreoffice-math",
+    "img": "https://screenshots.debian.net/screenshot/libreoffice-math",
+    "categories": [
+      "Matemática"
+    ]
   },
   {
-    "app" : "wxMaxima",
-    "text" : "Sistema de algebra computacional Maxima",
-    "page" : "https://wxmaxima-developers.github.io/wxmaxima/",
-    "install" : "sudo apt install wxmaxima",
-    "img" : "https://screenshots.debian.net/screenshots/000/002/043/large.png",
-    "categories" : ["Matemática"]
+    "app": "wxMaxima",
+    "text": "Sistema de algebra computacional Maxima",
+    "page": "https://wxmaxima-developers.github.io/wxmaxima/",
+    "install": "sudo apt install wxmaxima",
+    "img": "https://screenshots.debian.net/screenshot/wxmaxima",
+    "categories": [
+      "Matemática"
+    ]
   },
   {
-    "app" : "GraphMonkey",
-    "text" : "Uma calculadora de gráficos baseada em GTK",
-    "page" : "http://graphmonkey.sourceforge.net",
-    "install" : "sudo apt install graphmonkey",
-    "img" : "https://screenshots.debian.net/screenshots/000/010/977/large.png",
-    "categories" : ["Matemática"]
+    "app": "GraphMonkey",
+    "text": "Uma calculadora de gráficos baseada em GTK",
+    "page": "http://graphmonkey.sourceforge.net",
+    "install": "sudo apt install graphmonkey",
+    "img": "https://screenshots.debian.net/screenshot/graphmonkey",
+    "categories": [
+      "Matemática"
+    ]
   },
   {
-    "app" : "Qalculate!",
-    "text" : "Calculadora de mesa fácil de usar e poderosa",
-    "page" : "https://qalculate.github.io",
-    "install" : "sudo apt install qalculate-gtk",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/281/large.png",
-    "categories" : ["Matemática"]
+    "app": "Qalculate!",
+    "text": "Calculadora de mesa fácil de usar e poderosa",
+    "page": "https://qalculate.github.io",
+    "install": "sudo apt install qalculate-gtk",
+    "img": "https://screenshots.debian.net/screenshot/qalculate-gtk",
+    "categories": [
+      "Matemática"
+    ]
   },
   {
-    "app" : "Kig",
-    "text" : "Ferramenta de geometria interativa",
-    "page" : "https://edu.kde.org/kig/",
-    "install" : "sudo apt install kig",
-    "img" : "https://screenshots.debian.net/screenshots/000/001/679/large.png",
-    "categories" : ["Matemática"]
+    "app": "Kig",
+    "text": "Ferramenta de geometria interativa",
+    "page": "https://edu.kde.org/kig/",
+    "install": "sudo apt install kig",
+    "img": "https://screenshots.debian.net/screenshot/kig",
+    "categories": [
+      "Matemática"
+    ]
   },
   {
-    "app" : "KmPlot",
-    "text" : "Plotadora de funções matemáticas do KDE",
-    "page" : "https://edu.kde.org/kmplot/",
-    "install" : "sudo apt install kmplot",
-    "img" : "https://screenshots.debian.net/screenshots/000/007/695/large.png",
-    "categories" : ["Matemática"]
+    "app": "KmPlot",
+    "text": "Plotadora de funções matemáticas do KDE",
+    "page": "https://edu.kde.org/kmplot/",
+    "install": "sudo apt install kmplot",
+    "img": "https://screenshots.debian.net/screenshot/kmplot",
+    "categories": [
+      "Matemática"
+    ]
   },
   {
-    "app" : "CoppeliaSim EDU",
-    "text" : "Ambiente de simulação de robótica",
-    "page" : "https://www.coppeliarobotics.com",
-    "install" : "sudo apt install coppelia-sim-edu",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/coppelia-sim-edu.png",
-    "categories" : ["Mecatrônica"]
+    "app": "CoppeliaSim EDU",
+    "text": "Ambiente de simulação de robótica",
+    "page": "https://www.coppeliarobotics.com",
+    "install": "sudo apt install coppelia-sim-edu",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/coppelia-sim-edu.png",
+    "categories": [
+      "Mecatrônica"
+    ]
   },
   {
-    "app" : "Hopsan",
-    "text" : "Simulador de sistemas pneumáticos, hidráulicos e mecatrônicos",
-    "page" : "https://github.com/Hopsan/hopsan",
-    "install" : "sudo apt install hopsan",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/hopsan.png",
-    "categories" : ["Mecatrônica"]
+    "app": "Hopsan",
+    "text": "Simulador de sistemas pneumáticos, hidráulicos e mecatrônicos",
+    "page": "https://github.com/Hopsan/hopsan",
+    "install": "sudo apt install hopsan",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/hopsan.png",
+    "categories": [
+      "Mecatrônica"
+    ]
   },
   {
-    "app" : "Webots",
-    "text" : "Simulador de robôs em 3D",
-    "page" : "https://cyberbotics.com",
-    "install" : [
+    "app": "Webots",
+    "text": "Simulador de robôs em 3D",
+    "page": "https://cyberbotics.com",
+    "install": [
       "# Faça o download do .deb no site",
       "sudo apt install ./webots_2020a-rev1_amd64.deb"
     ],
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/webots.png",
-    "categories" : ["Mecatrônica"]
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/webots.png",
+    "categories": [
+      "Mecatrônica"
+    ]
   },
   {
-    "app" : "Gazebo",
-    "text" : "Ambiente simulador de Robótica",
-    "page" : "http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install",
-    "install" : [
+    "app": "Gazebo",
+    "text": "Ambiente simulador de Robótica",
+    "page": "http://gazebosim.org/tutorials?tut=install_ubuntu&cat=install",
+    "install": [
       "echo 'deb http://packages.osrfoundation.org/gazebo/ubuntu-stable focal main'| sudo tee /etc/apt/sources.list.d/gazebo-stable.list",
       "wget https://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -",
       "sudo apt update",
       "sudo apt install gazebo11"
     ],
-    "img" : "https://screenshots.debian.net/screenshots/000/019/286/large.png",
-    "categories" : ["Mecatrônica"]
+    "img": "https://screenshots.debian.net/screenshot/gazebo11",
+    "categories": [
+      "Mecatrônica"
+    ]
   },
   {
-    "app" : "CnCSimulator (Wine)",
-    "text" : "Simulador de máquinas fresadoras e tornos CNC",
-    "page" : "http://cncsimulator.info",
-    "install" : [
+    "app": "CnCSimulator (Wine)",
+    "text": "Simulador de máquinas fresadoras e tornos CNC",
+    "page": "http://cncsimulator.info",
+    "install": [
       "# Instale o Wine64 com Mono e Gecko, siga o tutorial:",
       "# https://bit.ly/wine-full",
       "# Instale o .NET 3.5 conforme abaixo:",
       "winetricks dotnet35 -q",
       "sudo apt install free-cnc-simulator-wine"
     ],
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/cnc-simulator.png",
-    "categories" : ["Mecatrônica"]
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/cnc-simulator.png",
+    "categories": [
+      "Mecatrônica"
+    ]
   },
   {
-    "app" : "CAMotics",
-    "text" : "Simulador livre de máquinas CNC",
-    "page" : "https://camotics.org",
-    "install" : "sudo apt install camotics",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/camotics.png",
-    "categories" : ["Mecatrônica"]
+    "app": "CAMotics",
+    "text": "Simulador livre de máquinas CNC",
+    "page": "https://camotics.org",
+    "install": "sudo apt install camotics",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/camotics.png",
+    "categories": [
+      "Mecatrônica"
+    ]
   },
   {
-    "app" : "PhET Simulações",
-    "text" : "Simulações Interativas para Ciência e Matemática",
-    "page" : "https://phet.colorado.edu/pt_BR/simulations/browse",
-    "install" : [
+    "app": "PhET Simulações",
+    "text": "Simulações Interativas para Ciência e Matemática",
+    "page": "https://phet.colorado.edu/pt_BR/simulations/browse",
+    "install": [
       "sudo apt install firefox",
       "sudo apt install flashplugin-installer",
       "sudo apt install openjdk-8-jre",
@@ -655,380 +815,461 @@
       "# Na aba Permissões selecione a caixa 'Permitir execução' e clique 'Ok'",
       "Clique no arquivo com botão direito e vá em 'Abrir com > OpenJDK Java 8 Runtime'"
     ],
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/phet.png",
-    "categories" : ["Multidisciplinar"]
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/phet.png",
+    "categories": [
+      "Multidisciplinar"
+    ]
   },
   {
-    "app" : "ACD/ChemSketch Freeware (Wine)",
-    "text" : "Desenho e modelagem de moléculas",
-    "page" : "https://www.acdlabs.com/resources/freeware/chemsketch/",
-    "install" : [
+    "app": "ACD/ChemSketch Freeware (Wine)",
+    "text": "Desenho e modelagem de moléculas",
+    "page": "https://www.acdlabs.com/resources/freeware/chemsketch/",
+    "install": [
       "sudo apt install --install-recommends wine64",
       "wine start hostname",
       "sudo apt install chemsketch-acd-wine"
     ],
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/chemsketch-acd-wine.png",
-    "categories" : ["Química"]
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/chemsketch-acd-wine.png",
+    "categories": [
+      "Química"
+    ]
   },
   {
-    "app" : "Avogadro",
-    "text" : "Sistema de modelagem e gráficos moleculares",
-    "page" : "https://www.openchemistry.org/projects/avogadro2/",
-    "install" : "sudo apt install avogadro",
-    "img" : "https://screenshots.debian.net/screenshots/000/001/732/large.png",
-    "categories" : ["Química"]
+    "app": "Avogadro",
+    "text": "Sistema de modelagem e gráficos moleculares",
+    "page": "https://www.openchemistry.org/projects/avogadro2/",
+    "install": "sudo apt install avogadro",
+    "img": "https://screenshots.debian.net/screenshot/avogadro",
+    "categories": [
+      "Química"
+    ]
   },
   {
-    "app" : "GChem3D, GChemCalc, GChemTable e GSpectrum",
-    "text" : "Visualizador molecular e spectral, calculadora e tabela periódica",
-    "page" : "http://gchemutils.nongnu.org",
-    "install" : "sudo apt install gcu-bin",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/282/large.png",
-    "categories" : ["Química"]
+    "app": "GChem3D, GChemCalc, GChemTable e GSpectrum",
+    "text": "Visualizador molecular e spectral, calculadora e tabela periódica",
+    "page": "http://gchemutils.nongnu.org",
+    "install": "sudo apt install gcu-bin",
+    "img": "https://screenshots.debian.net/screenshot/gcu-bin",
+    "categories": [
+      "Química"
+    ]
   },
   {
-    "app" : "GChemPaint",
-    "text" : "Editor de estruturas químicas 2D",
-    "page" : "http://gchemutils.nongnu.org/gchempaint.html",
-    "install" : "sudo apt install gchempaint",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/283/large.png",
-    "categories" : ["Química"]
+    "app": "GChemPaint",
+    "text": "Editor de estruturas químicas 2D",
+    "page": "http://gchemutils.nongnu.org/gchempaint.html",
+    "install": "sudo apt install gchempaint",
+    "img": "https://screenshots.debian.net/screenshot/gchempaint",
+    "categories": [
+      "Química"
+    ]
   },
   {
-    "app" : "Irydium Chemistry Lab",
-    "text" : "Laboratório Virtual de Química",
-    "page" : "http://chemcollective.org/vlab_download",
-    "install" : "sudo apt install irydium-chemistry-lab",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/irydium-chemistry-lab.png",
-    "categories" : ["Química"]
+    "app": "Irydium Chemistry Lab",
+    "text": "Laboratório Virtual de Química",
+    "page": "http://chemcollective.org/vlab_download",
+    "install": "sudo apt install irydium-chemistry-lab",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/irydium-chemistry-lab.png",
+    "categories": [
+      "Química"
+    ]
   },
   {
-    "app" : "gElemental",
-    "text" : "Tabela Periódica Virtual",
-    "page" : "https://github.com/ginggs/gelemental",
-    "install" : "sudo apt install gelemental",
-    "img" : "https://screenshots.debian.net/screenshots/000/016/660/large.png",
-    "categories" : ["Química"]
+    "app": "gElemental",
+    "text": "Tabela Periódica Virtual",
+    "page": "https://github.com/ginggs/gelemental",
+    "install": "sudo apt install gelemental",
+    "img": "https://screenshots.debian.net/screenshot/gelemental",
+    "categories": [
+      "Química"
+    ]
   },
   {
-    "app" : "Kalzium",
-    "text" : "Tabela Periódica e ferramentas do KDE",
-    "page" : "https://kde.org/applications/en/education/org.kde.kalzium",
-    "install" : "sudo apt install kalzium",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/284/large.png",
-    "categories" : ["Química"]
+    "app": "Kalzium",
+    "text": "Tabela Periódica e ferramentas do KDE",
+    "page": "https://kde.org/applications/en/education/org.kde.kalzium",
+    "install": "sudo apt install kalzium",
+    "img": "https://screenshots.debian.net/screenshot/kalzium",
+    "categories": [
+      "Química"
+    ]
   },
   {
-    "app" : "GPeriodic",
-    "text" : "Aplicação de tabela periódica",
-    "page" : "http://gperiodic.seul.org",
-    "install" : "sudo apt install gperiodic",
-    "img" : "https://screenshots.debian.net/screenshots/000/001/421/large.png",
-    "categories" : ["Química"]
+    "app": "GPeriodic",
+    "text": "Aplicação de tabela periódica",
+    "page": "http://gperiodic.seul.org",
+    "install": "sudo apt install gperiodic",
+    "img": "https://screenshots.debian.net/screenshot/gperiodic",
+    "categories": [
+      "Química"
+    ]
   },
   {
-    "app" : "Chemtool",
-    "text" : "Programa para desenho de estruturas químicas",
-    "page" : "http://ruby.chemie.uni-freiburg.de/~martin/chemtool/",
-    "install" : "sudo apt install chemtool",
-    "img" : "https://screenshots.debian.net/screenshots/000/006/149/large.png",
-    "categories" : ["Química"]
+    "app": "Chemtool",
+    "text": "Programa para desenho de estruturas químicas",
+    "page": "http://ruby.chemie.uni-freiburg.de/~martin/chemtool/",
+    "install": "sudo apt install chemtool",
+    "img": "https://screenshots.debian.net/screenshot/chemtool",
+    "categories": [
+      "Química"
+    ]
   },
   {
-    "app" : "EasyChem",
-    "text" : "Desenhe moléculas de alta qualidade e fórmulas químicas 2D",
-    "page" : "http://easychem.sourceforge.net",
-    "install" : "sudo apt install easychem",
-    "img" : "https://screenshots.debian.net/screenshots/000/006/352/large.png",
-    "categories" : ["Química"]
+    "app": "EasyChem",
+    "text": "Desenhe moléculas de alta qualidade e fórmulas químicas 2D",
+    "page": "http://easychem.sourceforge.net",
+    "install": "sudo apt install easychem",
+    "img": "https://screenshots.debian.net/screenshot/easychem",
+    "categories": [
+      "Química"
+    ]
   },
   {
-    "app" : "GDIS Molecule Modeller",
-    "text" : "Mostrador de moléculas e modelos de cristal",
-    "page" : "http://gdis.seul.org",
-    "install" : "sudo apt install gdis",
-    "img" : "https://screenshots.debian.net/screenshots/000/007/393/large.png",
-    "categories" : ["Química"]
+    "app": "GDIS Molecule Modeller",
+    "text": "Mostrador de moléculas e modelos de cristal",
+    "page": "http://gdis.seul.org",
+    "install": "sudo apt install gdis",
+    "img": "https://screenshots.debian.net/screenshot/gdis",
+    "categories": [
+      "Química"
+    ]
   },
   {
-    "app" : "Elements",
-    "text" : "Tabela Periódica usando Electron",
-    "page" : "https://github.com/FlorianFe/Elements",
-    "install" : "sudo apt install elements",
-    "img" : "https://camo.githubusercontent.com/e89df636722ccaa80d843b7f1b90414989c566e4/68747470733a2f2f666c6f7269616e66652e6769746875622e696f2f73637265656e73686f74732f656c656d656e74732f73637265656e73686f742d332e706e67",
-    "categories" : ["Química"]
+    "app": "Elements",
+    "text": "Tabela Periódica usando Electron",
+    "page": "https://github.com/FlorianFe/Elements",
+    "install": "sudo apt install elements",
+    "img": "https://screenshots.debian.net/screenshot/elements",
+    "categories": [
+      "Química"
+    ]
   },
   {
-    "app" : "GCompris",
-    "text" : "Suíte educacional para crianças de 2 a 10 anos",
-    "page" : "https://gcompris.net",
-    "install" : "sudo apt install gcompris",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/287/large.png",
-    "categories" : ["Infantil"]
+    "app": "GCompris",
+    "text": "Suíte educacional para crianças de 2 a 10 anos",
+    "page": "https://gcompris.net",
+    "install": "sudo apt install gcompris",
+    "img": "https://screenshots.debian.net/screenshot/gcompris",
+    "categories": [
+      "Infantil"
+    ]
   },
   {
-    "app" : "Sugarizer",
-    "text" : "Pacote de atividades pedagógicas para crianças",
-    "page" : "https://sugarizer.org",
-    "install" : [
+    "app": "Sugarizer",
+    "text": "Pacote de atividades pedagógicas para crianças",
+    "page": "https://sugarizer.org",
+    "install": [
       "# Faça o download do .deb no site",
       "sudo apt install ./Sugarizer_1.3.0_amd64.deb"
     ],
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/sugarizer.png",
-    "categories" : ["Infantil"]
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/sugarizer.png",
+    "categories": [
+      "Infantil"
+    ]
   },
   {
-    "app" : "KHangMan",
-    "text" : "Jogo da forca para crianças de 6 anos acima",
-    "page" : "https://edu.kde.org/khangman/",
-    "install" : "sudo apt install khangman",
-    "img" : "https://screenshots.debian.net/screenshots/000/019/288/large.png",
-    "categories" : ["Infantil"]
+    "app": "KHangMan",
+    "text": "Jogo da forca para crianças de 6 anos acima",
+    "page": "https://edu.kde.org/khangman/",
+    "install": "sudo apt install khangman",
+    "img": "https://screenshots.debian.net/screenshot/khangman",
+    "categories": [
+      "Infantil"
+    ]
   },
   {
-    "app" : "KLettres",
-    "text" : "Aprenda a pronunciar o alfabeto e sílabas",
-    "page" : "https://edu.kde.org/klettres/",
-    "install" : "sudo apt install klettres",
-    "img" : "https://screenshots.debian.net/screenshots/000/007/694/large.png",
-    "categories" : ["Infantil"]
+    "app": "KLettres",
+    "text": "Aprenda a pronunciar o alfabeto e sílabas",
+    "page": "https://edu.kde.org/klettres/",
+    "install": "sudo apt install klettres",
+    "img": "https://screenshots.debian.net/screenshot/klettres",
+    "categories": [
+      "Infantil"
+    ]
   },
   {
-    "app" : "Luz do Saber Fundamental",
-    "text" : "Atividades de alfabetização e letramento",
-    "page" : "https://luzdosaber.virtual.ufc.br",
-    "install" : "# Aplicativo online",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/luz-do-saber-fundamental.png",
-    "categories" : ["Infantil"]
+    "app": "Luz do Saber Fundamental",
+    "text": "Atividades de alfabetização e letramento",
+    "page": "https://luzdosaber.virtual.ufc.br",
+    "install": "# Aplicativo online",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/luz-do-saber-fundamental.png",
+    "categories": [
+      "Infantil"
+    ]
   },
   {
-    "app" : "Minetest",
-    "text" : "Caixa de areia de blocos em mundo infinito multijogador",
-    "page" : "https://www.minetest.net",
-    "install" : "sudo apt install minetest minetest-mod-basic-materials",
-    "img" : "http://screenshots.debian.net/screenshots/000/009/080/large.png",
-    "categories" : ["Infantil"]
+    "app": "Minetest",
+    "text": "Caixa de areia de blocos em mundo infinito multijogador",
+    "page": "https://www.minetest.net",
+    "install": "sudo apt install minetest minetest-mod-basic-materials",
+    "img": "https://screenshots.debian.net/screenshot/minetest",
+    "categories": [
+      "Infantil"
+    ]
   },
   {
-    "app" : "PySyCache",
-    "text" : "Jogo educativo para ensinar crianças a usar o mouse",
-    "page" : "http://www.pysycache.org",
-    "install" : "sudo apt install pysycache",
-    "img" : "http://screenshots.debian.net/screenshots/000/007/097/large.png",
-    "categories" : ["Infantil"]
+    "app": "PySyCache",
+    "text": "Jogo educativo para ensinar crianças a usar o mouse",
+    "page": "http://www.pysycache.org",
+    "install": "sudo apt install pysycache",
+    "img": "https://screenshots.debian.net/screenshot/pysycache",
+    "categories": [
+      "Infantil"
+    ]
   },
   {
-    "app" : "Tux Paint",
-    "text" : "Ferramenta de desenho para crianças",
-    "page" : "http://www.tuxpaint.org",
-    "install" : "sudo apt install tuxpaint",
-    "img" : "https://screenshots.debian.net/screenshots/000/000/555/large.png",
-    "categories" : ["Infantil"]
+    "app": "Tux Paint",
+    "text": "Ferramenta de desenho para crianças",
+    "page": "http://www.tuxpaint.org",
+    "install": "sudo apt install tuxpaint",
+    "img": "https://screenshots.debian.net/screenshot/tuxpaint",
+    "categories": [
+      "Infantil"
+    ]
   },
   {
-    "app" : "TuxTyping",
-    "text" : "Tutorial de digitação para crianças",
-    "page" : "https://github.com/tux4kids/",
-    "install" : "sudo apt install tuxtype",
-    "img" : "http://screenshots.debian.net/screenshots/000/002/281/large.png",
-    "categories" : ["Infantil"]
+    "app": "TuxTyping",
+    "text": "Tutorial de digitação para crianças",
+    "page": "https://github.com/tux4kids/",
+    "install": "sudo apt install tuxtype",
+    "img": "https://screenshots.debian.net/screenshot/tuxtype",
+    "categories": [
+      "Infantil"
+    ]
   },
   {
-    "app" : "Tux Math",
-    "text" : "Jogo de matemática com Tux para crianças",
-    "page" : "https://packages.ubuntu.com/focal/tuxmath",
-    "install" : "sudo apt install tuxmath",
-    "img" : "https://screenshots.debian.net/screenshots/000/015/163/large.png",
-    "categories" : ["Infantil"]
+    "app": "Tux Math",
+    "text": "Jogo de matemática com Tux para crianças",
+    "page": "https://packages.ubuntu.com/focal/tuxmath",
+    "install": "sudo apt install tuxmath",
+    "img": "https://screenshots.debian.net/screenshot/tuxmath",
+    "categories": [
+      "Infantil"
+    ]
   },
   {
-    "app" : "Omnitux",
-    "text" : "Atividades educacionais baseado em multimídia para crianças",
-    "page" : "http://omnitux.sourceforge.net/download.en.php",
-    "install" : [
-        "# Faça o download do .deb no site",
-        "sudo apt install ./omnitux_1.2.1_all.deb"
+    "app": "Omnitux",
+    "text": "Atividades educacionais baseado em multimídia para crianças",
+    "page": "http://omnitux.sourceforge.net/download.en.php",
+    "install": [
+      "# Faça o download do .deb no site",
+      "sudo apt install ./omnitux_1.2.1_all.deb"
     ],
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/omnitux.png",
-    "categories" : ["Infantil"]
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/omnitux.png",
+    "categories": [
+      "Infantil"
+    ]
   },
   {
-    "app" : "eduActiv8",
-    "text" : "Atividades educacionais para crianças",
-    "page" : "https://www.eduactiv8.org",
-    "install" : [
-        "# Acesse o site oficial do eduActiv8",
-        "# Clique em 'Download eduActiv8 Linux'",
-        "# Selecione o seu sistema operacional",
-        "# Execute o primeiro comando para inserir o repositório",
-        "# Execute o segundo comando para inserir a chave pública",
-        "sudo apt update",
-        "sudo apt install eduactiv8"
+    "app": "eduActiv8",
+    "text": "Atividades educacionais para crianças",
+    "page": "https://www.eduactiv8.org",
+    "install": [
+      "# Acesse o site oficial do eduActiv8",
+      "# Clique em 'Download eduActiv8 Linux'",
+      "# Selecione o seu sistema operacional",
+      "# Execute o primeiro comando para inserir o repositório",
+      "# Execute o segundo comando para inserir a chave pública",
+      "sudo apt update",
+      "sudo apt install eduactiv8"
     ],
-    "img" : "https://www.eduactiv8.org/img/img1.jpg",
-    "categories" : ["Infantil", "Multidisciplinar"]
+    "img": "https://www.eduactiv8.org/img/img1.jpg",
+    "categories": [
+      "Infantil",
+      "Multidisciplinar"
+    ]
   },
   {
-    "app" : "Flash Player Projetor",
-    "text" : "Reprodutor de arquivos .swf, animações e aplicações em Flash",
-    "page" : "https://www.adobe.com/support/flashplayer/debug_downloads.html",
-    "install" : "sudo apt install flashplayer-sa-projector",
-    "img" : "https://raw.githubusercontent.com/ailtonbsj/flashplayer-sa-projector/master/screenshot.png",
-    "categories" : ["Ferramentas"]
+    "app": "Flash Player Projetor",
+    "text": "Reprodutor de arquivos .swf, animações e aplicações em Flash",
+    "page": "https://www.adobe.com/support/flashplayer/debug_downloads.html",
+    "install": "sudo apt install flashplayer-sa-projector",
+    "img": "https://raw.githubusercontent.com/ailtonbsj/flashplayer-sa-projector/master/screenshot.png",
+    "categories": [
+      "Ferramentas"
+    ]
   },
   {
-    "app" : "Menu educativo AppsEdu",
-    "text" : "Submenus para aplicativos educacionais",
-    "page" : "https://ailtonbsj.github.io/educational-apps-divided-by-discipline",
-    "install" : [
+    "app": "Menu educativo AppsEdu",
+    "text": "Submenus para aplicativos educacionais",
+    "page": "https://ailtonbsj.github.io/educational-apps-divided-by-discipline",
+    "install": [
       "# Primeiro instale os apps educacionais que você deseja",
       "sudo apt install --no-install-recommends appsedu-menus"
     ],
-    "img" : "https://ailtonbsj.github.io/assets/appsedu/02.jpg",
-    "categories" : ["Ferramentas"]
+    "img": "https://ailtonbsj.github.io/assets/appsedu/02.jpg",
+    "categories": [
+      "Ferramentas"
+    ]
   },
   {
-    "app" : "WinuniX OS 20.04",
-    "text" : "Uma versão do Lubuntu ideal para PCs antigos",
-    "page" : "https://winunix.github.io",
-    "install" : [
+    "app": "WinuniX OS 20.04",
+    "text": "Uma versão do Lubuntu ideal para PCs antigos",
+    "page": "https://winunix.github.io",
+    "install": [
       "# Baixe na página oficial o arquivo .iso",
       "# Instale no seu PC, Notebook ou Máquina Virtual",
       "# Veja videos de como instalar em https://bit.ly/instale20"
     ],
-    "img" : "https://winunix.github.io/img/banner/home-left-1.png",
-    "categories" : ["Ferramentas"]
+    "img": "https://winunix.github.io/img/banner/home-left-1.png",
+    "categories": [
+      "Ferramentas"
+    ]
   },
   {
-    "app" : "Anbox",
-    "text" : "Camada de compatibilidade para executar aplicativos Android",
-    "page" : "https://anbox.io",
-    "install" : [
+    "app": "Anbox",
+    "text": "Camada de compatibilidade para executar aplicativos Android",
+    "page": "https://anbox.io",
+    "install": [
       "sudo apt install winunix-anbox-installer",
       "# Você pode usar os comandos apk2deb e ",
       "# deb-boilerplate para integrar os apps android ao menu iniciar."
     ],
-    "img" : "http://screenshots.debian.net/screenshots/000/016/239/large.png",
-    "categories" : ["Ferramentas"]
+    "img": "https://screenshots.debian.net/screenshot/winunix-anbox-installer",
+    "categories": [
+      "Ferramentas"
+    ]
   },
   {
-    "app" : "Visual Studio Code",
-    "text" : "Editor de códigos para desenvolvedores",
-    "page" : "https://code.visualstudio.com",
-    "install" : "sudo apt install code",
-    "img" : "https://code.visualstudio.com/assets/home/home-screenshot-linux.png",
-    "categories" : ["Desenvolvimento"]
+    "app": "Visual Studio Code",
+    "text": "Editor de códigos para desenvolvedores",
+    "page": "https://code.visualstudio.com",
+    "install": "sudo apt install code",
+    "img": "https://screenshots.debian.net/screenshot/code",
+    "categories": [
+      "Desenvolvimento"
+    ]
   },
   {
-    "app" : "Code::Blocks",
-    "text" : "Ambiente de desenvolvimento integrado para C/C++ e outros",
-    "page" : "http://www.codeblocks.org",
-    "install" : "sudo apt install codeblocks",
-    "img" : "https://screenshots.debian.net/screenshots/000/015/292/large.png",
-    "categories" : ["Desenvolvimento"]
+    "app": "Code::Blocks",
+    "text": "Ambiente de desenvolvimento integrado para C/C++ e outros",
+    "page": "http://www.codeblocks.org",
+    "install": "sudo apt install codeblocks",
+    "img": "https://screenshots.debian.net/screenshot/codeblocks",
+    "categories": [
+      "Desenvolvimento"
+    ]
   },
   {
-    "app" : "XAMPP",
-    "text" : "Ambiente de desenvolvimento PHP com Apache e MariaDB",
-    "page" : "https://www.apachefriends.org/pt_br/index.html",
-    "install" : "sudo apt install xampp",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/xampp.png",
-    "categories" : ["Desenvolvimento"]
+    "app": "XAMPP",
+    "text": "Ambiente de desenvolvimento PHP com Apache e MariaDB",
+    "page": "https://www.apachefriends.org/pt_br/index.html",
+    "install": "sudo apt install xampp",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/xampp.png",
+    "categories": [
+      "Desenvolvimento"
+    ]
   },
   {
-    "app" : "Astah Community",
-    "text" : "Ferramenta de modelagem UML gratuito",
-    "page" : "https://astah.net/products/astah-community/",
-    "install" : "sudo apt install astah-community",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/astah-community.png",
-    "categories" : ["Desenvolvimento"]
+    "app": "Astah Community",
+    "text": "Ferramenta de modelagem UML gratuito",
+    "page": "https://astah.net/products/astah-community/",
+    "install": "sudo apt install astah-community",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/astah-community.png",
+    "categories": [
+      "Desenvolvimento"
+    ]
   },
   {
-    "app" : "brModelo",
-    "text" : "Uma ferramenta para modelagem de banco de dados",
-    "page" : "http://www.sis4.com/brModelo/",
-    "install" : "sudo apt install brmodelo",
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/brmodelo.png",
-    "categories" : ["Desenvolvimento"]
+    "app": "brModelo",
+    "text": "Uma ferramenta para modelagem de banco de dados",
+    "page": "http://www.sis4.com/brModelo/",
+    "install": "sudo apt install brmodelo",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/brmodelo.png",
+    "categories": [
+      "Desenvolvimento"
+    ]
   },
   {
-    "app" : "MySQL Workbench Community",
-    "text" : "Administração e modelagem de banco de dados",
-    "page" : "https://dev.mysql.com/downloads/workbench/",
-    "install" : [
+    "app": "MySQL Workbench Community",
+    "text": "Administração e modelagem de banco de dados",
+    "page": "https://dev.mysql.com/downloads/workbench/",
+    "install": [
       "# Faça o download do .deb no site",
       "sudo apt install ./mysql-workbench-community*.deb"
     ],
-    "img" : "https://screenshots.debian.net/screenshots/000/015/749/large.png",
-    "categories" : ["Desenvolvimento"]
+    "img": "https://upload.wikimedia.org/wikipedia/commons/9/9c/The_MySQL_Workbench_startup_screen.png",
+    "categories": [
+      "Desenvolvimento"
+    ]
   },
   {
-    "app" : "Umbrello",
-    "text" : "Ferramenta de modelagem UML do KDE",
-    "page" : "https://umbrello.kde.org",
-    "install" : "sudo apt install umbrello",
-    "img" : "https://screenshots.debian.net/screenshots/000/002/197/large.png",
-    "categories" : ["Desenvolvimento"]
+    "app": "Umbrello",
+    "text": "Ferramenta de modelagem UML do KDE",
+    "page": "https://umbrello.kde.org",
+    "install": "sudo apt install umbrello",
+    "img": "https://screenshots.debian.net/screenshot/umbrello",
+    "categories": [
+      "Desenvolvimento"
+    ]
   },
   {
-    "app" : "Eclipse IDE",
-    "text" : "Ambiente de desenvolvimento para Java, C/C++ ou PHP",
-    "page" : "https://www.eclipse.org/downloads/packages/",
-    "install" : [
+    "app": "Eclipse IDE",
+    "text": "Ambiente de desenvolvimento para Java, C/C++ ou PHP",
+    "page": "https://www.eclipse.org/downloads/packages/",
+    "install": [
       "sudo apt install snapd",
       "sudo snap install eclipse --edge --classic"
     ],
-    "img" : "https://screenshots.debian.net/screenshots/000/005/924/large.png",
-    "categories" : ["Desenvolvimento"]
+    "img": "https://screenshots.debian.net/screenshot/snapd",
+    "categories": [
+      "Desenvolvimento"
+    ]
   },
   {
-    "app" : "WindowBuilder para Eclipse IDE",
-    "text" : "Complemento para criar janelas de forma visual em Java",
-    "page" : "https://www.eclipse.org/windowbuilder/",
-    "install" : [
+    "app": "WindowBuilder para Eclipse IDE",
+    "text": "Complemento para criar janelas de forma visual em Java",
+    "page": "https://www.eclipse.org/windowbuilder/",
+    "install": [
       "# Abra o Eclipse, clique no menu 'Help > Install New Software...'",
       "# Copie a url abaixo e cole no campo 'Work with:' e tecle enter",
       "https://download.eclipse.org/windowbuilder/latest/",
       "# Selecione todos os checkbox do WindowBuilder e clique em 'Next >'",
       "# Clique em 'Next >' e selecione 'I accept the terms...' e clique em 'Finish'"
     ],
-    "img" : "https://www.eclipse.org/windowbuilder/images/wb_summary_shot.gif",
-    "categories" : ["Desenvolvimento"]
+    "img": "https://www.eclipse.org/windowbuilder/images/wb_summary_shot.gif",
+    "categories": [
+      "Desenvolvimento"
+    ]
   },
   {
-    "app" : "Modelio",
-    "text" : "Ambiente de modelagem UML, BPMN e outros",
-    "page" : "https://www.modelio.org/downloads/download-modelio.html",
-    "install" : [
+    "app": "Modelio",
+    "text": "Ambiente de modelagem UML, BPMN e outros",
+    "page": "https://www.modelio.org/downloads/download-modelio.html",
+    "install": [
       "# Faça o download do instalador para Debian 9/10 no site",
       "sudo apt install ./modelio-open-source4.0_4.0.1_amd64.deb",
       "# Edite o arquivo /etc/modelio-open-source4.0/modelio.config",
       "# Altere as variaveis para SWT_GTK3=1 e SWT_WEBKIT2=1"
     ],
-    "img" : "https://appsedu.github.io/catalog-apps/screenshots/modelio.png",
-    "categories" : ["Desenvolvimento"]
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/modelio.png",
+    "categories": [
+      "Desenvolvimento"
+    ]
   },
   {
-    "app" : "Lazarus IDE",
-    "text" : "Ambiente visual rico de desenvolvimento em ObjectPascal similar ao Delphi",
-    "page" : "https://www.lazarus-ide.org",
-    "install" : [
-        "# Acesse a página oficial e clique em 'Download Now'",
-        "# Baixe os 3 arquivos debs:",
-        "# lazarus-project*.deb, fpc-laz*.deb e fpc-src*.deb",
-        "# Instale os 3 pacotes com os comandos abaixo:",
-        "sudo apt install ./fpc-src*.deb",
-        "sudo apt install ./fpc-laz*.deb",
-        "sudo apt install ./lazarus-project*.deb"
+    "app": "Lazarus IDE",
+    "text": "Ambiente visual rico de desenvolvimento em ObjectPascal similar ao Delphi",
+    "page": "https://www.lazarus-ide.org",
+    "install": [
+      "# Acesse a página oficial e clique em 'Download Now'",
+      "# Baixe os 3 arquivos debs:",
+      "# lazarus-project*.deb, fpc-laz*.deb e fpc-src*.deb",
+      "# Instale os 3 pacotes com os comandos abaixo:",
+      "sudo apt install ./fpc-src*.deb",
+      "sudo apt install ./fpc-laz*.deb",
+      "sudo apt install ./lazarus-project*.deb"
     ],
-    "img" : "http://screenshots.debian.net/screenshots/000/019/306/large.png",
-    "categories" : ["Desenvolvimento"]
+    "img": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Lazarus_IDE_v0.9.28.2-10ubuntu1_beta.png",
+    "categories": [
+      "Desenvolvimento"
+    ]
   },
   {
-    "app" : "Qt Creator",
-    "text" : "Programe em C/C++ ou Python usando framework Qt",
-    "page" : "https://www.qt.io/download-qt-installer",
-    "install" : [
+    "app": "Qt Creator",
+    "text": "Programe em C/C++ ou Python usando framework Qt",
+    "page": "https://www.qt.io/download-qt-installer",
+    "install": [
       "# Faça o download do .run no site",
       "sudo chmod +x qt-unified-linux-x64-3.2.3-online.run",
       "./qt-unified-linux-x64-3.2.3-online.run",
@@ -1045,7 +1286,9 @@
       "rsync -av ~/.local/share/hicolor/ ~/.local/share/icons/hicolor/",
       "ln -s ~/.local/Qt/QtIcon.png ~/.local/share/icons/hicolor/256x256/apps/"
     ],
-    "img" : "https://screenshots.debian.net/screenshots/000/009/133/large.png",
-    "categories" : ["Desenvolvimento"]
+    "img": "https://dl.flathub.org/media/io/qt/QtCreator/79f11603c6e91086cebd2b8f30d918cd/screenshots/image-1_orig.png",
+    "categories": [
+      "Desenvolvimento"
+    ]
   }
 ]
