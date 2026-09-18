@@ -61,7 +61,7 @@
     "text" : "Aprenda a operar um microscópio composto",
     "page" : "https://courses.ecampus.oregonstate.edu/oer/microscope",
     "install" : "# Aplicativo online",
-    "img" : "screenshots/3d-microscope-lab.jpg",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/3d-microscope-lab.jpg",
     "categories" : ["Biologia"]
   },
   {
@@ -69,7 +69,7 @@
     "text" : "Aprendendo anatomia humana com modelos 3D",
     "page" : "http://anatomylearning.com/webgl2020/browser.php",
     "install" : "# Aplicativo online",
-    "img" : "screenshots/anatomy-learning.jpg",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/anatomy-learning.jpg",
     "categories" : ["Biologia"]
   },
   {
@@ -77,7 +77,7 @@
     "text" : "Microscópio virtual da NASA",
     "page" : "http://virtual.itg.uiuc.edu",
     "install" : "sudo apt install virtual-lab-microscope",
-    "img" : "screenshots/virtual-lab-microscope.jpg",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/virtual-lab-microscope.jpg",
     "categories" : ["Biologia"]
   },
   {
@@ -85,7 +85,7 @@
     "text" : "Visualizador em 3D do corpo humano",
     "page" : "https://www.zygotebody.com",
     "install" : "# Aplicativo online",
-    "img" : "screenshots/zygote-body.jpg",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/zygote-body.jpg",
     "categories" : ["Biologia"]
   },
   {
@@ -133,7 +133,7 @@
     "text" : "Projetos 3D, componentes eletrônicos e codificação",
     "page" : "https://www.tinkercad.com/dashboard",
     "install" : "# Aplicativo online (Requer fazer login)",
-    "img" : "screenshots/tinkercad.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/tinkercad.png",
     "categories" : ["Desenho Técnico", "Eletricidade"]
   },
   {
@@ -195,7 +195,7 @@
       "sudo apt install circuit-simulator",
       "# Também disponível online"
     ],
-    "img" : "screenshots/circuitmod.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/circuitmod.png",
     "categories" : ["Eletricidade"]
   },
   {
@@ -263,7 +263,7 @@
       "wine start hostname",
       "sudo apt install algodoo-wine"
     ],
-    "img" : "screenshots/algodoo-wine.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/algodoo-wine.png",
     "categories" : ["Física Geral"]
   },
   {
@@ -291,7 +291,7 @@
       "wine start hostname",
       "sudo apt install physion-wine"
     ],
-    "img" : "screenshots/physion-wine.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/physion-wine.png",
     "categories" : ["Física Geral"]
   },
   {
@@ -299,7 +299,7 @@
     "text" : "Simulação de um buraco negro",
     "page" : "http://spiro.fisica.unipd.it/~antonell/schwarzschild/live/",
     "install" : "# Aplicativo online",
-    "img" : "screenshots/schwarzschild-black-hole.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/schwarzschild-black-hole.png",
     "categories" : ["Física Geral"]
   },
   {
@@ -331,7 +331,7 @@
     "text" : "Simulador de sistemas mecânicos em 3D",
     "page" : "https://gitlab.com/damien.andre/openmeca",
     "install" : "sudo apt install openmeca",
-    "img" : "screenshots/openmeca.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/openmeca.png",
     "categories" : ["Física Geral"]
   },
   {
@@ -339,7 +339,7 @@
     "text" : "Visualização de mapas e imagens de satélite da Terra",
     "page" : "https://www.google.com.br/maps/",
     "install" : "# Aplicativo online",
-    "img" : "screenshots/google-maps.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/google-maps.png",
     "categories" : ["Geografia"]
   },
   {
@@ -371,7 +371,7 @@
     "text" : "Atlas Histórico Mundial Interativo",
     "page" : "http://geacron.com/home-pt/?lang=pt-pt",
     "install" : "# Aplicativo online",
-    "img" : "screenshots/geacron.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/geacron.png",
     "categories" : ["História"]
   },
   {
@@ -401,7 +401,7 @@
         "sudo apt install ./PacketTracer_*.deb",
         "# Requer fazer login para usar o programa"
     ],
-    "img" : "screenshots/packet-tracer.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/packet-tracer.png",
     "categories" : ["Informatica"]
   },
   {
@@ -477,7 +477,7 @@
     "text" : "Plataforma de ensino de idiomas gratuito",
     "page" : "https://pt.duolingo.com",
     "install" : "# Aplicativo online",
-    "img" : "screenshots/duolingo.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/duolingo.png",
     "categories" : ["Línguas"]
   },
   {
@@ -581,7 +581,7 @@
     "text" : "Ambiente de simulação de robótica",
     "page" : "https://www.coppeliarobotics.com",
     "install" : "sudo apt install coppelia-sim-edu",
-    "img" : "screenshots/coppelia-sim-edu.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/coppelia-sim-edu.png",
     "categories" : ["Mecatrônica"]
   },
   {
@@ -589,7 +589,7 @@
     "text" : "Simulador de sistemas pneumáticos, hidráulicos e mecatrônicos",
     "page" : "https://github.com/Hopsan/hopsan",
     "install" : "sudo apt install hopsan",
-    "img" : "screenshots/hopsan.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/hopsan.png",
     "categories" : ["Mecatrônica"]
   },
   {
@@ -600,7 +600,7 @@
       "# Faça o download do .deb no site",
       "sudo apt install ./webots_2020a-rev1_amd64.deb"
     ],
-    "img" : "screenshots/webots.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/webots.png",
     "categories" : ["Mecatrônica"]
   },
   {
@@ -627,7 +627,7 @@
       "winetricks dotnet35 -q",
       "sudo apt install free-cnc-simulator-wine"
     ],
-    "img" : "screenshots/cnc-simulator.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/cnc-simulator.png",
     "categories" : ["Mecatrônica"]
   },
   {
@@ -635,7 +635,7 @@
     "text" : "Simulador livre de máquinas CNC",
     "page" : "https://camotics.org",
     "install" : "sudo apt install camotics",
-    "img" : "screenshots/camotics.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/camotics.png",
     "categories" : ["Mecatrônica"]
   },
   {
@@ -655,7 +655,7 @@
       "# Na aba Permissões selecione a caixa 'Permitir execução' e clique 'Ok'",
       "Clique no arquivo com botão direito e vá em 'Abrir com > OpenJDK Java 8 Runtime'"
     ],
-    "img" : "screenshots/phet.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/phet.png",
     "categories" : ["Multidisciplinar"]
   },
   {
@@ -667,7 +667,7 @@
       "wine start hostname",
       "sudo apt install chemsketch-acd-wine"
     ],
-    "img" : "screenshots/chemsketch-acd-wine.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/chemsketch-acd-wine.png",
     "categories" : ["Química"]
   },
   {
@@ -699,7 +699,7 @@
     "text" : "Laboratório Virtual de Química",
     "page" : "http://chemcollective.org/vlab_download",
     "install" : "sudo apt install irydium-chemistry-lab",
-    "img" : "screenshots/irydium-chemistry-lab.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/irydium-chemistry-lab.png",
     "categories" : ["Química"]
   },
   {
@@ -774,7 +774,7 @@
       "# Faça o download do .deb no site",
       "sudo apt install ./Sugarizer_1.3.0_amd64.deb"
     ],
-    "img" : "screenshots/sugarizer.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/sugarizer.png",
     "categories" : ["Infantil"]
   },
   {
@@ -798,7 +798,7 @@
     "text" : "Atividades de alfabetização e letramento",
     "page" : "https://luzdosaber.virtual.ufc.br",
     "install" : "# Aplicativo online",
-    "img" : "screenshots/luz-do-saber-fundamental.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/luz-do-saber-fundamental.png",
     "categories" : ["Infantil"]
   },
   {
@@ -849,7 +849,7 @@
         "# Faça o download do .deb no site",
         "sudo apt install ./omnitux_1.2.1_all.deb"
     ],
-    "img" : "screenshots/omnitux.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/omnitux.png",
     "categories" : ["Infantil"]
   },
   {
@@ -932,7 +932,7 @@
     "text" : "Ambiente de desenvolvimento PHP com Apache e MariaDB",
     "page" : "https://www.apachefriends.org/pt_br/index.html",
     "install" : "sudo apt install xampp",
-    "img" : "screenshots/xampp.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/xampp.png",
     "categories" : ["Desenvolvimento"]
   },
   {
@@ -940,7 +940,7 @@
     "text" : "Ferramenta de modelagem UML gratuito",
     "page" : "https://astah.net/products/astah-community/",
     "install" : "sudo apt install astah-community",
-    "img" : "screenshots/astah-community.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/astah-community.png",
     "categories" : ["Desenvolvimento"]
   },
   {
@@ -948,7 +948,7 @@
     "text" : "Uma ferramenta para modelagem de banco de dados",
     "page" : "http://www.sis4.com/brModelo/",
     "install" : "sudo apt install brmodelo",
-    "img" : "screenshots/brmodelo.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/brmodelo.png",
     "categories" : ["Desenvolvimento"]
   },
   {
@@ -1005,7 +1005,7 @@
       "# Edite o arquivo /etc/modelio-open-source4.0/modelio.config",
       "# Altere as variaveis para SWT_GTK3=1 e SWT_WEBKIT2=1"
     ],
-    "img" : "screenshots/modelio.png",
+    "img" : "https://appsedu.github.io/catalog-apps/screenshots/modelio.png",
     "categories" : ["Desenvolvimento"]
   },
   {
