@@ -1,6 +1,6 @@
 # Catálogo de Apps Educativos para Linux
 
-> Melhor visualizado em: [https://appsedu.github.io/catalog-apps/](https://appsedu.github.io/catalog-apps/)
+> Melhor visualizado em: [https://appsedu.github.io/catalog-apps/app1](https://appsedu.github.io/catalog-apps/)
 
 > A opção `Como instalar` assume que você esteja utilizando o [_WinuniX OS_](https://winunix.github.io) ou outra distribuição linux com o [Repositório do WinuniX 20](https://winunix.github.io/debian/) adicionado corretamente.
 

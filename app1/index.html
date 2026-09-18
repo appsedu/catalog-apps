@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Catálogo de Apps Educativos para Linux</title>
+    <meta
+      name="description"
+      content="Catálogo de aplicativos educativos para Linux com descrição, categorias, capturas de tela e comando de instalação."
+    />
+    <meta property="og:title" content="Catálogo de Apps Educativos para Linux" />
+    <meta
+      property="og:description"
+      content="Descubra apps educativos para Linux por categoria, com instruções de instalação."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Catálogo de Apps Educativos para Linux</h1>
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Abrir lista de apps">☰</button>
+    </header>
+
+    <div class="layout">
+      <aside id="sidebar" class="sidebar">
+        <div class="sidebar-controls">
+          <label class="field">
+            <span>Buscar</span>
+            <input id="search" type="search" placeholder="Nome ou descrição..." autocomplete="off" />
+          </label>
+          <label class="field">
+            <span>Categoria</span>
+            <select id="category"></select>
+          </label>
+          <p id="count" class="count"></p>
+        </div>
+        <nav>
+          <ul id="app-list" class="app-list"></ul>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <section id="empty" class="placeholder">
+          <h2>Selecione um app</h2>
+          <p>Use a lista à esquerda, filtre por categoria ou busque por nome e descrição.</p>
+        </section>
+
+        <article id="detail" class="detail" hidden>
+          <h2 id="detail-title"></h2>
+          <p id="detail-text" class="detail-text"></p>
+          <ul id="detail-categories" class="tags"></ul>
+          <a id="detail-page" class="site-link" href="#" target="_blank" rel="noopener noreferrer">
+            Site oficial ↗
+          </a>
+
+          <h3>Como instalar</h3>
+          <div class="install">
+            <pre><code id="detail-install"></code></pre>
+            <button id="copy" class="copy" type="button">Copiar</button>
+          </div>
+
+          <h3>Exemplo</h3>
+          <img id="detail-img" class="shot" alt="" loading="lazy" />
+        </article>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
