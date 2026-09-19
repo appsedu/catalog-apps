@@ -14,7 +14,7 @@
     "text": "Explore, pesquise e descubra o planeta",
     "page": "https://www.google.com.br/intl/pt-BR_ALL/earth/versions/",
     "install": "sudo apt install google-earth-pro-stable",
-    "img": "https://screenshots.debian.net/screenshot/google-earth-pro-stable",
+    "img": "https://screenshots.debian.net/screenshot/googleearth-package",
     "categories": [
       "Astronomia",
       "Geografia"
@@ -177,7 +177,7 @@
     "text": "Aplicação 3D CAD-CAM",
     "page": "http://www.gcad3d.org",
     "install": "sudo apt install gcad3d",
-    "img": "https://screenshots.debian.net/screenshot/gcad3d",
+    "img": "https://www.gcad3d.org/Images/gCAD3D1.jpg",
     "categories": [
       "Desenho Técnico"
     ]
@@ -228,7 +228,7 @@
     "text": "IDE e bibliotecas embutidas para placa de desenvolvimento AVR",
     "page": "https://www.arduino.cc",
     "install": "sudo apt install arduino-ide",
-    "img": "https://screenshots.debian.net/screenshot/arduino-ide",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Arduino_IDE_-_Blink.png/1280px-Arduino_IDE_-_Blink.png",
     "categories": [
       "Eletricidade",
       "Mecatrônica"
@@ -263,7 +263,7 @@
     "text": "Simulador de projetos de circuitos digitais",
     "page": "https://github.com/reds-heig/logisim-evolution",
     "install": "sudo apt install logisim-evolution",
-    "img": "https://screenshots.debian.net/screenshot/logisim-evolution",
+    "img": "https://raw.githubusercontent.com/logisim-evolution/logisim-evolution/main/docs/img/logisim-evolution-01.png",
     "categories": [
       "Eletricidade",
       "Informática"
@@ -284,7 +284,7 @@
     "text": "Calculadora de código de cores de resistores",
     "page": "https://sourceforge.net/projects/gresistor/",
     "install": "sudo apt install gresistor-extras-pt",
-    "img": "https://screenshots.debian.net/screenshot/gresistor-extras-pt",
+    "img": "https://screenshots.debian.net/screenshot/gresistor",
     "categories": [
       "Eletricidade"
     ]
@@ -340,7 +340,7 @@
     "text": "Ferramenta interativa para estudar e simular montagens ópticas",
     "page": "http://jeanmarie.biansan.free.fr/optgeo.html",
     "install": "sudo apt install optgeo-i18n",
-    "img": "https://screenshots.debian.net/screenshot/optgeo-i18n",
+    "img": "https://screenshots.debian.net/screenshot/optgeo",
     "categories": [
       "Física Geral"
     ]
@@ -444,7 +444,7 @@
     "text": "Globo virtual e atlas do mundo",
     "page": "https://marble.kde.org",
     "install": "sudo apt install marble-qt marble-maps",
-    "img": "https://screenshots.debian.net/screenshot/marble-qt",
+    "img": "https://cdn.kde.org/screenshots/marble/marble.png",
     "categories": [
       "Geografia"
     ]
@@ -553,7 +553,7 @@
     "text": "Dicionário rico em funcionalidades",
     "page": "http://goldendict.org",
     "install": "sudo apt install goldendict-extras-pt",
-    "img": "https://screenshots.debian.net/screenshot/goldendict-extras-pt",
+    "img": "https://screenshots.debian.net/screenshot/goldendict-webengine",
     "categories": [
       "Línguas"
     ]
@@ -619,7 +619,7 @@
     "text": "Aplicação interativa de conceitos matemáticos",
     "page": "https://www.geogebra.org",
     "install": "sudo apt install geogebra-classic",
-    "img": "https://screenshots.debian.net/screenshot/geogebra-classic",
+    "img": "https://screenshots.debian.net/screenshot/geogebra",
     "categories": [
       "Matemática"
     ]
@@ -767,7 +767,7 @@
       "sudo apt update",
       "sudo apt install gazebo11"
     ],
-    "img": "https://screenshots.debian.net/screenshot/gazebo11",
+    "img": "https://screenshots.debian.net/screenshot/gazebo",
     "categories": [
       "Mecatrônica"
     ]
@@ -939,7 +939,7 @@
     "text": "Tabela Periódica usando Electron",
     "page": "https://github.com/FlorianFe/Elements",
     "install": "sudo apt install elements",
-    "img": "https://screenshots.debian.net/screenshot/elements",
+    "img": "https://florianfe.github.io/screenshots/elements/screenshot-3.png",
     "categories": [
       "Química"
     ]
@@ -949,7 +949,7 @@
     "text": "Suíte educacional para crianças de 2 a 10 anos",
     "page": "https://gcompris.net",
     "install": "sudo apt install gcompris",
-    "img": "https://screenshots.debian.net/screenshot/gcompris",
+    "img": "https://cdn.kde.org/screenshots/gcompris/gcompris.png",
     "categories": [
       "Infantil"
     ]
@@ -1002,7 +1002,7 @@
     "text": "Caixa de areia de blocos em mundo infinito multijogador",
     "page": "https://www.minetest.net",
     "install": "sudo apt install minetest minetest-mod-basic-materials",
-    "img": "https://screenshots.debian.net/screenshot/minetest",
+    "img": "https://www.minetest.net/media/gallery/1.jpg",
     "categories": [
       "Infantil"
     ]
@@ -1125,7 +1125,7 @@
       "# Você pode usar os comandos apk2deb e ",
       "# deb-boilerplate para integrar os apps android ao menu iniciar."
     ],
-    "img": "https://screenshots.debian.net/screenshot/winunix-anbox-installer",
+    "img": "https://screenshots.debian.net/screenshot/anbox",
     "categories": [
       "Ferramentas"
     ]
@@ -1135,7 +1135,7 @@
     "text": "Editor de códigos para desenvolvedores",
     "page": "https://code.visualstudio.com",
     "install": "sudo apt install code",
-    "img": "https://screenshots.debian.net/screenshot/code",
+    "img": "https://code.visualstudio.com/assets/docs/getstarted/userinterface/hero.png",
     "categories": [
       "Desenvolvimento"
     ]
