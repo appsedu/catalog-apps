@@ -1,91 +1,122 @@
 # Catálogo de Apps Educativos para Linux
 
-> Melhor visualizado em: [https://appsedu.github.io/catalog-apps/app1](https://appsedu.github.io/catalog-apps/)
+[![Apps](https://img.shields.io/badge/apps-115+-dcaa50?style=for-the-badge)](https://appsedu.github.io/catalog-apps/)
+[![Licença](https://img.shields.io/badge/licença-MIT-63b6a5?style=for-the-badge)](LICENSE)
+[![Plataforma](https://img.shields.io/badge/plataforma-Debian%20%7C%20Ubuntu-0e1116?style=for-the-badge)](https://winunix.github.io/debian/)
+[![Demo](https://img.shields.io/badge/demo-ao%20vivo-a87828?style=for-the-badge&logo=github&logoColor=white)](https://appsedu.github.io/catalog-apps/)
 
-> A opção `Como instalar` assume que você esteja utilizando o [_WinuniX OS_](https://winunix.github.io) ou outra distribuição linux com o [Repositório do WinuniX 20](https://winunix.github.io/debian/) adicionado corretamente.
+---
 
-> Encontrou algum erro ou quer indicar um app open-source compatível com Debian / Ubuntu para o catálogo? [Entre em contato conosco pelo Github criando uma issue!](https://github.com/appsedu/catalog-apps/issues)
+> Um catálogo curado de software livre e open source para **educação**, pensado para o desktop Linux — com foco em Debian, Ubuntu e no [WinuniX OS](https://winunix.github.io).
 
-<div id="list-of-apps"></div>
+**Explore agora:** [appsedu.github.io/catalog-apps](https://appsedu.github.io/catalog-apps/)
 
-<div id="modelBox" style="display: none;">
-<a name="" class="appAnchor"></a>
-<table>
-    <thread>
-        <tr>
-            <th colspan="2" class="appName">My App</th>
-        </tr>
-    </thread>
-    <tbody>
-        <tr>
-            <td align="right"><i>Descrição</i></td>
-            <td lign="left" class="descriptionText"></td>
-        </tr>
-        <tr>
-            <td align="right"><i>Página Oficial</i></td>
-            <td lign="left"><a href="#" class="pageUrl"></a></td>
-        </tr>
-        <tr>
-            <td align="right"><i>Como instalar</i></td>
-            <td align="left" class="installCode">
-            </td>
-        </tr>
-        <tr>
-            <td align="right"><i>Screenshot</i></td>
-            <td align="left">
-                <a href="#" class="imgUrlLink" target="blank"><img width="320px" class="imgUrl" src=""></a>
-            </td>
-        </tr>
-        <tr>
-            <td align="right"><i>Categoria</i></td>
-            <td align="left" class="categoryName">
-            </td>
-        </tr>
-    </tbody>
-</table>
-</div>
+---
 
-<h3>Total de apps catalogados: <span id="numCatalog"></span></h3>
+## Sobre
 
-<script>
-var apps;
-var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-        apps = JSON.parse(this.responseText);
-        for (i in apps) {
-            var item = document.getElementById('modelBox').cloneNode(true);
-            item.style.display = 'block';
-            item.getElementsByClassName('appName')[0].innerHTML = apps[i].app;
-            item.getElementsByClassName('descriptionText')[0].innerHTML = apps[i].text;
-            item.getElementsByClassName('pageUrl')[0].innerHTML = apps[i].page;
-            item.getElementsByClassName('pageUrl')[0].setAttribute('href', apps[i].page);
-            item.getElementsByClassName('imgUrl')[0].setAttribute('src', apps[i].img);
-            item.getElementsByClassName('imgUrlLink')[0].setAttribute('href', apps[i].img);
-            item.getElementsByClassName('categoryName')[0].innerHTML = apps[i].categories.join(', ');
-            item.getElementsByClassName('appAnchor')[0].setAttribute('name', apps[i].app);
+Este projeto reúne aplicações educativas que rodam bem em distribuições Debian/Ubuntu, organizadas por área do conhecimento. Cada entrada traz descrição, página oficial, comando de instalação e screenshot.
 
-            var installCode = item.getElementsByClassName('installCode')[0];
-            var codigo = apps[i].install;
-            var inner = "";
+Ideal para escolas, laboratórios, professores e quem monta ambientes de estudo no Linux.
 
-            if (Array.isArray(codigo)) {
-                for(j in codigo)
-                    inner += `<code>${codigo[j]}</code><br>`;
-            } else
-                inner = `<code>${codigo}</code>`;
-            
-            installCode.innerHTML = inner;
-            document.getElementById('list-of-apps').appendChild(item);
-        }
-        document.getElementById('numCatalog').innerHTML = apps.length;
-        var hashAtual = location.hash;
-        location.hash = '#';
-        location.hash = hashAtual;
-    }
-};
+---
 
-xhttp.open("GET", "apps.json", true);
-xhttp.send();
-document.querySelector('h1').remove();
-</script>
+## Categorias
+
+| Área | Exemplos de foco |
+| :--- | :--- |
+| Astronomia | Planetários, simuladores espaciais, rastreamento de satélites |
+| Biologia | Microscopia, anatomia, ciências da vida |
+| Química | Modelagem molecular, laboratórios virtuais |
+| Física Geral | Mecânica, gravitação, experimentos |
+| Eletricidade | Circuitos, eletrônica, simulação |
+| Matemática | Geometria, cálculo, exploração numérica |
+| Geografia | Mapas, exploração terrestre |
+| Línguas / Português | Aprendizado de idiomas e língua portuguesa |
+| História | Linhas do tempo e recursos históricos |
+| Desenho Técnico | CAD, projeções, desenho industrial |
+| Mecatrônica | Automação, robótica educacional |
+| Informática / Desenvolvimento | Programação, ferramentas de estudo |
+| Infantil | Apps lúdicos para as primeiras idades |
+| Multidisciplinar / Ferramentas | Recursos transversais ao ensino |
+
+---
+
+## Como usar
+
+### Catálogo online
+
+Abra a versão publicada no GitHub Pages:
+
+```text
+https://appsedu.github.io/catalog-apps/
+```
+
+Navegue por categorias, busque apps e copie o comando de instalação direto da interface.
+
+### Pré-requisito de instalação
+
+A seção **Como instalar** assume que você usa o [WinuniX OS](https://winunix.github.io) **ou** outra distribuição Debian/Ubuntu com o [repositório WinuniX 20](https://winunix.github.io/debian/) configurado.
+
+Sem esse repositório, alguns pacotes podem não estar disponíveis via `apt`.
+
+### Dados do catálogo
+
+A lista completa de apps fica em `apps.json`. Cada item segue este formato:
+
+```json
+{
+  "app": "Stellarium",
+  "text": "Gerador de céu fotorrealístico em tempo real",
+  "page": "https://stellarium.org",
+  "install": "sudo apt install stellarium",
+  "img": "https://screenshots.debian.net/screenshot/stellarium",
+  "categories": ["Astronomia"]
+}
+```
+
+| Campo | Descrição |
+| :--- | :--- |
+| `app` | Nome do aplicativo |
+| `text` | Descrição curta |
+| `page` | Site oficial |
+| `install` | Comando(s) de instalação (`string` ou `array`) |
+| `img` | URL do screenshot |
+| `categories` | Lista de categorias |
+
+---
+
+## Estrutura do repositório
+
+```text
+catalog-apps/
+├── index.html          # Interface principal do catálogo
+├── apps.json           # Base de dados dos aplicativos
+├── screenshots/        # Imagens locais (quando aplicável)
+├── app1/               # Versão alternativa da interface
+├── LICENSE             # Licença MIT
+└── README.md           # Você está aqui
+```
+
+---
+
+## Contribuindo
+
+Encontrou um erro, um link quebrado ou conhece um app open source compatível com Debian/Ubuntu que falta no catálogo?
+
+1. Abra uma [issue](https://github.com/appsedu/catalog-apps/issues)
+2. Ou envie um pull request atualizando `apps.json`
+
+Preferimos apps **open source**, com instalação clara e utilidade real em contexto educativo.
+
+---
+
+## Licença
+
+Distribuído sob a licença [MIT](LICENSE).
+
+Copyright © 2019 [Apps Edu](https://github.com/appsedu)
+
+---
+
+*Feito para quem ensina e aprende no Linux.*
