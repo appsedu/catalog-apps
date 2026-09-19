@@ -1,7 +1,7 @@
 # Awesome Educational Apps for Linux
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Apps](https://img.shields.io/badge/apps-115-dcaa50?style=flat-square)](apps.json)
+[![Apps](https://img.shields.io/badge/apps-115-dcaa50?style=flat-square)](https://appsedu.github.io/awesome-educational-apps-for-linux/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-63b6a5?style=flat-square)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Debian%20%7C%20Ubuntu-0e1116?style=flat-square)](https://winunix.github.io/debian/)
 
@@ -9,7 +9,7 @@
 
 **Idioma:** Português | [English](README.en.md)
 
-Catálogo de software livre e open source voltado à educação no desktop Linux — ideal para escolas, laboratórios, professores e ambientes de estudo. Explore também a [demo ao vivo](https://appsedu.github.io/catalog-apps/).
+Catálogo de software livre e open source voltado à educação no desktop Linux — ideal para escolas, laboratórios, professores e ambientes de estudo. Explore também a [demo ao vivo](https://appsedu.github.io/awesome-educational-apps-for-linux/).
 
 ## Conteúdo
 
