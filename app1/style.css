@@ -1,4 +1,10 @@
 :root {
+  --radius: 10px;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+html[data-theme="dark"],
+html:not([data-theme]) {
   --bg: #0f1720;
   --panel: #16212c;
   --panel-2: #1d2a37;
@@ -7,8 +13,27 @@
   --muted: #9bb0c2;
   --accent: #4ade80;
   --accent-ink: #06281a;
-  --radius: 10px;
-  --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  --topbar-from: #12202b;
+  --topbar-to: #1a2c3a;
+  --install-bg: #0b1218;
+  --shot-bg: #0b1218;
+  color-scheme: dark;
+}
+
+html[data-theme="light"] {
+  --bg: #eef2f6;
+  --panel: #ffffff;
+  --panel-2: #e6ecf2;
+  --line: #c9d4de;
+  --text: #14202a;
+  --muted: #5a6f82;
+  --accent: #1f9d55;
+  --accent-ink: #ffffff;
+  --topbar-from: #f7fafc;
+  --topbar-to: #eef4f8;
+  --install-bg: #0b1218;
+  --shot-bg: #e6ecf2;
+  color-scheme: light;
 }
 
 * {
@@ -21,6 +46,13 @@ body {
   color: var(--text);
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   line-height: 1.55;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
 }
 
 .topbar {
@@ -28,7 +60,7 @@ body {
   align-items: center;
   gap: 12px;
   padding: 14px 20px;
-  background: linear-gradient(90deg, #12202b, #1a2c3a);
+  background: linear-gradient(90deg, var(--topbar-from), var(--topbar-to));
   border-bottom: 1px solid var(--line);
   position: sticky;
   top: 0;
@@ -51,6 +83,7 @@ body {
 .header-btn {
   display: inline-flex;
   align-items: center;
+  font: inherit;
   background: var(--panel-2);
   color: var(--text);
   border: 1px solid var(--line);
@@ -64,6 +97,34 @@ body {
 .header-btn:hover {
   border-color: var(--accent);
   color: var(--accent);
+}
+
+.theme-toggle {
+  min-width: 38px;
+  justify-content: center;
+  padding: 6px 10px;
+}
+
+.theme-toggle svg {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.theme-toggle .icon-sun {
+  display: none;
+}
+
+.theme-toggle .icon-moon {
+  display: block;
+}
+
+html[data-theme="light"] .theme-toggle .icon-sun {
+  display: block;
+}
+
+html[data-theme="light"] .theme-toggle .icon-moon {
+  display: none;
 }
 
 .menu-toggle {
@@ -225,10 +286,11 @@ body {
   display: flex;
   gap: 10px;
   align-items: stretch;
-  background: #0b1218;
+  background: var(--install-bg);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   padding: 10px 12px;
+  color: #e8eef4;
 }
 
 .install pre {
@@ -242,6 +304,7 @@ body {
   font-size: 0.92rem;
   white-space: pre-wrap;
   word-break: break-word;
+  color: #e8eef4;
 }
 
 .copy {
@@ -265,7 +328,7 @@ body {
   width: 100%;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: #0b1218;
+  background: var(--shot-bg);
 }
 
 @media (max-width: 820px) {

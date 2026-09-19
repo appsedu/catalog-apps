@@ -7,12 +7,26 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script>
+(function(){
+  try{
+    var stored = localStorage.getItem("catalog-theme");
+    var theme = (stored === "light" || stored === "dark")
+      ? stored
+      : (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+    document.documentElement.setAttribute("data-theme", theme);
+  } catch(e){
+    document.documentElement.setAttribute("data-theme", "dark");
+  }
+})();
+</script>
 <style>
-  :root{
+  :root, [data-theme="dark"]{
     --bg-page:#0e1116;
     --bg-panel:#141821;
     --bg-card:#1a1f28;
     --bg-terminal:#0a0d12;
+    --bg-shot:#080b0e;
     --border:#272e39;
     --border-soft:#1d2330;
     --text-primary:#edeef2;
@@ -22,12 +36,31 @@
     --accent-dim:#3a3324;
     --accent-2:#63b6a5;
     --danger:#c97b72;
+    --shadow-shot:rgba(0,0,0,0.6);
     --radius-sm:4px;
     --radius-md:10px;
     --header-h:80px;
     --serif:"Fraunces", Georgia, serif;
     --sans:"IBM Plex Sans", system-ui, sans-serif;
     --mono:"IBM Plex Mono", monospace;
+  }
+
+  [data-theme="light"]{
+    --bg-page:#eef1f5;
+    --bg-panel:#ffffff;
+    --bg-card:#e6eaef;
+    --bg-terminal:#12161e;
+    --bg-shot:#e6eaef;
+    --border:#cfd5de;
+    --border-soft:#e2e6ec;
+    --text-primary:#1a1f28;
+    --text-secondary:#4a5568;
+    --text-dim:#6b7585;
+    --accent:#a87828;
+    --accent-dim:#f3e8d0;
+    --accent-2:#2f8f7e;
+    --danger:#b55a52;
+    --shadow-shot:rgba(26,31,40,0.18);
   }
 
   *{box-sizing:border-box;}
@@ -46,6 +79,7 @@
     font-size:15px;
     line-height:1.6;
     -webkit-font-smoothing:antialiased;
+    transition:background-color 0.2s ease, color 0.2s ease;
   }
 
   @media (prefers-reduced-motion: reduce){
@@ -117,11 +151,15 @@
   header.top .header-actions{
     margin-left:auto;
     flex:0 0 auto;
+    display:flex;
+    align-items:center;
+    gap:8px;
   }
 
   .header-btn{
     display:inline-flex;
     align-items:center;
+    gap:7px;
     background:var(--bg-card);
     border:1px solid var(--border);
     color:var(--text-primary);
@@ -136,6 +174,23 @@
     border-color:var(--accent);
     color:var(--accent);
   }
+
+  .theme-toggle{
+    min-width:42px;
+    justify-content:center;
+    padding:9px 11px;
+  }
+
+  .theme-toggle svg{
+    width:16px;
+    height:16px;
+    display:block;
+  }
+
+  .theme-toggle .icon-sun{display:none;}
+  .theme-toggle .icon-moon{display:block;}
+  [data-theme="light"] .theme-toggle .icon-sun{display:block;}
+  [data-theme="light"] .theme-toggle .icon-moon{display:none;}
 
   .body-row{
     flex:1 1 auto;
@@ -195,6 +250,10 @@
     background-repeat:no-repeat;
     background-position:right 12px center;
     padding-right:30px;
+  }
+
+  [data-theme="light"] select{
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6'><path d='M0 0 L5 6 L10 0 Z' fill='%234a5568'/></svg>");
   }
 
   .list-header{
@@ -350,7 +409,7 @@
     border-radius:var(--radius-md);
     overflow:hidden;
     background:var(--bg-panel);
-    box-shadow:0 18px 40px -24px rgba(0,0,0,0.6);
+    box-shadow:0 18px 40px -24px var(--shadow-shot);
   }
 
   .detail .screenshot-wrap img{
@@ -359,7 +418,7 @@
     height:auto;
     max-height:400px;
     object-fit:contain;
-    background:#080b0e;
+    background:var(--bg-shot);
   }
 
   .detail .screenshot-wrap.hidden{
@@ -383,6 +442,23 @@
     border:1px solid var(--border);
     border-radius:var(--radius-md);
     overflow:hidden;
+    color:#edeef2;
+  }
+
+  .terminal .copy-btn{
+    color:#98a1b0;
+  }
+
+  .terminal .copy-btn:hover{
+    color:#edeef2;
+  }
+
+  .terminal .comment{
+    color:#656d7a;
+  }
+
+  .terminal .prompt{
+    color:#63b6a5;
   }
 
   .terminal-bar{
@@ -537,6 +613,15 @@
       <p>Aplicativos livres para uso em escolas e laboratórios</p>
     </div>
     <div class="header-actions">
+      <button type="button" class="header-btn theme-toggle" id="theme-toggle" aria-label="Alternar tema" title="Alternar tema">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 14.5A8.5 8.5 0 1 1 9.5 3a7 7 0 0 0 11.5 11.5z"/>
+        </svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"/>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+        </svg>
+      </button>
       <a class="header-btn" href="./app1/">Ver app 2</a>
     </div>
   </header>
@@ -587,8 +672,40 @@
     category: document.getElementById("category-select"),
     list: document.getElementById("app-list"),
     listCount: document.getElementById("list-count"),
-    main: document.getElementById("main-content")
+    main: document.getElementById("main-content"),
+    themeToggle: document.getElementById("theme-toggle")
   };
+
+  var THEME_KEY = "catalog-theme";
+
+  function getTheme(){
+    return document.documentElement.getAttribute("data-theme") === "light" ? "light" : "dark";
+  }
+
+  function setTheme(theme){
+    var next = theme === "light" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", next);
+    try{ localStorage.setItem(THEME_KEY, next); } catch(e){}
+    if(els.themeToggle){
+      els.themeToggle.setAttribute(
+        "aria-label",
+        next === "light" ? "Ativar tema escuro" : "Ativar tema claro"
+      );
+      els.themeToggle.setAttribute(
+        "title",
+        next === "light" ? "Tema escuro" : "Tema claro"
+      );
+    }
+  }
+
+  function toggleTheme(){
+    setTheme(getTheme() === "light" ? "dark" : "light");
+  }
+
+  setTheme(getTheme());
+  if(els.themeToggle){
+    els.themeToggle.addEventListener("click", toggleTheme);
+  }
 
   // Cópia local dos dados, usada quando a busca ao vivo no GitHub falha
   // (sem internet, ambiente restrito, etc.). A página sempre tenta a

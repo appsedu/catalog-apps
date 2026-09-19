@@ -15,12 +15,63 @@
     />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="stylesheet" href="./style.css" />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("catalog-theme");
+          var theme =
+            stored === "light" || stored === "dark"
+              ? stored
+              : window.matchMedia("(prefers-color-scheme: light)").matches
+                ? "light"
+                : "dark";
+          document.documentElement.setAttribute("data-theme", theme);
+        } catch (e) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="./style.css?v=theme1" />
   </head>
   <body>
     <header class="topbar">
       <h1>Catálogo de Apps Educativos para Linux</h1>
       <div class="header-actions">
+        <button
+          type="button"
+          class="header-btn theme-toggle"
+          id="theme-toggle"
+          aria-label="Alternar tema"
+          title="Alternar tema"
+        >
+          <svg
+            class="icon-moon"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <path d="M21 14.5A8.5 8.5 0 1 1 9.5 3a7 7 0 0 0 11.5 11.5z" />
+          </svg>
+          <svg
+            class="icon-sun"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            aria-hidden="true"
+          >
+            <circle cx="12" cy="12" r="4" />
+            <path
+              d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"
+            />
+          </svg>
+        </button>
         <a class="header-btn" href="../index.html">Ver app principal</a>
         <button id="menu-toggle" class="menu-toggle" type="button" aria-label="Abrir lista de apps">☰</button>
       </div>
@@ -70,6 +121,43 @@
       </main>
     </div>
 
+    <script>
+      (function () {
+        var KEY = "catalog-theme";
+        var btn = document.getElementById("theme-toggle");
+
+        function getTheme() {
+          return document.documentElement.getAttribute("data-theme") === "light"
+            ? "light"
+            : "dark";
+        }
+
+        function setTheme(theme) {
+          var next = theme === "light" ? "light" : "dark";
+          document.documentElement.setAttribute("data-theme", next);
+          try {
+            localStorage.setItem(KEY, next);
+          } catch (e) {}
+          if (btn) {
+            btn.setAttribute(
+              "aria-label",
+              next === "light" ? "Ativar tema escuro" : "Ativar tema claro"
+            );
+            btn.setAttribute(
+              "title",
+              next === "light" ? "Tema escuro" : "Tema claro"
+            );
+          }
+        }
+
+        setTheme(getTheme());
+        if (btn) {
+          btn.addEventListener("click", function () {
+            setTheme(getTheme() === "light" ? "dark" : "light");
+          });
+        }
+      })();
+    </script>
     <script src="./app.js"></script>
   </body>
 </html>
