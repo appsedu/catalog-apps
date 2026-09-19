@@ -191,7 +191,7 @@
       "# Faça o download do .deb no site",
       "sudo apt install ./ODAFileConverter_QT5_lnxX64_7.2dll.deb"
     ],
-    "img": "https://www.allanbrito.com/wp-content/uploads/2018/12/ODA_File_Converter.jpg",
+    "img": "https://appsedu.github.io/catalog-apps/screenshots/oda-file-converter.jpg",
     "categories": [
       "Desenho Técnico"
     ]
