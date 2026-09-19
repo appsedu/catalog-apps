@@ -205,7 +205,7 @@
       "sudo chmod +x qcad-3.24.3-trial-linux-x86_64.run",
       "./qcad-3.24.3-trial-linux-x86_64.run"
     ],
-    "img": "https://upload.wikimedia.org/wikipedia/commons/e/e6/QCAD_Trial2.png",
+    "img": "https://www.qcad.org/images/qcad3_linux.png",
     "categories": [
       "Desenho Técnico"
     ]
